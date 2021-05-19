@@ -48,6 +48,7 @@ namespace Project
             this.SDELETE = new System.Windows.Forms.Button();
             this.SEDIT = new System.Windows.Forms.Button();
             this.dataGridViewSubject = new System.Windows.Forms.DataGridView();
+            this.SUBtextBoxsearch = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewSubject)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,6 +61,7 @@ namespace Project
             this.SLabel3.TabIndex = 66;
             this.SLabel3.Text = "View Subject";
             this.SLabel3.UseVisualStyleBackColor = false;
+            this.SLabel3.Click += new System.EventHandler(this.SLabel3_Click);
             // 
             // SLabel2
             // 
@@ -110,6 +112,7 @@ namespace Project
             this.LStatistics.TabIndex = 61;
             this.LStatistics.Text = "Statistics";
             this.LStatistics.UseVisualStyleBackColor = true;
+            this.LStatistics.Click += new System.EventHandler(this.LStatistics_Click);
             // 
             // LLocations
             // 
@@ -119,6 +122,7 @@ namespace Project
             this.LLocations.TabIndex = 60;
             this.LLocations.Text = "Location";
             this.LLocations.UseVisualStyleBackColor = true;
+            this.LLocations.Click += new System.EventHandler(this.LLocations_Click);
             // 
             // LRoom
             // 
@@ -128,6 +132,7 @@ namespace Project
             this.LRoom.TabIndex = 59;
             this.LRoom.Text = "Room";
             this.LRoom.UseVisualStyleBackColor = true;
+            this.LRoom.Click += new System.EventHandler(this.LRoom_Click);
             // 
             // LHome
             // 
@@ -146,6 +151,7 @@ namespace Project
             this.LTag.TabIndex = 57;
             this.LTag.Text = "Tag";
             this.LTag.UseVisualStyleBackColor = true;
+            this.LTag.Click += new System.EventHandler(this.LTag_Click);
             // 
             // LWorking
             // 
@@ -155,6 +161,7 @@ namespace Project
             this.LWorking.TabIndex = 56;
             this.LWorking.Text = "Working Days and Hours";
             this.LWorking.UseVisualStyleBackColor = true;
+            this.LWorking.Click += new System.EventHandler(this.LWorking_Click);
             // 
             // LAdvanced
             // 
@@ -164,6 +171,7 @@ namespace Project
             this.LAdvanced.TabIndex = 55;
             this.LAdvanced.Text = "Advanced Session";
             this.LAdvanced.UseVisualStyleBackColor = true;
+            this.LAdvanced.Click += new System.EventHandler(this.LAdvanced_Click);
             // 
             // LSession
             // 
@@ -173,6 +181,7 @@ namespace Project
             this.LSession.TabIndex = 54;
             this.LSession.Text = "Session";
             this.LSession.UseVisualStyleBackColor = true;
+            this.LSession.Click += new System.EventHandler(this.LSession_Click);
             // 
             // SSubject
             // 
@@ -192,6 +201,7 @@ namespace Project
             this.SStudent.TabIndex = 52;
             this.SStudent.Text = "Student";
             this.SStudent.UseVisualStyleBackColor = true;
+            this.SStudent.Click += new System.EventHandler(this.SStudent_Click);
             // 
             // LLecturer
             // 
@@ -227,7 +237,7 @@ namespace Project
             // dataGridViewSubject
             // 
             this.dataGridViewSubject.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewSubject.Location = new System.Drawing.Point(126, 191);
+            this.dataGridViewSubject.Location = new System.Drawing.Point(122, 214);
             this.dataGridViewSubject.Name = "dataGridViewSubject";
             this.dataGridViewSubject.RowHeadersWidth = 51;
             this.dataGridViewSubject.RowTemplate.Height = 24;
@@ -236,12 +246,20 @@ namespace Project
             this.dataGridViewSubject.TabIndex = 67;
             this.dataGridViewSubject.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewSubject_CellContentClick);
             // 
+            // SUBtextBoxsearch
+            // 
+            this.SUBtextBoxsearch.Location = new System.Drawing.Point(574, 163);
+            this.SUBtextBoxsearch.Name = "SUBtextBoxsearch";
+            this.SUBtextBoxsearch.Size = new System.Drawing.Size(295, 22);
+            this.SUBtextBoxsearch.TabIndex = 74;
+            // 
             // view_subject
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
             this.ClientSize = new System.Drawing.Size(892, 643);
+            this.Controls.Add(this.SUBtextBoxsearch);
             this.Controls.Add(this.SDELETE);
             this.Controls.Add(this.SEDIT);
             this.Controls.Add(this.dataGridViewSubject);
@@ -290,5 +308,6 @@ namespace Project
         private System.Windows.Forms.Button SDELETE;
         private System.Windows.Forms.Button SEDIT;
         private System.Windows.Forms.DataGridView dataGridViewSubject;
+        private System.Windows.Forms.TextBox SUBtextBoxsearch;
     }
 }

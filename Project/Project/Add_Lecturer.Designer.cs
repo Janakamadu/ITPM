@@ -152,6 +152,7 @@ namespace Project
             this.LRoom.TabIndex = 8;
             this.LRoom.Text = "Room";
             this.LRoom.UseVisualStyleBackColor = true;
+            this.LRoom.Click += new System.EventHandler(this.LRoom_Click);
             // 
             // LLocations
             // 
@@ -171,6 +172,7 @@ namespace Project
             this.LStatistics.TabIndex = 10;
             this.LStatistics.Text = "Statistics";
             this.LStatistics.UseVisualStyleBackColor = true;
+            this.LStatistics.Click += new System.EventHandler(this.LStatistics_Click);
             // 
             // LTimeTable
             // 
@@ -201,11 +203,12 @@ namespace Project
             this.LLabel1.TabIndex = 13;
             this.LLabel1.Text = "Add Lecturer";
             this.LLabel1.UseVisualStyleBackColor = false;
+            this.LLabel1.Click += new System.EventHandler(this.LLabel1_Click);
             // 
             // LLabel2
             // 
             this.LLabel2.BackColor = System.Drawing.Color.LightSlateGray;
-            this.LLabel2.Location = new System.Drawing.Point(336, 90);
+            this.LLabel2.Location = new System.Drawing.Point(335, 91);
             this.LLabel2.Name = "LLabel2";
             this.LLabel2.Size = new System.Drawing.Size(208, 35);
             this.LLabel2.TabIndex = 14;
@@ -416,7 +419,7 @@ namespace Project
             // 
             // LCLEAR
             // 
-            this.LCLEAR.BackColor = System.Drawing.Color.Red;
+            this.LCLEAR.BackColor = System.Drawing.Color.Crimson;
             this.LCLEAR.Location = new System.Drawing.Point(621, 578);
             this.LCLEAR.Name = "LCLEAR";
             this.LCLEAR.Size = new System.Drawing.Size(90, 35);

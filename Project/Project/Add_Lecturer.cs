@@ -145,5 +145,23 @@ namespace Project
             Add_Tag add_Tag = new Add_Tag();
             add_Tag.Show();
         }
+
+        private void LRoom_Click(object sender, EventArgs e)
+        {
+            ManageSessionRoom manageSessionRoom = new ManageSessionRoom();
+            manageSessionRoom.Show();
+        }
+
+        private void LStatistics_Click(object sender, EventArgs e)
+        {
+            Statistic statistic = new Statistic();
+            statistic.Show();
+        }
+
+        private void LLabel1_Click(object sender, EventArgs e)
+        {
+            Add_Lecturer add_Lecturer = new Add_Lecturer();
+            add_Lecturer.Show();
+        }
     }
 }

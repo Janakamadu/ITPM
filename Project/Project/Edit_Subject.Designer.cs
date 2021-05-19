@@ -231,6 +231,7 @@ namespace Project
             this.SLabel2.TabIndex = 94;
             this.SLabel2.Text = "Edit Subject";
             this.SLabel2.UseVisualStyleBackColor = false;
+            this.SLabel2.Click += new System.EventHandler(this.SLabel2_Click);
             // 
             // SLabel1
             // 
@@ -270,6 +271,7 @@ namespace Project
             this.LStatistics.TabIndex = 90;
             this.LStatistics.Text = "Statistics";
             this.LStatistics.UseVisualStyleBackColor = true;
+            this.LStatistics.Click += new System.EventHandler(this.LStatistics_Click);
             // 
             // LLocations
             // 
@@ -279,6 +281,7 @@ namespace Project
             this.LLocations.TabIndex = 89;
             this.LLocations.Text = "Location";
             this.LLocations.UseVisualStyleBackColor = true;
+            this.LLocations.Click += new System.EventHandler(this.LLocations_Click);
             // 
             // LRoom
             // 
@@ -288,6 +291,7 @@ namespace Project
             this.LRoom.TabIndex = 88;
             this.LRoom.Text = "Room";
             this.LRoom.UseVisualStyleBackColor = true;
+            this.LRoom.Click += new System.EventHandler(this.LRoom_Click);
             // 
             // LHome
             // 
@@ -306,6 +310,7 @@ namespace Project
             this.LTag.TabIndex = 86;
             this.LTag.Text = "Tag";
             this.LTag.UseVisualStyleBackColor = true;
+            this.LTag.Click += new System.EventHandler(this.LTag_Click);
             // 
             // LWorking
             // 
@@ -315,6 +320,7 @@ namespace Project
             this.LWorking.TabIndex = 85;
             this.LWorking.Text = "Working Days and Hours";
             this.LWorking.UseVisualStyleBackColor = true;
+            this.LWorking.Click += new System.EventHandler(this.LWorking_Click);
             // 
             // LAdvanced
             // 
@@ -324,6 +330,7 @@ namespace Project
             this.LAdvanced.TabIndex = 84;
             this.LAdvanced.Text = "Advanced Session";
             this.LAdvanced.UseVisualStyleBackColor = true;
+            this.LAdvanced.Click += new System.EventHandler(this.LAdvanced_Click);
             // 
             // LSession
             // 
@@ -333,6 +340,7 @@ namespace Project
             this.LSession.TabIndex = 83;
             this.LSession.Text = "Session";
             this.LSession.UseVisualStyleBackColor = true;
+            this.LSession.Click += new System.EventHandler(this.LSession_Click);
             // 
             // SSubject
             // 
@@ -352,6 +360,7 @@ namespace Project
             this.LStudent.TabIndex = 81;
             this.LStudent.Text = "Student";
             this.LStudent.UseVisualStyleBackColor = true;
+            this.LStudent.Click += new System.EventHandler(this.LStudent_Click);
             // 
             // LLecturer
             // 
@@ -433,18 +442,18 @@ namespace Project
             // 
             // SEDELETE
             // 
-            this.SEDELETE.BackColor = System.Drawing.Color.Red;
+            this.SEDELETE.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.SEDELETE.Location = new System.Drawing.Point(661, 598);
             this.SEDELETE.Name = "SEDELETE";
             this.SEDELETE.Size = new System.Drawing.Size(90, 35);
             this.SEDELETE.TabIndex = 115;
-            this.SEDELETE.Text = "DELETE";
+            this.SEDELETE.Text = "BACK";
             this.SEDELETE.UseVisualStyleBackColor = false;
             this.SEDELETE.Click += new System.EventHandler(this.SEDELETE_Click);
             // 
             // SUPDATE
             // 
-            this.SUPDATE.BackColor = System.Drawing.Color.DarkMagenta;
+            this.SUPDATE.BackColor = System.Drawing.Color.Green;
             this.SUPDATE.Location = new System.Drawing.Point(544, 598);
             this.SUPDATE.Name = "SUPDATE";
             this.SUPDATE.Size = new System.Drawing.Size(90, 35);
