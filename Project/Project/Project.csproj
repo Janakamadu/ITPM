@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C7E4F484-C2F6-4D5C-88F8-5841EB92FDE2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Project</RootNamespace>
+    <AssemblyName>Project</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.23.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Add_Lecturer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Lecturer.Designer.cs">
+      <DependentUpon>Add_Lecturer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Location.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Location.Designer.cs">
+      <DependentUpon>Add_Location.cs</DependentUpon>
+    </Compile>
+    <Compile Include="add_Session.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_Session.Designer.cs">
+      <DependentUpon>add_Session.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Student.Designer.cs">
+      <DependentUpon>Add_Student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Subject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Subject.Designer.cs">
+      <DependentUpon>Add_Subject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Tag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Tag.Designer.cs">
+      <DependentUpon>Add_Tag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataAdpter.cs" />
+    <Compile Include="DeleteWorkingDayscs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteWorkingDayscs.Designer.cs">
+      <DependentUpon>DeleteWorkingDayscs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_Lecturer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_Lecturer.Designer.cs">
+      <DependentUpon>Delete_Lecturer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_Location.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_Location.Designer.cs">
+      <DependentUpon>Delete_Location.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_Session.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_Session.Designer.cs">
+      <DependentUpon>Delete_Session.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_Subject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_Subject.Designer.cs">
+      <DependentUpon>Delete_Subject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Delete_Tag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_Tag.Designer.cs">
+      <DependentUpon>Delete_Tag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit Lecturer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit Lecturer.Designer.cs">
+      <DependentUpon>Edit Lecturer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditWorkingDays.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditWorkingDays.Designer.cs">
+      <DependentUpon>EditWorkingDays.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_Location.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit_Location.Designer.cs">
+      <DependentUpon>Edit_Location.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_Session.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit_Session.Designer.cs">
+      <DependentUpon>Edit_Session.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_Student_GroupCs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit_Student_GroupCs.Designer.cs">
+      <DependentUpon>Edit_Student_GroupCs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_Subject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit_Subject.Designer.cs">
+      <DependentUpon>Edit_Subject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_Tag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit_Tag.Designer.cs">
+      <DependentUpon>Edit_Tag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageSession2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageSession2.Designer.cs">
+      <DependentUpon>ManageSession2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageSessionRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageSessionRoom.Designer.cs">
+      <DependentUpon>ManageSessionRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NATRDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NATRDelete.Designer.cs">
+      <DependentUpon>NATRDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NotATRView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NotATRView.Designer.cs">
+      <DependentUpon>NotATRView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NotAvailableTimeRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NotAvailableTimeRoom.Designer.cs">
+      <DependentUpon>NotAvailableTimeRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Statistic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistic.Designer.cs">
+      <DependentUpon>Statistic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TTLecGenereate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TTLecGenereate.Designer.cs">
+      <DependentUpon>TTLecGenereate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View Lecturer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View Lecturer.Designer.cs">
+      <DependentUpon>View Lecturer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewWorkingDays.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewWorkingDays.Designer.cs">
+      <DependentUpon>ViewWorkingDays.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View_Location.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View_Location.Designer.cs">
+      <DependentUpon>View_Location.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View_Session.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View_Session.Designer.cs">
+      <DependentUpon>View_Session.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View_Student.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View_Student.Designer.cs">
+      <DependentUpon>View_Student.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View_Subject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View_Subject.Designer.cs">
+      <DependentUpon>View_Subject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View_Tag.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View_Tag.Designer.cs">
+      <DependentUpon>View_Tag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkingDays_Hours.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WorkingDays_Hours.Designer.cs">
+      <DependentUpon>WorkingDays_Hours.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Add_Lecturer.resx">
+      <DependentUpon>Add_Lecturer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Location.resx">
+      <DependentUpon>Add_Location.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="add_Session.resx">
+      <DependentUpon>add_Session.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Student.resx">
+      <DependentUpon>Add_Student.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Subject.resx">
+      <DependentUpon>Add_Subject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Tag.resx">
+      <DependentUpon>Add_Tag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteWorkingDayscs.resx">
+      <DependentUpon>DeleteWorkingDayscs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_Lecturer.resx">
+      <DependentUpon>Delete_Lecturer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_Location.resx">
+      <DependentUpon>Delete_Location.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_Session.resx">
+      <DependentUpon>Delete_Session.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_Subject.resx">
+      <DependentUpon>Delete_Subject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_Tag.resx">
+      <DependentUpon>Delete_Tag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit Lecturer.resx">
+      <DependentUpon>Edit Lecturer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditWorkingDays.resx">
+      <DependentUpon>EditWorkingDays.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit_Location.resx">
+      <DependentUpon>Edit_Location.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit_Session.resx">
+      <DependentUpon>Edit_Session.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit_Student_GroupCs.resx">
+      <DependentUpon>Edit_Student_GroupCs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit_Subject.resx">
+      <DependentUpon>Edit_Subject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit_Tag.resx">
+      <DependentUpon>Edit_Tag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageSession2.resx">
+      <DependentUpon>ManageSession2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageSessionRoom.resx">
+      <DependentUpon>ManageSessionRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NATRDelete.resx">
+      <DependentUpon>NATRDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotATRView.resx">
+      <DependentUpon>NotATRView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotAvailableTimeRoom.resx">
+      <DependentUpon>NotAvailableTimeRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Statistic.resx">
+      <DependentUpon>Statistic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TTLecGenereate.resx">
+      <DependentUpon>TTLecGenereate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View Lecturer.resx">
+      <DependentUpon>View Lecturer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewWorkingDays.resx">
+      <DependentUpon>ViewWorkingDays.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View_Location.resx">
+      <DependentUpon>View_Location.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View_Session.resx">
+      <DependentUpon>View_Session.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View_Student.resx">
+      <DependentUpon>View_Student.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View_Subject.resx">
+      <DependentUpon>View_Subject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View_Tag.resx">
+      <DependentUpon>View_Tag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkingDays_Hours.resx">
+      <DependentUpon>WorkingDays_Hours.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
