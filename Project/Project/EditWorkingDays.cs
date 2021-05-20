@@ -69,6 +69,66 @@ namespace Project
 
         }
 
+        private void WDEDELETE_Click(object sender, EventArgs e)
+        {
+            ViewWorkingDays WD= new ViewWorkingDays();
+            WD.Show();
+        }
+
+        private void WDELecturer_Click(object sender, EventArgs e)
+        {
+            Add_Lecturer add = new Add_Lecturer();
+            add.Show();
+        }
+
+        private void WDEStudent_Click(object sender, EventArgs e)
+        {
+            Add_Student add = new Add_Student();
+            add.Show();
+        }
+
+        private void WDESubject_Click(object sender, EventArgs e)
+        {
+            Add_Subject add = new Add_Subject();
+            add.Show();
+        }
+
+        private void WDETag_Click(object sender, EventArgs e)
+        {
+            Add_Tag add = new Add_Tag();
+            add.Show();
+        }
+
+        private void WDESession_Click(object sender, EventArgs e)
+        {
+            add_Session ass = new add_Session();
+            ass.Show();
+        }
+
+        private void WDERoom_Click(object sender, EventArgs e)
+        {
+            ManageSessionRoom mng = new ManageSessionRoom();
+            mng.Show();
+        }
+
+        private void WDELocations_Click(object sender, EventArgs e)
+        {
+            Add_Location add = new Add_Location();
+            add.Show();
+        }
+
+        private void WDEStatistics_Click(object sender, EventArgs e)
+        {
+            Statistic statistic = new Statistic();
+            statistic.Show();
+        }
+
+        private void WDETimeTable_Click(object sender, EventArgs e)
+        {
+            TTLecGenereate add = new TTLecGenereate();
+            add.Show();
+        }
+
         private void EwednesdayCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             if (EwednesdayCheckBox.Checked)

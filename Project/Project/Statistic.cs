@@ -91,5 +91,59 @@ namespace Project
         {
 
         }
+
+        private void StacALecturer_Click(object sender, EventArgs e)
+        {
+            Add_Lecturer add = new Add_Lecturer();
+            add.Show();
+        }
+
+        private void StacStudent_Click(object sender, EventArgs e)
+        {
+            Add_Student add = new Add_Student();
+            add.Show();
+        }
+
+        private void StacSubject_Click(object sender, EventArgs e)
+        {
+            Add_Subject add = new Add_Subject();
+            add.Show();
+        }
+
+        private void StacTag_Click(object sender, EventArgs e)
+        {
+            Add_Tag add = new Add_Tag();
+            add.Show();
+        }
+
+        private void StacSession_Click(object sender, EventArgs e)
+        {
+            add_Session ass = new add_Session();
+            ass.Show();
+        }
+
+        private void StacWorking_Click(object sender, EventArgs e)
+        {
+            WorkingDays_Hours wdh = new WorkingDays_Hours();
+            wdh.Show();
+        }
+
+        private void StacRoom_Click(object sender, EventArgs e)
+        {
+            ManageSession2 manageSession2 = new ManageSession2();
+            manageSession2.Show();
+        }
+
+        private void StacLocations_Click(object sender, EventArgs e)
+        {
+            Add_Location add = new Add_Location();
+            add.Show();
+        }
+
+        private void StacTimeTable_Click(object sender, EventArgs e)
+        {
+            TTLecGenereate add = new TTLecGenereate();
+            add.Show();
+        }
     }
 }

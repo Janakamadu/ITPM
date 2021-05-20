@@ -57,8 +57,73 @@ namespace Project
 
         private void MS3Label3_Click(object sender, EventArgs e)
         {
-            NotARoom notARoom = new NotARoom();
-            notARoom.Show();
+            NotARoom notRoom = new NotARoom();
+            notRoom.Show();
+        }
+
+        private void MS2Label1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void MS2Label2_Click(object sender, EventArgs e)
+        {
+            Consecutive cos = new Consecutive();
+                cos.Show();
+        }
+
+        private void MS2Lecturer_Click(object sender, EventArgs e)
+        {
+            Add_Lecturer add = new Add_Lecturer();
+            add.Show();
+        }
+
+        private void MS2Student_Click(object sender, EventArgs e)
+        {
+            Add_Student add = new Add_Student();
+            add.Show();
+        }
+
+        private void MS2Subject_Click(object sender, EventArgs e)
+        {
+            Add_Subject add = new Add_Subject();
+            add.Show();
+        }
+
+        private void MS2Tag_Click(object sender, EventArgs e)
+        {
+            Add_Tag add = new Add_Tag();
+            add.Show();
+        }
+
+        private void MS2Session_Click(object sender, EventArgs e)
+        {
+            add_Session ass = new add_Session();
+            ass.Show();
+        }
+
+        private void MS2Working_Click(object sender, EventArgs e)
+        {
+            WorkingDays_Hours wdh = new WorkingDays_Hours();
+            wdh.Show();
+        }
+
+        private void MSLocations_Click(object sender, EventArgs e)
+        {
+            Add_Location add = new Add_Location();
+            add.Show();
+        }
+
+        private void MS2Statistics_Click(object sender, EventArgs e)
+        {
+            Statistic statistic = new Statistic();
+            statistic.Show();
+        }
+
+        private void MS2TimeTable_Click(object sender, EventArgs e)
+        {
+            TTLecGenereate add = new TTLecGenereate();
+            add.Show();
         }
     }
 }

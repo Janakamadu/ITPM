@@ -50,9 +50,9 @@ namespace Project
             this.MSSelectedRoom = new System.Windows.Forms.Label();
             this.MScomboBox2 = new System.Windows.Forms.ComboBox();
             this.MSSelectRoom = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.LocACLEAR = new System.Windows.Forms.Button();
             this.LocAADD = new System.Windows.Forms.Button();
+            this.MS2ADD = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.MSdataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MSdataGridView2)).BeginInit();
             this.SuspendLayout();
@@ -61,233 +61,270 @@ namespace Project
             // 
             this.LocALabl.AutoSize = true;
             this.LocALabl.BackColor = System.Drawing.Color.Blue;
-            this.LocALabl.Location = new System.Drawing.Point(15, 43);
+            this.LocALabl.Location = new System.Drawing.Point(11, 35);
+            this.LocALabl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LocALabl.Name = "LocALabl";
-            this.LocALabl.Size = new System.Drawing.Size(113, 17);
+            this.LocALabl.Size = new System.Drawing.Size(86, 13);
             this.LocALabl.TabIndex = 112;
             this.LocALabl.Text = "Manage Session";
             // 
             // MSTimeTable
             // 
-            this.MSTimeTable.Location = new System.Drawing.Point(739, 15);
+            this.MSTimeTable.Location = new System.Drawing.Point(554, 12);
+            this.MSTimeTable.Margin = new System.Windows.Forms.Padding(2);
             this.MSTimeTable.Name = "MSTimeTable";
-            this.MSTimeTable.Size = new System.Drawing.Size(104, 72);
+            this.MSTimeTable.Size = new System.Drawing.Size(78, 58);
             this.MSTimeTable.TabIndex = 111;
             this.MSTimeTable.Text = "Time Table";
             this.MSTimeTable.UseVisualStyleBackColor = true;
+            this.MSTimeTable.Click += new System.EventHandler(this.MSTimeTable_Click);
             // 
             // MSStatistics
             // 
-            this.MSStatistics.Location = new System.Drawing.Point(588, 15);
+            this.MSStatistics.Location = new System.Drawing.Point(441, 12);
+            this.MSStatistics.Margin = new System.Windows.Forms.Padding(2);
             this.MSStatistics.Name = "MSStatistics";
-            this.MSStatistics.Size = new System.Drawing.Size(104, 72);
+            this.MSStatistics.Size = new System.Drawing.Size(78, 58);
             this.MSStatistics.TabIndex = 110;
             this.MSStatistics.Text = "Statistics";
             this.MSStatistics.UseVisualStyleBackColor = true;
+            this.MSStatistics.Click += new System.EventHandler(this.MSStatistics_Click);
             // 
             // MsLocations
             // 
-            this.MsLocations.Location = new System.Drawing.Point(439, 15);
+            this.MsLocations.Location = new System.Drawing.Point(329, 12);
+            this.MsLocations.Margin = new System.Windows.Forms.Padding(2);
             this.MsLocations.Name = "MsLocations";
-            this.MsLocations.Size = new System.Drawing.Size(104, 72);
+            this.MsLocations.Size = new System.Drawing.Size(78, 58);
             this.MsLocations.TabIndex = 109;
             this.MsLocations.Text = "Location";
             this.MsLocations.UseVisualStyleBackColor = true;
+            this.MsLocations.Click += new System.EventHandler(this.MsLocations_Click);
             // 
             // MSRoom
             // 
-            this.MSRoom.Location = new System.Drawing.Point(281, 15);
+            this.MSRoom.Location = new System.Drawing.Point(211, 12);
+            this.MSRoom.Margin = new System.Windows.Forms.Padding(2);
             this.MSRoom.Name = "MSRoom";
-            this.MSRoom.Size = new System.Drawing.Size(104, 72);
+            this.MSRoom.Size = new System.Drawing.Size(78, 58);
             this.MSRoom.TabIndex = 108;
             this.MSRoom.Text = "Room";
             this.MSRoom.UseVisualStyleBackColor = true;
+            this.MSRoom.Click += new System.EventHandler(this.MSRoom_Click);
             // 
             // MSHome
             // 
-            this.MSHome.Location = new System.Drawing.Point(133, 15);
+            this.MSHome.Location = new System.Drawing.Point(100, 12);
+            this.MSHome.Margin = new System.Windows.Forms.Padding(2);
             this.MSHome.Name = "MSHome";
-            this.MSHome.Size = new System.Drawing.Size(104, 72);
+            this.MSHome.Size = new System.Drawing.Size(78, 58);
             this.MSHome.TabIndex = 107;
             this.MSHome.Text = "Home";
             this.MSHome.UseVisualStyleBackColor = true;
             // 
             // MSTag
             // 
-            this.MSTag.Location = new System.Drawing.Point(24, 328);
+            this.MSTag.Location = new System.Drawing.Point(18, 266);
+            this.MSTag.Margin = new System.Windows.Forms.Padding(2);
             this.MSTag.Name = "MSTag";
-            this.MSTag.Size = new System.Drawing.Size(104, 72);
+            this.MSTag.Size = new System.Drawing.Size(78, 58);
             this.MSTag.TabIndex = 106;
             this.MSTag.Text = "Tag";
             this.MSTag.UseVisualStyleBackColor = true;
+            this.MSTag.Click += new System.EventHandler(this.MSTag_Click);
             // 
             // MSWorking
             // 
-            this.MSWorking.Location = new System.Drawing.Point(24, 562);
+            this.MSWorking.Location = new System.Drawing.Point(18, 457);
+            this.MSWorking.Margin = new System.Windows.Forms.Padding(2);
             this.MSWorking.Name = "MSWorking";
-            this.MSWorking.Size = new System.Drawing.Size(104, 72);
+            this.MSWorking.Size = new System.Drawing.Size(78, 58);
             this.MSWorking.TabIndex = 105;
             this.MSWorking.Text = "Working Days and Hours";
             this.MSWorking.UseVisualStyleBackColor = true;
+            this.MSWorking.Click += new System.EventHandler(this.MSWorking_Click);
             // 
             // MSAdvanced
             // 
-            this.MSAdvanced.Location = new System.Drawing.Point(24, 484);
+            this.MSAdvanced.Location = new System.Drawing.Point(18, 393);
+            this.MSAdvanced.Margin = new System.Windows.Forms.Padding(2);
             this.MSAdvanced.Name = "MSAdvanced";
-            this.MSAdvanced.Size = new System.Drawing.Size(104, 72);
+            this.MSAdvanced.Size = new System.Drawing.Size(78, 58);
             this.MSAdvanced.TabIndex = 104;
             this.MSAdvanced.Text = "Advanced Session";
             this.MSAdvanced.UseVisualStyleBackColor = true;
             // 
             // MSSession
             // 
-            this.MSSession.Location = new System.Drawing.Point(24, 406);
+            this.MSSession.Location = new System.Drawing.Point(18, 330);
+            this.MSSession.Margin = new System.Windows.Forms.Padding(2);
             this.MSSession.Name = "MSSession";
-            this.MSSession.Size = new System.Drawing.Size(104, 72);
+            this.MSSession.Size = new System.Drawing.Size(78, 58);
             this.MSSession.TabIndex = 103;
             this.MSSession.Text = "Session";
             this.MSSession.UseVisualStyleBackColor = true;
+            this.MSSession.Click += new System.EventHandler(this.MSSession_Click);
             // 
             // MSSubject
             // 
-            this.MSSubject.Location = new System.Drawing.Point(24, 250);
+            this.MSSubject.Location = new System.Drawing.Point(18, 203);
+            this.MSSubject.Margin = new System.Windows.Forms.Padding(2);
             this.MSSubject.Name = "MSSubject";
-            this.MSSubject.Size = new System.Drawing.Size(104, 72);
+            this.MSSubject.Size = new System.Drawing.Size(78, 58);
             this.MSSubject.TabIndex = 102;
             this.MSSubject.Text = "Subject";
             this.MSSubject.UseVisualStyleBackColor = true;
+            this.MSSubject.Click += new System.EventHandler(this.MSSubject_Click);
             // 
             // MSStudent
             // 
-            this.MSStudent.Location = new System.Drawing.Point(24, 172);
+            this.MSStudent.Location = new System.Drawing.Point(18, 140);
+            this.MSStudent.Margin = new System.Windows.Forms.Padding(2);
             this.MSStudent.Name = "MSStudent";
-            this.MSStudent.Size = new System.Drawing.Size(104, 72);
+            this.MSStudent.Size = new System.Drawing.Size(78, 58);
             this.MSStudent.TabIndex = 101;
             this.MSStudent.Text = "Student";
             this.MSStudent.UseVisualStyleBackColor = true;
+            this.MSStudent.Click += new System.EventHandler(this.MSStudent_Click);
             // 
             // MSLecturer
             // 
-            this.MSLecturer.Location = new System.Drawing.Point(24, 94);
+            this.MSLecturer.Location = new System.Drawing.Point(18, 76);
+            this.MSLecturer.Margin = new System.Windows.Forms.Padding(2);
             this.MSLecturer.Name = "MSLecturer";
-            this.MSLecturer.Size = new System.Drawing.Size(104, 72);
+            this.MSLecturer.Size = new System.Drawing.Size(78, 58);
             this.MSLecturer.TabIndex = 100;
             this.MSLecturer.Text = "Lecturer";
             this.MSLecturer.UseVisualStyleBackColor = true;
+            this.MSLecturer.Click += new System.EventHandler(this.MSLecturer_Click);
             // 
             // MScomboBox1
             // 
             this.MScomboBox1.FormattingEnabled = true;
-            this.MScomboBox1.Location = new System.Drawing.Point(342, 146);
+            this.MScomboBox1.Location = new System.Drawing.Point(256, 119);
+            this.MScomboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.MScomboBox1.Name = "MScomboBox1";
-            this.MScomboBox1.Size = new System.Drawing.Size(375, 24);
+            this.MScomboBox1.Size = new System.Drawing.Size(282, 21);
             this.MScomboBox1.TabIndex = 114;
             this.MScomboBox1.SelectedIndexChanged += new System.EventHandler(this.MScomboBox1_SelectedIndexChanged);
             // 
             // MSSelectSession
             // 
             this.MSSelectSession.AutoSize = true;
-            this.MSSelectSession.Location = new System.Drawing.Point(164, 149);
+            this.MSSelectSession.Location = new System.Drawing.Point(123, 121);
+            this.MSSelectSession.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.MSSelectSession.Name = "MSSelectSession";
-            this.MSSelectSession.Size = new System.Drawing.Size(101, 17);
+            this.MSSelectSession.Size = new System.Drawing.Size(77, 13);
             this.MSSelectSession.TabIndex = 113;
             this.MSSelectSession.Text = "Select Session";
             // 
             // MSSelected
             // 
             this.MSSelected.AutoSize = true;
-            this.MSSelected.Location = new System.Drawing.Point(164, 227);
+            this.MSSelected.Location = new System.Drawing.Point(123, 184);
+            this.MSSelected.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.MSSelected.Name = "MSSelected";
-            this.MSSelected.Size = new System.Drawing.Size(164, 17);
+            this.MSSelected.Size = new System.Drawing.Size(124, 13);
             this.MSSelected.TabIndex = 115;
             this.MSSelected.Text = "Selected Session Details";
             // 
             // MSdataGridView1
             // 
             this.MSdataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.MSdataGridView1.Location = new System.Drawing.Point(340, 219);
+            this.MSdataGridView1.Location = new System.Drawing.Point(255, 178);
+            this.MSdataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.MSdataGridView1.Name = "MSdataGridView1";
             this.MSdataGridView1.RowHeadersWidth = 51;
             this.MSdataGridView1.RowTemplate.Height = 24;
-            this.MSdataGridView1.Size = new System.Drawing.Size(542, 109);
+            this.MSdataGridView1.Size = new System.Drawing.Size(406, 89);
             this.MSdataGridView1.TabIndex = 116;
             // 
             // MSdataGridView2
             // 
             this.MSdataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.MSdataGridView2.Location = new System.Drawing.Point(338, 418);
+            this.MSdataGridView2.Location = new System.Drawing.Point(254, 340);
+            this.MSdataGridView2.Margin = new System.Windows.Forms.Padding(2);
             this.MSdataGridView2.Name = "MSdataGridView2";
             this.MSdataGridView2.RowHeadersWidth = 51;
             this.MSdataGridView2.RowTemplate.Height = 24;
-            this.MSdataGridView2.Size = new System.Drawing.Size(542, 109);
+            this.MSdataGridView2.Size = new System.Drawing.Size(406, 89);
             this.MSdataGridView2.TabIndex = 120;
             // 
             // MSSelectedRoom
             // 
             this.MSSelectedRoom.AutoSize = true;
-            this.MSSelectedRoom.Location = new System.Drawing.Point(162, 426);
+            this.MSSelectedRoom.Location = new System.Drawing.Point(122, 346);
+            this.MSSelectedRoom.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.MSSelectedRoom.Name = "MSSelectedRoom";
-            this.MSSelectedRoom.Size = new System.Drawing.Size(151, 17);
+            this.MSSelectedRoom.Size = new System.Drawing.Size(115, 13);
             this.MSSelectedRoom.TabIndex = 119;
             this.MSSelectedRoom.Text = "Selected Room Details";
             // 
             // MScomboBox2
             // 
             this.MScomboBox2.FormattingEnabled = true;
-            this.MScomboBox2.Location = new System.Drawing.Point(340, 345);
+            this.MScomboBox2.Location = new System.Drawing.Point(255, 280);
+            this.MScomboBox2.Margin = new System.Windows.Forms.Padding(2);
             this.MScomboBox2.Name = "MScomboBox2";
-            this.MScomboBox2.Size = new System.Drawing.Size(375, 24);
+            this.MScomboBox2.Size = new System.Drawing.Size(282, 21);
             this.MScomboBox2.TabIndex = 118;
             this.MScomboBox2.SelectedIndexChanged += new System.EventHandler(this.MScomboBox2_SelectedIndexChanged);
             // 
             // MSSelectRoom
             // 
             this.MSSelectRoom.AutoSize = true;
-            this.MSSelectRoom.Location = new System.Drawing.Point(162, 348);
+            this.MSSelectRoom.Location = new System.Drawing.Point(122, 283);
+            this.MSSelectRoom.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.MSSelectRoom.Name = "MSSelectRoom";
-            this.MSSelectRoom.Size = new System.Drawing.Size(88, 17);
+            this.MSSelectRoom.Size = new System.Drawing.Size(68, 13);
             this.MSSelectRoom.TabIndex = 117;
             this.MSSelectRoom.Text = "Select Room";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(0, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 121;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // LocACLEAR
             // 
             this.LocACLEAR.BackColor = System.Drawing.Color.Crimson;
-            this.LocACLEAR.Location = new System.Drawing.Point(784, 572);
+            this.LocACLEAR.Location = new System.Drawing.Point(413, 466);
+            this.LocACLEAR.Margin = new System.Windows.Forms.Padding(2);
             this.LocACLEAR.Name = "LocACLEAR";
-            this.LocACLEAR.Size = new System.Drawing.Size(90, 35);
+            this.LocACLEAR.Size = new System.Drawing.Size(68, 28);
             this.LocACLEAR.TabIndex = 123;
             this.LocACLEAR.Text = "CLEAR";
             this.LocACLEAR.UseVisualStyleBackColor = false;
+            this.LocACLEAR.Click += new System.EventHandler(this.LocACLEAR_Click);
             // 
             // LocAADD
             // 
             this.LocAADD.BackColor = System.Drawing.Color.Blue;
-            this.LocAADD.Location = new System.Drawing.Point(662, 572);
+            this.LocAADD.Location = new System.Drawing.Point(288, 466);
+            this.LocAADD.Margin = new System.Windows.Forms.Padding(2);
             this.LocAADD.Name = "LocAADD";
-            this.LocAADD.Size = new System.Drawing.Size(90, 35);
+            this.LocAADD.Size = new System.Drawing.Size(68, 28);
             this.LocAADD.TabIndex = 122;
             this.LocAADD.Text = "SUBMIT";
             this.LocAADD.UseVisualStyleBackColor = false;
             this.LocAADD.Click += new System.EventHandler(this.LocAADD_Click);
             // 
+            // MS2ADD
+            // 
+            this.MS2ADD.BackColor = System.Drawing.Color.LimeGreen;
+            this.MS2ADD.Location = new System.Drawing.Point(522, 466);
+            this.MS2ADD.Margin = new System.Windows.Forms.Padding(2);
+            this.MS2ADD.Name = "MS2ADD";
+            this.MS2ADD.Size = new System.Drawing.Size(136, 28);
+            this.MS2ADD.TabIndex = 124;
+            this.MS2ADD.Text = "ADD ROOM";
+            this.MS2ADD.UseVisualStyleBackColor = false;
+            this.MS2ADD.Click += new System.EventHandler(this.MS2ADD_Click);
+            // 
             // ManageSessionRoom
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(892, 643);
+            this.ClientSize = new System.Drawing.Size(669, 522);
+            this.Controls.Add(this.MS2ADD);
             this.Controls.Add(this.LocACLEAR);
             this.Controls.Add(this.LocAADD);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.MSdataGridView2);
             this.Controls.Add(this.MSSelectedRoom);
             this.Controls.Add(this.MScomboBox2);
@@ -309,6 +346,7 @@ namespace Project
             this.Controls.Add(this.MSSubject);
             this.Controls.Add(this.MSStudent);
             this.Controls.Add(this.MSLecturer);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ManageSessionRoom";
             this.Text = "ManageSessionRoom";
             ((System.ComponentModel.ISupportInitialize)(this.MSdataGridView1)).EndInit();
@@ -341,8 +379,8 @@ namespace Project
         private System.Windows.Forms.Label MSSelectedRoom;
         private System.Windows.Forms.ComboBox MScomboBox2;
         private System.Windows.Forms.Label MSSelectRoom;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button LocACLEAR;
         private System.Windows.Forms.Button LocAADD;
+        private System.Windows.Forms.Button MS2ADD;
     }
 }

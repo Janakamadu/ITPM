@@ -78,5 +78,53 @@ namespace Project
             view_Location.Show();
 
         }
+
+        private void LocELecturer_Click(object sender, EventArgs e)
+        {
+            Add_Lecturer add = new Add_Lecturer();
+            add.Show();
+        }
+
+        private void LocEStudent_Click(object sender, EventArgs e)
+        {
+            Add_Student add = new Add_Student();
+            add.Show();
+        }
+
+        private void LocESubject_Click(object sender, EventArgs e)
+        {
+            Add_Subject add = new Add_Subject();
+            add.Show();
+        }
+
+        private void LocETag_Click(object sender, EventArgs e)
+        {
+            Add_Tag add = new Add_Tag();
+            add.Show();
+        }
+
+        private void LocESession_Click(object sender, EventArgs e)
+        {
+            add_Session ass = new add_Session();
+            ass.Show();
+        }
+
+        private void LocEWorking_Click(object sender, EventArgs e)
+        {
+            WorkingDays_Hours wdh = new WorkingDays_Hours();
+            wdh.Show();
+        }
+
+        private void LocERoom_Click(object sender, EventArgs e)
+        {
+            ManageSession2 manageSession2 = new ManageSession2();
+            manageSession2.Show();
+        }
+
+        private void LocEStatistics_Click(object sender, EventArgs e)
+        {
+            Statistic statistic = new Statistic();
+            statistic.Show();
+        }
     }
 }

@@ -123,8 +123,7 @@ namespace Project
 
         private void LAdvanced_Click(object sender, EventArgs e)
         {
-            ManageSessionRoom manageSessionRoom = new ManageSessionRoom();
-            manageSessionRoom.Show();
+           
         }
 
         private void LWorking_Click(object sender, EventArgs e)
