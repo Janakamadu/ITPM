@@ -52,7 +52,7 @@ namespace Project
             // 
             // LLabel3
             // 
-            this.LLabel3.BackColor = System.Drawing.Color.Crimson;
+            this.LLabel3.BackColor = System.Drawing.Color.LightSlateGray;
             this.LLabel3.Location = new System.Drawing.Point(546, 94);
             this.LLabel3.Name = "LLabel3";
             this.LLabel3.Size = new System.Drawing.Size(208, 35);
@@ -110,6 +110,7 @@ namespace Project
             this.LStatistics.TabIndex = 60;
             this.LStatistics.Text = "Statistics";
             this.LStatistics.UseVisualStyleBackColor = true;
+            this.LStatistics.Click += new System.EventHandler(this.LStatistics_Click);
             // 
             // LLocations
             // 
@@ -119,6 +120,7 @@ namespace Project
             this.LLocations.TabIndex = 59;
             this.LLocations.Text = "Location";
             this.LLocations.UseVisualStyleBackColor = true;
+            this.LLocations.Click += new System.EventHandler(this.LLocations_Click);
             // 
             // LRoom
             // 
@@ -128,6 +130,7 @@ namespace Project
             this.LRoom.TabIndex = 58;
             this.LRoom.Text = "Room";
             this.LRoom.UseVisualStyleBackColor = true;
+            this.LRoom.Click += new System.EventHandler(this.LRoom_Click);
             // 
             // LHome
             // 
@@ -146,6 +149,7 @@ namespace Project
             this.LTag.TabIndex = 56;
             this.LTag.Text = "Tag";
             this.LTag.UseVisualStyleBackColor = true;
+            this.LTag.Click += new System.EventHandler(this.LTag_Click);
             // 
             // LWorking
             // 
@@ -155,6 +159,7 @@ namespace Project
             this.LWorking.TabIndex = 55;
             this.LWorking.Text = "Working Days and Hours";
             this.LWorking.UseVisualStyleBackColor = true;
+            this.LWorking.Click += new System.EventHandler(this.LWorking_Click);
             // 
             // LAdvanced
             // 
@@ -164,6 +169,7 @@ namespace Project
             this.LAdvanced.TabIndex = 54;
             this.LAdvanced.Text = "Advanced Session";
             this.LAdvanced.UseVisualStyleBackColor = true;
+            this.LAdvanced.Click += new System.EventHandler(this.LAdvanced_Click);
             // 
             // LSession
             // 
@@ -173,6 +179,7 @@ namespace Project
             this.LSession.TabIndex = 53;
             this.LSession.Text = "Session";
             this.LSession.UseVisualStyleBackColor = true;
+            this.LSession.Click += new System.EventHandler(this.LSession_Click);
             // 
             // SSubject
             // 
@@ -192,6 +199,7 @@ namespace Project
             this.LStudent.TabIndex = 51;
             this.LStudent.Text = "Student";
             this.LStudent.UseVisualStyleBackColor = true;
+            this.LStudent.Click += new System.EventHandler(this.LStudent_Click);
             // 
             // LLecturer
             // 

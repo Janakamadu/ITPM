@@ -153,13 +153,14 @@ namespace Project
             // 
             // SesCLEAR
             // 
-            this.SesCLEAR.BackColor = System.Drawing.Color.Red;
+            this.SesCLEAR.BackColor = System.Drawing.Color.Crimson;
             this.SesCLEAR.Location = new System.Drawing.Point(623, 596);
             this.SesCLEAR.Name = "SesCLEAR";
             this.SesCLEAR.Size = new System.Drawing.Size(90, 35);
             this.SesCLEAR.TabIndex = 116;
             this.SesCLEAR.Text = "CLEAR";
             this.SesCLEAR.UseVisualStyleBackColor = false;
+            this.SesCLEAR.Click += new System.EventHandler(this.SesCLEAR_Click);
             // 
             // SesSubmit
             // 
@@ -230,6 +231,7 @@ namespace Project
             this.SesLabel2.TabIndex = 109;
             this.SesLabel2.Text = "Edit Session";
             this.SesLabel2.UseVisualStyleBackColor = false;
+            this.SesLabel2.Click += new System.EventHandler(this.SesLabel2_Click);
             // 
             // SesLabel1
             // 
@@ -240,6 +242,7 @@ namespace Project
             this.SesLabel1.TabIndex = 108;
             this.SesLabel1.Text = "Add_Session";
             this.SesLabel1.UseVisualStyleBackColor = false;
+            this.SesLabel1.Click += new System.EventHandler(this.SesLabel1_Click);
             // 
             // LLabl
             // 
@@ -268,6 +271,7 @@ namespace Project
             this.LStatistics.TabIndex = 105;
             this.LStatistics.Text = "Statistics";
             this.LStatistics.UseVisualStyleBackColor = true;
+            this.LStatistics.Click += new System.EventHandler(this.LStatistics_Click);
             // 
             // LLocations
             // 
@@ -277,6 +281,7 @@ namespace Project
             this.LLocations.TabIndex = 104;
             this.LLocations.Text = "Location";
             this.LLocations.UseVisualStyleBackColor = true;
+            this.LLocations.Click += new System.EventHandler(this.LLocations_Click);
             // 
             // LRoom
             // 
@@ -286,6 +291,7 @@ namespace Project
             this.LRoom.TabIndex = 103;
             this.LRoom.Text = "Room";
             this.LRoom.UseVisualStyleBackColor = true;
+            this.LRoom.Click += new System.EventHandler(this.LRoom_Click);
             // 
             // LHome
             // 
@@ -304,6 +310,7 @@ namespace Project
             this.LTag.TabIndex = 101;
             this.LTag.Text = "Tag";
             this.LTag.UseVisualStyleBackColor = true;
+            this.LTag.Click += new System.EventHandler(this.LTag_Click);
             // 
             // LWorking
             // 
@@ -313,6 +320,7 @@ namespace Project
             this.LWorking.TabIndex = 100;
             this.LWorking.Text = "Working Days and Hours";
             this.LWorking.UseVisualStyleBackColor = true;
+            this.LWorking.Click += new System.EventHandler(this.LWorking_Click);
             // 
             // LAdvanced
             // 
@@ -322,6 +330,7 @@ namespace Project
             this.LAdvanced.TabIndex = 99;
             this.LAdvanced.Text = "Advanced Session";
             this.LAdvanced.UseVisualStyleBackColor = true;
+            this.LAdvanced.Click += new System.EventHandler(this.LAdvanced_Click);
             // 
             // LSession
             // 
@@ -331,6 +340,7 @@ namespace Project
             this.LSession.TabIndex = 98;
             this.LSession.Text = "Session";
             this.LSession.UseVisualStyleBackColor = true;
+            this.LSession.Click += new System.EventHandler(this.LSession_Click);
             // 
             // LSubject
             // 
@@ -340,6 +350,7 @@ namespace Project
             this.LSubject.TabIndex = 97;
             this.LSubject.Text = "Subject";
             this.LSubject.UseVisualStyleBackColor = true;
+            this.LSubject.Click += new System.EventHandler(this.LSubject_Click);
             // 
             // LStudent
             // 
@@ -349,6 +360,7 @@ namespace Project
             this.LStudent.TabIndex = 96;
             this.LStudent.Text = "Student";
             this.LStudent.UseVisualStyleBackColor = true;
+            this.LStudent.Click += new System.EventHandler(this.LStudent_Click);
             // 
             // LLecturer
             // 

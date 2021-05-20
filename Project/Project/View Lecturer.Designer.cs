@@ -69,6 +69,7 @@ namespace Project
             this.LStudent.TabIndex = 35;
             this.LStudent.Text = "Student";
             this.LStudent.UseVisualStyleBackColor = true;
+            this.LStudent.Click += new System.EventHandler(this.LStudent_Click);
             // 
             // LSubject
             // 
@@ -78,6 +79,7 @@ namespace Project
             this.LSubject.TabIndex = 36;
             this.LSubject.Text = "Subject";
             this.LSubject.UseVisualStyleBackColor = true;
+            this.LSubject.Click += new System.EventHandler(this.LSubject_Click);
             // 
             // LSession
             // 
@@ -87,6 +89,7 @@ namespace Project
             this.LSession.TabIndex = 37;
             this.LSession.Text = "Session";
             this.LSession.UseVisualStyleBackColor = true;
+            this.LSession.Click += new System.EventHandler(this.LSession_Click);
             // 
             // LAdvanced
             // 
@@ -96,6 +99,7 @@ namespace Project
             this.LAdvanced.TabIndex = 38;
             this.LAdvanced.Text = "Advanced Session";
             this.LAdvanced.UseVisualStyleBackColor = true;
+            this.LAdvanced.Click += new System.EventHandler(this.LAdvanced_Click);
             // 
             // LWorking
             // 
@@ -105,6 +109,7 @@ namespace Project
             this.LWorking.TabIndex = 39;
             this.LWorking.Text = "Working Days and Hours";
             this.LWorking.UseVisualStyleBackColor = true;
+            this.LWorking.Click += new System.EventHandler(this.LWorking_Click);
             // 
             // LTag
             // 
@@ -114,6 +119,7 @@ namespace Project
             this.LTag.TabIndex = 40;
             this.LTag.Text = "Tag";
             this.LTag.UseVisualStyleBackColor = true;
+            this.LTag.Click += new System.EventHandler(this.LTag_Click);
             // 
             // LHome
             // 
@@ -132,6 +138,7 @@ namespace Project
             this.LRoom.TabIndex = 42;
             this.LRoom.Text = "Room";
             this.LRoom.UseVisualStyleBackColor = true;
+            this.LRoom.Click += new System.EventHandler(this.LRoom_Click);
             // 
             // LLocations
             // 
@@ -141,6 +148,7 @@ namespace Project
             this.LLocations.TabIndex = 43;
             this.LLocations.Text = "Location";
             this.LLocations.UseVisualStyleBackColor = true;
+            this.LLocations.Click += new System.EventHandler(this.LLocations_Click);
             // 
             // LStatistics
             // 
@@ -150,6 +158,7 @@ namespace Project
             this.LStatistics.TabIndex = 44;
             this.LStatistics.Text = "Statistics";
             this.LStatistics.UseVisualStyleBackColor = true;
+            this.LStatistics.Click += new System.EventHandler(this.LStatistics_Click);
             // 
             // LTimeTable
             // 

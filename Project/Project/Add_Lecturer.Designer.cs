@@ -218,6 +218,7 @@ namespace Project
             this.LLabel1.TabIndex = 13;
             this.LLabel1.Text = "Add Lecturer";
             this.LLabel1.UseVisualStyleBackColor = false;
+            this.LLabel1.Click += new System.EventHandler(this.LLabel1_Click);
             // 
             // LLabel2
             // 
@@ -453,9 +454,14 @@ namespace Project
             // 
             // LCLEAR
             // 
+<<<<<<< HEAD
             this.LCLEAR.BackColor = System.Drawing.Color.Red;
             this.LCLEAR.Location = new System.Drawing.Point(466, 470);
             this.LCLEAR.Margin = new System.Windows.Forms.Padding(2);
+=======
+            this.LCLEAR.BackColor = System.Drawing.Color.Crimson;
+            this.LCLEAR.Location = new System.Drawing.Point(621, 578);
+>>>>>>> 96b6cb2963d3cc3038cf3149aa5b242436124ce6
             this.LCLEAR.Name = "LCLEAR";
             this.LCLEAR.Size = new System.Drawing.Size(68, 28);
             this.LCLEAR.TabIndex = 34;

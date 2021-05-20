@@ -63,7 +63,7 @@ namespace Project
             this.LStudent = new System.Windows.Forms.Button();
             this.LLecturer = new System.Windows.Forms.Button();
             this.LUPDATE = new System.Windows.Forms.Button();
-            this.LEDELETE = new System.Windows.Forms.Button();
+            this.LEBACK = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.comboBoxRollNo = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
@@ -294,6 +294,7 @@ namespace Project
             this.LStatistics.TabIndex = 42;
             this.LStatistics.Text = "Statistics";
             this.LStatistics.UseVisualStyleBackColor = true;
+            this.LStatistics.Click += new System.EventHandler(this.LStatistics_Click);
             // 
             // LLocations
             // 
@@ -303,6 +304,7 @@ namespace Project
             this.LLocations.TabIndex = 41;
             this.LLocations.Text = "Location";
             this.LLocations.UseVisualStyleBackColor = true;
+            this.LLocations.Click += new System.EventHandler(this.LLocations_Click);
             // 
             // LRoom
             // 
@@ -312,6 +314,7 @@ namespace Project
             this.LRoom.TabIndex = 40;
             this.LRoom.Text = "Room";
             this.LRoom.UseVisualStyleBackColor = true;
+            this.LRoom.Click += new System.EventHandler(this.LRoom_Click);
             // 
             // LHome
             // 
@@ -330,6 +333,7 @@ namespace Project
             this.LTag.TabIndex = 38;
             this.LTag.Text = "Tag";
             this.LTag.UseVisualStyleBackColor = true;
+            this.LTag.Click += new System.EventHandler(this.LTag_Click);
             // 
             // LWorking
             // 
@@ -339,6 +343,7 @@ namespace Project
             this.LWorking.TabIndex = 37;
             this.LWorking.Text = "Working Days and Hours";
             this.LWorking.UseVisualStyleBackColor = true;
+            this.LWorking.Click += new System.EventHandler(this.LWorking_Click);
             // 
             // LAdvanced
             // 
@@ -348,6 +353,7 @@ namespace Project
             this.LAdvanced.TabIndex = 36;
             this.LAdvanced.Text = "Advanced Session";
             this.LAdvanced.UseVisualStyleBackColor = true;
+            this.LAdvanced.Click += new System.EventHandler(this.LAdvanced_Click);
             // 
             // LSession
             // 
@@ -357,6 +363,7 @@ namespace Project
             this.LSession.TabIndex = 35;
             this.LSession.Text = "Session";
             this.LSession.UseVisualStyleBackColor = true;
+            this.LSession.Click += new System.EventHandler(this.LSession_Click);
             // 
             // LSubject
             // 
@@ -366,6 +373,7 @@ namespace Project
             this.LSubject.TabIndex = 34;
             this.LSubject.Text = "Subject";
             this.LSubject.UseVisualStyleBackColor = true;
+            this.LSubject.Click += new System.EventHandler(this.LSubject_Click);
             // 
             // LStudent
             // 
@@ -375,6 +383,7 @@ namespace Project
             this.LStudent.TabIndex = 33;
             this.LStudent.Text = "Student";
             this.LStudent.UseVisualStyleBackColor = true;
+            this.LStudent.Click += new System.EventHandler(this.LStudent_Click);
             // 
             // LLecturer
             // 
@@ -387,7 +396,7 @@ namespace Project
             // 
             // LUPDATE
             // 
-            this.LUPDATE.BackColor = System.Drawing.Color.DarkMagenta;
+            this.LUPDATE.BackColor = System.Drawing.Color.Green;
             this.LUPDATE.Location = new System.Drawing.Point(535, 603);
             this.LUPDATE.Name = "LUPDATE";
             this.LUPDATE.Size = new System.Drawing.Size(90, 35);
@@ -396,16 +405,16 @@ namespace Project
             this.LUPDATE.UseVisualStyleBackColor = false;
             this.LUPDATE.Click += new System.EventHandler(this.LUPDATE_Click);
             // 
-            // LEDELETE
+            // LEBACK
             // 
-            this.LEDELETE.BackColor = System.Drawing.Color.Red;
-            this.LEDELETE.Location = new System.Drawing.Point(655, 603);
-            this.LEDELETE.Name = "LEDELETE";
-            this.LEDELETE.Size = new System.Drawing.Size(90, 35);
-            this.LEDELETE.TabIndex = 65;
-            this.LEDELETE.Text = "DELETE";
-            this.LEDELETE.UseVisualStyleBackColor = false;
-            this.LEDELETE.Click += new System.EventHandler(this.LEDELETE_Click);
+            this.LEBACK.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.LEBACK.Location = new System.Drawing.Point(655, 603);
+            this.LEBACK.Name = "LEBACK";
+            this.LEBACK.Size = new System.Drawing.Size(90, 35);
+            this.LEBACK.TabIndex = 65;
+            this.LEBACK.Text = "BACK";
+            this.LEBACK.UseVisualStyleBackColor = false;
+            this.LEBACK.Click += new System.EventHandler(this.LEDELETE_Click);
             // 
             // label1
             // 
@@ -484,7 +493,7 @@ namespace Project
             this.ClientSize = new System.Drawing.Size(892, 643);
             this.Controls.Add(this.comboBoxRollNo);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.LEDELETE);
+            this.Controls.Add(this.LEBACK);
             this.Controls.Add(this.LUPDATE);
             this.Controls.Add(this.EdtextBox3);
             this.Controls.Add(this.EdcomboBox5);
@@ -560,7 +569,7 @@ namespace Project
         private System.Windows.Forms.Button LStudent;
         private System.Windows.Forms.Button LLecturer;
         private System.Windows.Forms.Button LUPDATE;
-        private System.Windows.Forms.Button LEDELETE;
+        private System.Windows.Forms.Button LEBACK;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox comboBoxRollNo;
     }

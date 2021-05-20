@@ -147,20 +147,20 @@ namespace Project
 
         private void LRoom_Click(object sender, EventArgs e)
         {
-            ManageSessionRoom mng = new ManageSessionRoom();
-            mng.Show();
-
-        }
-
-        private void LTimeTable_Click(object sender, EventArgs e)
-        {
-            
+            ManageSessionRoom manageSessionRoom = new ManageSessionRoom();
+            manageSessionRoom.Show();
         }
 
         private void LStatistics_Click(object sender, EventArgs e)
         {
-            Statistic st = new Statistic();
-            st.Show();
+            Statistic statistic = new Statistic();
+            statistic.Show();
+        }
+
+        private void LLabel1_Click(object sender, EventArgs e)
+        {
+            Add_Lecturer add_Lecturer = new Add_Lecturer();
+            add_Lecturer.Show();
         }
     }
 }
