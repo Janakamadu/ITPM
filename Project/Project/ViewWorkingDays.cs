@@ -57,5 +57,59 @@ namespace Project
             DeleteWorkingDayscs deleteWorkingDayscs = new DeleteWorkingDayscs();
             deleteWorkingDayscs.Show();
         }
+
+        private void WDVTimeTable_Click(object sender, EventArgs e)
+        {
+            TTLecGenereate add = new TTLecGenereate();
+            add.Show();
+        }
+
+        private void WDVStatistics_Click(object sender, EventArgs e)
+        {
+            Statistic statistic = new Statistic();
+            statistic.Show();
+        }
+
+        private void WDVLocations_Click(object sender, EventArgs e)
+        {
+            Add_Location add = new Add_Location();
+            add.Show();
+        }
+
+        private void WDVRoom_Click(object sender, EventArgs e)
+        {
+            ManageSessionRoom mng = new ManageSessionRoom();
+            mng.Show();
+        }
+
+        private void WDVSession_Click(object sender, EventArgs e)
+        {
+            add_Session ass = new add_Session();
+            ass.Show();
+        }
+
+        private void WDVTag_Click(object sender, EventArgs e)
+        {
+            Add_Tag add = new Add_Tag();
+            add.Show();
+        }
+
+        private void WDVSubject_Click(object sender, EventArgs e)
+        {
+            Add_Subject add = new Add_Subject();
+            add.Show();
+        }
+
+        private void WDVStudent_Click(object sender, EventArgs e)
+        {
+            Add_Student add = new Add_Student();
+            add.Show();
+        }
+
+        private void WDVLecturer_Click(object sender, EventArgs e)
+        {
+            Add_Lecturer add = new Add_Lecturer();
+            add.Show();
+        }
     }
 }

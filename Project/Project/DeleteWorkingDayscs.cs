@@ -64,5 +64,65 @@ namespace Project
 
             }
         }
+
+        private void WDLabel3_Click(object sender, EventArgs e)
+        {
+           ViewWorkingDays ede = new ViewWorkingDays();
+            ede.Show();
+        }
+
+        private void WDDLecturer_Click(object sender, EventArgs e)
+        {
+            Add_Lecturer add = new Add_Lecturer();
+            add.Show();
+        }
+
+        private void WDDStudent_Click(object sender, EventArgs e)
+        {
+            Add_Student add = new Add_Student();
+            add.Show();
+        }
+
+        private void WDDSubject_Click(object sender, EventArgs e)
+        {
+            Add_Subject add = new Add_Subject();
+            add.Show();
+        }
+
+        private void WDDTag_Click(object sender, EventArgs e)
+        {
+            Add_Tag add = new Add_Tag();
+            add.Show();
+        }
+
+        private void WDDSession_Click(object sender, EventArgs e)
+        {
+            add_Session ass = new add_Session();
+            ass.Show();
+        }
+
+        private void WDDRoom_Click(object sender, EventArgs e)
+        {
+            ManageSessionRoom mng = new ManageSessionRoom();
+            mng.Show();
+        }
+
+        private void WDDLocations_Click(object sender, EventArgs e)
+        {
+            Add_Location add = new Add_Location();
+            add.Show();
+        }
+
+        private void WDDStatistics_Click(object sender, EventArgs e)
+        {
+            Statistic statistic = new Statistic();
+            statistic.Show();
+        }
+
+        private void WDDTimeTable_Click(object sender, EventArgs e)
+        {
+            TTLecGenereate add = new TTLecGenereate();
+            add.Show();
+        }
     }
 }

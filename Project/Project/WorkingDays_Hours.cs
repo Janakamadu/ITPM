@@ -90,6 +90,75 @@ namespace Project
             editWorkingDays.Show();
         }
 
+        private void WDCLEAR_Click(object sender, EventArgs e)
+        {
+           
+            noOfWorkingDays.Text = string.Empty;
+            mondayCheckBox.Checked = false;
+            tuesdayCheckBox.Checked = false;
+            wednesdayCheckBox.Checked = false;
+            thursdayCheckBox.Checked = false;
+            fridayCheckBox.Checked = false;
+            saturdayheckBox.Checked = false;
+            sundayCheckBox.Checked = false;
+            addHrs.Text = string.Empty;
+            addMin.Text = string.Empty;
+        }
+
+        private void WDLecturer_Click(object sender, EventArgs e)
+        {
+            Add_Lecturer add = new Add_Lecturer();
+            add.Show();
+        }
+
+        private void WDStudent_Click(object sender, EventArgs e)
+        {
+            Add_Student add = new Add_Student();
+            add.Show();
+        }
+
+        private void WDSubject_Click(object sender, EventArgs e)
+        {
+            Add_Subject add = new Add_Subject();
+            add.Show();
+        }
+
+        private void WDTag_Click(object sender, EventArgs e)
+        {
+            Add_Tag add = new Add_Tag();
+            add.Show();
+        }
+
+        private void WDSession_Click(object sender, EventArgs e)
+        {
+            add_Session ass = new add_Session();
+            ass.Show();
+        }
+
+        private void WDLocations_Click(object sender, EventArgs e)
+        {
+            Add_Location add = new Add_Location();
+            add.Show();
+        }
+
+        private void WDStatistics_Click(object sender, EventArgs e)
+        {
+            Statistic statistic = new Statistic();
+            statistic.Show();
+        }
+
+        private void WDTimeTable_Click(object sender, EventArgs e)
+        {
+            TTLecGenereate add = new TTLecGenereate();
+            add.Show();
+        }
+
+        private void WDRoom_Click(object sender, EventArgs e)
+        {
+            ManageSessionRoom mng = new ManageSessionRoom();
+            mng.Show();
+        }
+
         private void tuesdayCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             if (tuesdayCheckBox.Checked)

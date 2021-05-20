@@ -123,8 +123,7 @@ namespace Project
 
         private void LAdvanced_Click(object sender, EventArgs e)
         {
-            ManageSessionRoom manageSessionRoom = new ManageSessionRoom();
-            manageSessionRoom.Show();
+           
         }
 
         private void LWorking_Click(object sender, EventArgs e)
@@ -144,6 +143,24 @@ namespace Project
         {
             Add_Tag add_Tag = new Add_Tag();
             add_Tag.Show();
+        }
+
+        private void LRoom_Click(object sender, EventArgs e)
+        {
+            ManageSessionRoom mng = new ManageSessionRoom();
+            mng.Show();
+
+        }
+
+        private void LTimeTable_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void LStatistics_Click(object sender, EventArgs e)
+        {
+            Statistic st = new Statistic();
+            st.Show();
         }
     }
 }

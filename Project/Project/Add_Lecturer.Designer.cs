@@ -68,18 +68,20 @@ namespace Project
             // 
             // LLecturer
             // 
-            this.LLecturer.Location = new System.Drawing.Point(12, 91);
+            this.LLecturer.Location = new System.Drawing.Point(9, 74);
+            this.LLecturer.Margin = new System.Windows.Forms.Padding(2);
             this.LLecturer.Name = "LLecturer";
-            this.LLecturer.Size = new System.Drawing.Size(104, 72);
+            this.LLecturer.Size = new System.Drawing.Size(78, 58);
             this.LLecturer.TabIndex = 0;
             this.LLecturer.Text = "Lecturer";
             this.LLecturer.UseVisualStyleBackColor = true;
             // 
             // LStudent
             // 
-            this.LStudent.Location = new System.Drawing.Point(12, 169);
+            this.LStudent.Location = new System.Drawing.Point(9, 137);
+            this.LStudent.Margin = new System.Windows.Forms.Padding(2);
             this.LStudent.Name = "LStudent";
-            this.LStudent.Size = new System.Drawing.Size(104, 72);
+            this.LStudent.Size = new System.Drawing.Size(78, 58);
             this.LStudent.TabIndex = 1;
             this.LStudent.Text = "Student";
             this.LStudent.UseVisualStyleBackColor = true;
@@ -87,9 +89,10 @@ namespace Project
             // 
             // LSubject
             // 
-            this.LSubject.Location = new System.Drawing.Point(12, 247);
+            this.LSubject.Location = new System.Drawing.Point(9, 201);
+            this.LSubject.Margin = new System.Windows.Forms.Padding(2);
             this.LSubject.Name = "LSubject";
-            this.LSubject.Size = new System.Drawing.Size(104, 72);
+            this.LSubject.Size = new System.Drawing.Size(78, 58);
             this.LSubject.TabIndex = 2;
             this.LSubject.Text = "Subject";
             this.LSubject.UseVisualStyleBackColor = true;
@@ -97,9 +100,10 @@ namespace Project
             // 
             // LSession
             // 
-            this.LSession.Location = new System.Drawing.Point(12, 403);
+            this.LSession.Location = new System.Drawing.Point(9, 327);
+            this.LSession.Margin = new System.Windows.Forms.Padding(2);
             this.LSession.Name = "LSession";
-            this.LSession.Size = new System.Drawing.Size(104, 72);
+            this.LSession.Size = new System.Drawing.Size(78, 58);
             this.LSession.TabIndex = 3;
             this.LSession.Text = "Session";
             this.LSession.UseVisualStyleBackColor = true;
@@ -107,9 +111,10 @@ namespace Project
             // 
             // LAdvanced
             // 
-            this.LAdvanced.Location = new System.Drawing.Point(12, 481);
+            this.LAdvanced.Location = new System.Drawing.Point(9, 391);
+            this.LAdvanced.Margin = new System.Windows.Forms.Padding(2);
             this.LAdvanced.Name = "LAdvanced";
-            this.LAdvanced.Size = new System.Drawing.Size(104, 72);
+            this.LAdvanced.Size = new System.Drawing.Size(78, 58);
             this.LAdvanced.TabIndex = 4;
             this.LAdvanced.Text = "Advanced Session";
             this.LAdvanced.UseVisualStyleBackColor = true;
@@ -117,9 +122,10 @@ namespace Project
             // 
             // LWorking
             // 
-            this.LWorking.Location = new System.Drawing.Point(12, 559);
+            this.LWorking.Location = new System.Drawing.Point(9, 454);
+            this.LWorking.Margin = new System.Windows.Forms.Padding(2);
             this.LWorking.Name = "LWorking";
-            this.LWorking.Size = new System.Drawing.Size(104, 72);
+            this.LWorking.Size = new System.Drawing.Size(78, 58);
             this.LWorking.TabIndex = 5;
             this.LWorking.Text = "Working Days and Hours";
             this.LWorking.UseVisualStyleBackColor = true;
@@ -127,9 +133,10 @@ namespace Project
             // 
             // LTag
             // 
-            this.LTag.Location = new System.Drawing.Point(12, 325);
+            this.LTag.Location = new System.Drawing.Point(9, 264);
+            this.LTag.Margin = new System.Windows.Forms.Padding(2);
             this.LTag.Name = "LTag";
-            this.LTag.Size = new System.Drawing.Size(104, 72);
+            this.LTag.Size = new System.Drawing.Size(78, 58);
             this.LTag.TabIndex = 6;
             this.LTag.Text = "Tag";
             this.LTag.UseVisualStyleBackColor = true;
@@ -137,27 +144,31 @@ namespace Project
             // 
             // LHome
             // 
-            this.LHome.Location = new System.Drawing.Point(121, 12);
+            this.LHome.Location = new System.Drawing.Point(91, 10);
+            this.LHome.Margin = new System.Windows.Forms.Padding(2);
             this.LHome.Name = "LHome";
-            this.LHome.Size = new System.Drawing.Size(104, 72);
+            this.LHome.Size = new System.Drawing.Size(78, 58);
             this.LHome.TabIndex = 7;
             this.LHome.Text = "Home";
             this.LHome.UseVisualStyleBackColor = true;
             // 
             // LRoom
             // 
-            this.LRoom.Location = new System.Drawing.Point(269, 12);
+            this.LRoom.Location = new System.Drawing.Point(202, 10);
+            this.LRoom.Margin = new System.Windows.Forms.Padding(2);
             this.LRoom.Name = "LRoom";
-            this.LRoom.Size = new System.Drawing.Size(104, 72);
+            this.LRoom.Size = new System.Drawing.Size(78, 58);
             this.LRoom.TabIndex = 8;
             this.LRoom.Text = "Room";
             this.LRoom.UseVisualStyleBackColor = true;
+            this.LRoom.Click += new System.EventHandler(this.LRoom_Click);
             // 
             // LLocations
             // 
-            this.LLocations.Location = new System.Drawing.Point(427, 12);
+            this.LLocations.Location = new System.Drawing.Point(320, 10);
+            this.LLocations.Margin = new System.Windows.Forms.Padding(2);
             this.LLocations.Name = "LLocations";
-            this.LLocations.Size = new System.Drawing.Size(104, 72);
+            this.LLocations.Size = new System.Drawing.Size(78, 58);
             this.LLocations.TabIndex = 9;
             this.LLocations.Text = "Location";
             this.LLocations.UseVisualStyleBackColor = true;
@@ -165,29 +176,34 @@ namespace Project
             // 
             // LStatistics
             // 
-            this.LStatistics.Location = new System.Drawing.Point(576, 12);
+            this.LStatistics.Location = new System.Drawing.Point(432, 10);
+            this.LStatistics.Margin = new System.Windows.Forms.Padding(2);
             this.LStatistics.Name = "LStatistics";
-            this.LStatistics.Size = new System.Drawing.Size(104, 72);
+            this.LStatistics.Size = new System.Drawing.Size(78, 58);
             this.LStatistics.TabIndex = 10;
             this.LStatistics.Text = "Statistics";
             this.LStatistics.UseVisualStyleBackColor = true;
+            this.LStatistics.Click += new System.EventHandler(this.LStatistics_Click);
             // 
             // LTimeTable
             // 
-            this.LTimeTable.Location = new System.Drawing.Point(727, 12);
+            this.LTimeTable.Location = new System.Drawing.Point(545, 10);
+            this.LTimeTable.Margin = new System.Windows.Forms.Padding(2);
             this.LTimeTable.Name = "LTimeTable";
-            this.LTimeTable.Size = new System.Drawing.Size(104, 72);
+            this.LTimeTable.Size = new System.Drawing.Size(78, 58);
             this.LTimeTable.TabIndex = 11;
             this.LTimeTable.Text = "Time Table";
             this.LTimeTable.UseVisualStyleBackColor = true;
+            this.LTimeTable.Click += new System.EventHandler(this.LTimeTable_Click);
             // 
             // LLabl
             // 
             this.LLabl.AutoSize = true;
             this.LLabl.BackColor = System.Drawing.Color.Blue;
-            this.LLabl.Location = new System.Drawing.Point(31, 40);
+            this.LLabl.Location = new System.Drawing.Point(23, 32);
+            this.LLabl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LLabl.Name = "LLabl";
-            this.LLabl.Size = new System.Drawing.Size(61, 17);
+            this.LLabl.Size = new System.Drawing.Size(46, 13);
             this.LLabl.TabIndex = 12;
             this.LLabl.Text = "Lecturer";
             this.LLabl.Click += new System.EventHandler(this.LLabl_Click);
@@ -195,9 +211,10 @@ namespace Project
             // LLabel1
             // 
             this.LLabel1.BackColor = System.Drawing.Color.Crimson;
-            this.LLabel1.Location = new System.Drawing.Point(122, 91);
+            this.LLabel1.Location = new System.Drawing.Point(92, 74);
+            this.LLabel1.Margin = new System.Windows.Forms.Padding(2);
             this.LLabel1.Name = "LLabel1";
-            this.LLabel1.Size = new System.Drawing.Size(208, 35);
+            this.LLabel1.Size = new System.Drawing.Size(156, 28);
             this.LLabel1.TabIndex = 13;
             this.LLabel1.Text = "Add Lecturer";
             this.LLabel1.UseVisualStyleBackColor = false;
@@ -205,9 +222,10 @@ namespace Project
             // LLabel2
             // 
             this.LLabel2.BackColor = System.Drawing.Color.LightSlateGray;
-            this.LLabel2.Location = new System.Drawing.Point(336, 90);
+            this.LLabel2.Location = new System.Drawing.Point(252, 73);
+            this.LLabel2.Margin = new System.Windows.Forms.Padding(2);
             this.LLabel2.Name = "LLabel2";
-            this.LLabel2.Size = new System.Drawing.Size(208, 35);
+            this.LLabel2.Size = new System.Drawing.Size(156, 28);
             this.LLabel2.TabIndex = 14;
             this.LLabel2.Text = "Edit Lecturer";
             this.LLabel2.UseVisualStyleBackColor = false;
@@ -216,9 +234,10 @@ namespace Project
             // LLabel3
             // 
             this.LLabel3.BackColor = System.Drawing.Color.LightSlateGray;
-            this.LLabel3.Location = new System.Drawing.Point(550, 91);
+            this.LLabel3.Location = new System.Drawing.Point(412, 74);
+            this.LLabel3.Margin = new System.Windows.Forms.Padding(2);
             this.LLabel3.Name = "LLabel3";
-            this.LLabel3.Size = new System.Drawing.Size(208, 35);
+            this.LLabel3.Size = new System.Drawing.Size(156, 28);
             this.LLabel3.TabIndex = 15;
             this.LLabel3.Text = "View Lecturer";
             this.LLabel3.UseVisualStyleBackColor = false;
@@ -227,45 +246,50 @@ namespace Project
             // LName
             // 
             this.LName.AutoSize = true;
-            this.LName.Location = new System.Drawing.Point(157, 174);
+            this.LName.Location = new System.Drawing.Point(118, 141);
+            this.LName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LName.Name = "LName";
-            this.LName.Size = new System.Drawing.Size(102, 17);
+            this.LName.Size = new System.Drawing.Size(77, 13);
             this.LName.TabIndex = 16;
             this.LName.Text = "Lecturer Name";
             // 
             // LEmployee
             // 
             this.LEmployee.AutoSize = true;
-            this.LEmployee.Location = new System.Drawing.Point(157, 224);
+            this.LEmployee.Location = new System.Drawing.Point(118, 182);
+            this.LEmployee.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LEmployee.Name = "LEmployee";
-            this.LEmployee.Size = new System.Drawing.Size(87, 17);
+            this.LEmployee.Size = new System.Drawing.Size(67, 13);
             this.LEmployee.TabIndex = 17;
             this.LEmployee.Text = "Employee ID";
             // 
             // LFaculty
             // 
             this.LFaculty.AutoSize = true;
-            this.LFaculty.Location = new System.Drawing.Point(157, 279);
+            this.LFaculty.Location = new System.Drawing.Point(118, 227);
+            this.LFaculty.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LFaculty.Name = "LFaculty";
-            this.LFaculty.Size = new System.Drawing.Size(53, 17);
+            this.LFaculty.Size = new System.Drawing.Size(41, 13);
             this.LFaculty.TabIndex = 18;
             this.LFaculty.Text = "Faculty";
             // 
             // LCenter
             // 
             this.LCenter.AutoSize = true;
-            this.LCenter.Location = new System.Drawing.Point(156, 384);
+            this.LCenter.Location = new System.Drawing.Point(117, 312);
+            this.LCenter.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LCenter.Name = "LCenter";
-            this.LCenter.Size = new System.Drawing.Size(50, 17);
+            this.LCenter.Size = new System.Drawing.Size(38, 13);
             this.LCenter.TabIndex = 19;
             this.LCenter.Text = "Center";
             // 
             // LBuilding
             // 
             this.LBuilding.AutoSize = true;
-            this.LBuilding.Location = new System.Drawing.Point(155, 435);
+            this.LBuilding.Location = new System.Drawing.Point(116, 353);
+            this.LBuilding.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LBuilding.Name = "LBuilding";
-            this.LBuilding.Size = new System.Drawing.Size(58, 17);
+            this.LBuilding.Size = new System.Drawing.Size(44, 13);
             this.LBuilding.TabIndex = 20;
             this.LBuilding.Text = "Building";
             this.LBuilding.Click += new System.EventHandler(this.LBuilding_Click);
@@ -273,18 +297,20 @@ namespace Project
             // LLevel
             // 
             this.LLevel.AutoSize = true;
-            this.LLevel.Location = new System.Drawing.Point(157, 481);
+            this.LLevel.Location = new System.Drawing.Point(118, 391);
+            this.LLevel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LLevel.Name = "LLevel";
-            this.LLevel.Size = new System.Drawing.Size(42, 17);
+            this.LLevel.Size = new System.Drawing.Size(33, 13);
             this.LLevel.TabIndex = 21;
             this.LLevel.Text = "Level";
             // 
             // LRank
             // 
             this.LRank.AutoSize = true;
-            this.LRank.Location = new System.Drawing.Point(156, 536);
+            this.LRank.Location = new System.Drawing.Point(117, 436);
+            this.LRank.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LRank.Name = "LRank";
-            this.LRank.Size = new System.Drawing.Size(41, 17);
+            this.LRank.Size = new System.Drawing.Size(33, 13);
             this.LRank.TabIndex = 22;
             this.LRank.Text = "Rank";
             this.LRank.Click += new System.EventHandler(this.LRank_Click);
@@ -292,24 +318,27 @@ namespace Project
             // LDepartment
             // 
             this.LDepartment.AutoSize = true;
-            this.LDepartment.Location = new System.Drawing.Point(155, 332);
+            this.LDepartment.Location = new System.Drawing.Point(116, 270);
+            this.LDepartment.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LDepartment.Name = "LDepartment";
-            this.LDepartment.Size = new System.Drawing.Size(82, 17);
+            this.LDepartment.Size = new System.Drawing.Size(62, 13);
             this.LDepartment.TabIndex = 23;
             this.LDepartment.Text = "Department";
             // 
             // LtextBox1
             // 
-            this.LtextBox1.Location = new System.Drawing.Point(336, 169);
+            this.LtextBox1.Location = new System.Drawing.Point(252, 137);
+            this.LtextBox1.Margin = new System.Windows.Forms.Padding(2);
             this.LtextBox1.Name = "LtextBox1";
-            this.LtextBox1.Size = new System.Drawing.Size(376, 22);
+            this.LtextBox1.Size = new System.Drawing.Size(283, 20);
             this.LtextBox1.TabIndex = 24;
             // 
             // LtextBox2
             // 
-            this.LtextBox2.Location = new System.Drawing.Point(336, 219);
+            this.LtextBox2.Location = new System.Drawing.Point(252, 178);
+            this.LtextBox2.Margin = new System.Windows.Forms.Padding(2);
             this.LtextBox2.Name = "LtextBox2";
-            this.LtextBox2.Size = new System.Drawing.Size(376, 22);
+            this.LtextBox2.Size = new System.Drawing.Size(283, 20);
             this.LtextBox2.TabIndex = 25;
             // 
             // LcomboBox1
@@ -321,9 +350,10 @@ namespace Project
             "Engineering",
             "Nursing",
             "QS"});
-            this.LcomboBox1.Location = new System.Drawing.Point(336, 272);
+            this.LcomboBox1.Location = new System.Drawing.Point(252, 221);
+            this.LcomboBox1.Margin = new System.Windows.Forms.Padding(2);
             this.LcomboBox1.Name = "LcomboBox1";
-            this.LcomboBox1.Size = new System.Drawing.Size(375, 24);
+            this.LcomboBox1.Size = new System.Drawing.Size(282, 21);
             this.LcomboBox1.TabIndex = 26;
             // 
             // LcomboBox2
@@ -338,9 +368,10 @@ namespace Project
             "Logistics",
             "Civil Engineering",
             "Electrical Engineering"});
-            this.LcomboBox2.Location = new System.Drawing.Point(336, 325);
+            this.LcomboBox2.Location = new System.Drawing.Point(252, 264);
+            this.LcomboBox2.Margin = new System.Windows.Forms.Padding(2);
             this.LcomboBox2.Name = "LcomboBox2";
-            this.LcomboBox2.Size = new System.Drawing.Size(375, 24);
+            this.LcomboBox2.Size = new System.Drawing.Size(282, 21);
             this.LcomboBox2.TabIndex = 27;
             // 
             // LcomboBox3
@@ -351,9 +382,10 @@ namespace Project
             "Metro",
             "Matara",
             "Kandy"});
-            this.LcomboBox3.Location = new System.Drawing.Point(337, 377);
+            this.LcomboBox3.Location = new System.Drawing.Point(253, 306);
+            this.LcomboBox3.Margin = new System.Windows.Forms.Padding(2);
             this.LcomboBox3.Name = "LcomboBox3";
-            this.LcomboBox3.Size = new System.Drawing.Size(375, 24);
+            this.LcomboBox3.Size = new System.Drawing.Size(282, 21);
             this.LcomboBox3.TabIndex = 28;
             // 
             // LcomboBox4
@@ -365,9 +397,10 @@ namespace Project
             "BM",
             "Engineering",
             "Calm"});
-            this.LcomboBox4.Location = new System.Drawing.Point(336, 428);
+            this.LcomboBox4.Location = new System.Drawing.Point(252, 348);
+            this.LcomboBox4.Margin = new System.Windows.Forms.Padding(2);
             this.LcomboBox4.Name = "LcomboBox4";
-            this.LcomboBox4.Size = new System.Drawing.Size(375, 24);
+            this.LcomboBox4.Size = new System.Drawing.Size(282, 21);
             this.LcomboBox4.TabIndex = 29;
             // 
             // LcomboBox5
@@ -380,24 +413,27 @@ namespace Project
             "4",
             "5",
             "6"});
-            this.LcomboBox5.Location = new System.Drawing.Point(336, 481);
+            this.LcomboBox5.Location = new System.Drawing.Point(252, 391);
+            this.LcomboBox5.Margin = new System.Windows.Forms.Padding(2);
             this.LcomboBox5.Name = "LcomboBox5";
-            this.LcomboBox5.Size = new System.Drawing.Size(375, 24);
+            this.LcomboBox5.Size = new System.Drawing.Size(282, 21);
             this.LcomboBox5.TabIndex = 30;
             // 
             // LtextBox3
             // 
-            this.LtextBox3.Location = new System.Drawing.Point(335, 533);
+            this.LtextBox3.Location = new System.Drawing.Point(251, 433);
+            this.LtextBox3.Margin = new System.Windows.Forms.Padding(2);
             this.LtextBox3.Name = "LtextBox3";
-            this.LtextBox3.Size = new System.Drawing.Size(376, 22);
+            this.LtextBox3.Size = new System.Drawing.Size(283, 20);
             this.LtextBox3.TabIndex = 31;
             // 
             // LADD
             // 
             this.LADD.BackColor = System.Drawing.Color.Blue;
-            this.LADD.Location = new System.Drawing.Point(509, 578);
+            this.LADD.Location = new System.Drawing.Point(382, 470);
+            this.LADD.Margin = new System.Windows.Forms.Padding(2);
             this.LADD.Name = "LADD";
-            this.LADD.Size = new System.Drawing.Size(90, 35);
+            this.LADD.Size = new System.Drawing.Size(68, 28);
             this.LADD.TabIndex = 32;
             this.LADD.Text = "ADD";
             this.LADD.UseVisualStyleBackColor = false;
@@ -406,9 +442,10 @@ namespace Project
             // LGenerate
             // 
             this.LGenerate.BackColor = System.Drawing.Color.DarkOliveGreen;
-            this.LGenerate.Location = new System.Drawing.Point(382, 578);
+            this.LGenerate.Location = new System.Drawing.Point(286, 470);
+            this.LGenerate.Margin = new System.Windows.Forms.Padding(2);
             this.LGenerate.Name = "LGenerate";
-            this.LGenerate.Size = new System.Drawing.Size(100, 35);
+            this.LGenerate.Size = new System.Drawing.Size(75, 28);
             this.LGenerate.TabIndex = 33;
             this.LGenerate.Text = "Generate ID";
             this.LGenerate.UseVisualStyleBackColor = false;
@@ -417,9 +454,10 @@ namespace Project
             // LCLEAR
             // 
             this.LCLEAR.BackColor = System.Drawing.Color.Red;
-            this.LCLEAR.Location = new System.Drawing.Point(621, 578);
+            this.LCLEAR.Location = new System.Drawing.Point(466, 470);
+            this.LCLEAR.Margin = new System.Windows.Forms.Padding(2);
             this.LCLEAR.Name = "LCLEAR";
-            this.LCLEAR.Size = new System.Drawing.Size(90, 35);
+            this.LCLEAR.Size = new System.Drawing.Size(68, 28);
             this.LCLEAR.TabIndex = 34;
             this.LCLEAR.Text = "CLEAR";
             this.LCLEAR.UseVisualStyleBackColor = false;
@@ -427,10 +465,10 @@ namespace Project
             // 
             // Add_Lecturer
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(892, 643);
+            this.ClientSize = new System.Drawing.Size(669, 522);
             this.Controls.Add(this.LCLEAR);
             this.Controls.Add(this.LGenerate);
             this.Controls.Add(this.LADD);
@@ -466,6 +504,7 @@ namespace Project
             this.Controls.Add(this.LSubject);
             this.Controls.Add(this.LStudent);
             this.Controls.Add(this.LLecturer);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Add_Lecturer";
             this.Text = "Add_Lecturer";
             this.ResumeLayout(false);

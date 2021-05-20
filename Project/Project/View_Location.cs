@@ -57,5 +57,58 @@ namespace Project
             delete_Location.Show();
 
         }
+
+        private void LocALabel3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LocVLecturer_Click(object sender, EventArgs e)
+        {
+            Add_Lecturer add = new Add_Lecturer();
+            add.Show();
+        }
+
+        private void LocVStudent_Click(object sender, EventArgs e)
+        {
+            Add_Student add = new Add_Student();
+            add.Show();
+        }
+
+        private void LocVSubject_Click(object sender, EventArgs e)
+        {
+            Add_Subject add = new Add_Subject();
+            add.Show();
+        }
+
+        private void LocVTag_Click(object sender, EventArgs e)
+        {
+            Add_Tag add = new Add_Tag();
+            add.Show();
+        }
+
+        private void LocVSession_Click(object sender, EventArgs e)
+        {
+            add_Session ass = new add_Session();
+            ass.Show();
+        }
+
+        private void LocVWorking_Click(object sender, EventArgs e)
+        {
+            WorkingDays_Hours wdh = new WorkingDays_Hours();
+            wdh.Show();
+        }
+
+        private void LocVRoom_Click(object sender, EventArgs e)
+        {
+            ManageSession2 manageSession2 = new ManageSession2();
+            manageSession2.Show();
+        }
+
+        private void LocVStatistics_Click(object sender, EventArgs e)
+        {
+            Statistic statistic = new Statistic();
+            statistic.Show();
+        }
     }
 }

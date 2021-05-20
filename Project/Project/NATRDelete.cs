@@ -54,7 +54,7 @@ namespace Project
             {
                 conns.Open();
                 mReader = Cmd.ExecuteReader();
-                MessageBox.Show("Lecture record delete successfully");
+                MessageBox.Show(" record delete successfully");
 
             }
             catch (Exception ex)

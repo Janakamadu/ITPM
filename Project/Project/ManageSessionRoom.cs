@@ -152,5 +152,77 @@ namespace Project
             }
 
         }
+
+        private void MS2ADD_Click(object sender, EventArgs e)
+        {
+            ManageSession2 MS2 = new ManageSession2();
+            MS2.Show();
+        }
+
+        private void LocACLEAR_Click(object sender, EventArgs e)
+        {
+            MScomboBox1.Text = string.Empty;
+            MScomboBox2.Text = string.Empty;
+           
+        }
+
+        private void MSLecturer_Click(object sender, EventArgs e)
+        {
+            Add_Lecturer add = new Add_Lecturer();
+            add.Show();
+        }
+
+        private void MSStudent_Click(object sender, EventArgs e)
+        {
+            Add_Student add = new Add_Student();
+            add.Show();
+        }
+
+        private void MSSubject_Click(object sender, EventArgs e)
+        {
+            Add_Subject add = new Add_Subject();
+            add.Show();
+        }
+
+        private void MSTag_Click(object sender, EventArgs e)
+        {
+            Add_Tag add = new Add_Tag();
+            add.Show();
+        }
+
+        private void MSSession_Click(object sender, EventArgs e)
+        {
+            add_Session ass = new add_Session();
+            ass.Show();
+        }
+
+        private void MSWorking_Click(object sender, EventArgs e)
+        {
+            WorkingDays_Hours wdh = new WorkingDays_Hours();
+            wdh.Show();
+        }
+
+        private void MSRoom_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MsLocations_Click(object sender, EventArgs e)
+        {
+            Add_Location add = new Add_Location();
+            add.Show();
+        }
+
+        private void MSStatistics_Click(object sender, EventArgs e)
+        {
+            Statistic statistic = new Statistic();
+            statistic.Show();
+        }
+
+        private void MSTimeTable_Click(object sender, EventArgs e)
+        {
+            TTLecGenereate add = new TTLecGenereate();
+            add.Show();
+        }
     }
 }
