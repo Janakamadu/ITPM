@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project", "Project\Project.csproj", "{C7E4F484-C2F6-4D5C-88F8-5841EB92FDE2}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "TIMETABLE", "TIMETABLE\TIMETABLE.vdproj", "{6470640E-B1B5-410E-AD7B-71AE9307E47C}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,8 +15,6 @@ Global
 		{C7E4F484-C2F6-4D5C-88F8-5841EB92FDE2}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{C7E4F484-C2F6-4D5C-88F8-5841EB92FDE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7E4F484-C2F6-4D5C-88F8-5841EB92FDE2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6470640E-B1B5-410E-AD7B-71AE9307E47C}.Debug|Any CPU.ActiveCfg = Debug
-		{6470640E-B1B5-410E-AD7B-71AE9307E47C}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -68,8 +68,8 @@ namespace Project
 
         private void MS2Label2_Click(object sender, EventArgs e)
         {
-            Consecutive_Session cos = new Consecutive_Session();
-                cos.Show();
+            Cons cons = new Cons();
+                cons.Show();
         }
 
         private void MS2Lecturer_Click(object sender, EventArgs e)

@@ -11,9 +11,9 @@ using MySql.Data.MySqlClient;
 
 namespace Project
 {
-    public partial class Consecutive : Form
+    public partial class Cons : Form
     {
-        public Consecutive()
+        public Cons()
         {
             InitializeComponent();
             FillCombobox();
@@ -126,14 +126,8 @@ namespace Project
             }
         }
 
-        private void button14_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button16_Click(object sender, EventArgs e)
         {
-
             try
             {
 
@@ -168,7 +162,7 @@ namespace Project
             concomboBox3.Text = string.Empty;
         }
 
-        private void button18_Click(object sender, EventArgs e)
+        private void buton18_Click(object sender, EventArgs e)
         {
             try
             {
@@ -192,69 +186,89 @@ namespace Project
             }
         }
 
-        private void button15_Click(object sender, EventArgs e)
+        private void ConsRoomHome_Click(object sender, EventArgs e)
         {
-          
+            Homepage homepage = new Homepage();
+            homepage.Show();
         }
 
-        private void WDLecturer_Click(object sender, EventArgs e)
+        private void ConsRoomLecturer_Click(object sender, EventArgs e)
         {
             Add_Lecturer add = new Add_Lecturer();
             add.Show();
         }
 
-        private void WDStudent_Click(object sender, EventArgs e)
+        private void ConsRoomStudent_Click(object sender, EventArgs e)
         {
             Add_Student add = new Add_Student();
             add.Show();
         }
 
-        private void WDSubject_Click(object sender, EventArgs e)
+        private void ConsRoomSubject_Click(object sender, EventArgs e)
         {
             Add_Subject add = new Add_Subject();
             add.Show();
         }
 
-        private void WDTag_Click(object sender, EventArgs e)
+        private void ConsRoomTag_Click(object sender, EventArgs e)
         {
             Add_Tag add = new Add_Tag();
             add.Show();
         }
 
-        private void WDSession_Click(object sender, EventArgs e)
+        private void ConsRoomSession_Click(object sender, EventArgs e)
         {
             add_Session ass = new add_Session();
             ass.Show();
         }
 
-        private void WDWorking_Click(object sender, EventArgs e)
+        private void ConsRoomAdvanced_Click(object sender, EventArgs e)
+        {
+            Consecutive_Session consecutive_Session = new Consecutive_Session();
+            consecutive_Session.Show();
+        }
+
+        private void ConsRoomWorking_Click(object sender, EventArgs e)
         {
             WorkingDays_Hours wdh = new WorkingDays_Hours();
             wdh.Show();
         }
 
-        private void WDLocations_Click(object sender, EventArgs e)
+        private void ConsRoomRoom_Click(object sender, EventArgs e)
         {
+            ManageSessionRoom manageSessionRoom = new ManageSessionRoom();
+            manageSessionRoom.Show();
+        }
+
+        private void ConsRoomLocations_Click(object sender, EventArgs e)
+        {
+
             Add_Location add = new Add_Location();
             add.Show();
         }
 
-        private void WDStatistics_Click(object sender, EventArgs e)
+        private void ConsRoomStatistics_Click(object sender, EventArgs e)
         {
             Statistic statistic = new Statistic();
             statistic.Show();
         }
 
-        private void WDTimeTable_Click(object sender, EventArgs e)
+        private void ConsRoomTimeTable_Click(object sender, EventArgs e)
         {
             TTLecGenereate add = new TTLecGenereate();
             add.Show();
         }
 
-        private void WDRoom_Click(object sender, EventArgs e)
+        private void NotARoomLabel1_Click(object sender, EventArgs e)
         {
+            ManageSession2 manageSession2 = new ManageSession2();
+            manageSession2.Show();
+        }
 
+        private void NotARoomLabel3_Click(object sender, EventArgs e)
+        {
+            NotARoom notARoom = new NotARoom();
+            notARoom.Show();
         }
     }
 }
-

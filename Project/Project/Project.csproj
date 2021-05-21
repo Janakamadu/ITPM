@@ -86,6 +86,12 @@
     <Compile Include="Add_Tag.designer.cs">
       <DependentUpon>Add_Tag.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cons.Designer.cs">
+      <DependentUpon>Cons.cs</DependentUpon>
+    </Compile>
     <Compile Include="Consecutive Session.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -310,6 +316,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Add_Tag.resx">
       <DependentUpon>Add_Tag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cons.resx">
+      <DependentUpon>Cons.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Consecutive Session.resx">
       <DependentUpon>Consecutive Session.cs</DependentUpon>
