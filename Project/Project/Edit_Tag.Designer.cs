@@ -29,11 +29,9 @@ namespace Project
         /// </summary>
         private void InitializeComponent()
         {
-            this.TagEtextBox2 = new System.Windows.Forms.TextBox();
-            this.TagELabel2 = new System.Windows.Forms.Button();
-            this.TagELabel3 = new System.Windows.Forms.Button();
-            this.TagEcomboBox1 = new System.Windows.Forms.ComboBox();
-            this.TagEtextBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.RelatedTagE = new System.Windows.Forms.Label();
             this.TagECode = new System.Windows.Forms.Label();
             this.TagEName = new System.Windows.Forms.Label();
@@ -51,62 +49,44 @@ namespace Project
             this.TagESubject = new System.Windows.Forms.Button();
             this.TagEStudent = new System.Windows.Forms.Button();
             this.TagELecturer = new System.Windows.Forms.Button();
-            this.TagEcomboBoxRollNo = new System.Windows.Forms.ComboBox();
-            this.TagElabelRoll = new System.Windows.Forms.Label();
             this.TagBack = new System.Windows.Forms.Button();
             this.TagUPDATE = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.TagELabel3 = new System.Windows.Forms.Button();
+            this.TagELabel2 = new System.Windows.Forms.Button();
+            this.TagClear = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // TagEtextBox2
+            // textBox2
             // 
-            this.TagEtextBox2.Location = new System.Drawing.Point(357, 350);
-            this.TagEtextBox2.Name = "TagEtextBox2";
-            this.TagEtextBox2.Size = new System.Drawing.Size(376, 22);
-            this.TagEtextBox2.TabIndex = 131;
+            this.textBox2.Location = new System.Drawing.Point(357, 315);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(376, 22);
+            this.textBox2.TabIndex = 131;
             // 
-            // TagELabel2
+            // comboBox1
             // 
-            this.TagELabel2.BackColor = System.Drawing.Color.Crimson;
-            this.TagELabel2.Location = new System.Drawing.Point(341, 91);
-            this.TagELabel2.Name = "TagELabel2";
-            this.TagELabel2.Size = new System.Drawing.Size(208, 35);
-            this.TagELabel2.TabIndex = 130;
-            this.TagELabel2.Text = "Edit Tag";
-            this.TagELabel2.UseVisualStyleBackColor = false;
-            // 
-            // TagELabel3
-            // 
-            this.TagELabel3.BackColor = System.Drawing.Color.LightSlateGray;
-            this.TagELabel3.Location = new System.Drawing.Point(556, 90);
-            this.TagELabel3.Name = "TagELabel3";
-            this.TagELabel3.Size = new System.Drawing.Size(208, 35);
-            this.TagELabel3.TabIndex = 129;
-            this.TagELabel3.Text = "View Tag";
-            this.TagELabel3.UseVisualStyleBackColor = false;
-            // 
-            // TagEcomboBox1
-            // 
-            this.TagEcomboBox1.FormattingEnabled = true;
-            this.TagEcomboBox1.Items.AddRange(new object[] {
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
             "Lecturer",
             "Tutorial",
             "Lab"});
-            this.TagEcomboBox1.Location = new System.Drawing.Point(357, 456);
-            this.TagEcomboBox1.Name = "TagEcomboBox1";
-            this.TagEcomboBox1.Size = new System.Drawing.Size(375, 24);
-            this.TagEcomboBox1.TabIndex = 126;
+            this.comboBox1.Location = new System.Drawing.Point(358, 403);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(376, 24);
+            this.comboBox1.TabIndex = 126;
             // 
-            // TagEtextBox1
+            // textBox1
             // 
-            this.TagEtextBox1.Location = new System.Drawing.Point(356, 260);
-            this.TagEtextBox1.Name = "TagEtextBox1";
-            this.TagEtextBox1.Size = new System.Drawing.Size(376, 22);
-            this.TagEtextBox1.TabIndex = 125;
+            this.textBox1.Location = new System.Drawing.Point(354, 224);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(376, 22);
+            this.textBox1.TabIndex = 125;
             // 
             // RelatedTagE
             // 
             this.RelatedTagE.AutoSize = true;
-            this.RelatedTagE.Location = new System.Drawing.Point(177, 459);
+            this.RelatedTagE.Location = new System.Drawing.Point(181, 410);
             this.RelatedTagE.Name = "RelatedTagE";
             this.RelatedTagE.Size = new System.Drawing.Size(86, 17);
             this.RelatedTagE.TabIndex = 124;
@@ -115,7 +95,7 @@ namespace Project
             // TagECode
             // 
             this.TagECode.AutoSize = true;
-            this.TagECode.Location = new System.Drawing.Point(177, 353);
+            this.TagECode.Location = new System.Drawing.Point(181, 315);
             this.TagECode.Name = "TagECode";
             this.TagECode.Size = new System.Drawing.Size(70, 17);
             this.TagECode.TabIndex = 123;
@@ -124,7 +104,7 @@ namespace Project
             // TagEName
             // 
             this.TagEName.AutoSize = true;
-            this.TagEName.Location = new System.Drawing.Point(177, 263);
+            this.TagEName.Location = new System.Drawing.Point(177, 224);
             this.TagEName.Name = "TagEName";
             this.TagEName.Size = new System.Drawing.Size(74, 17);
             this.TagEName.TabIndex = 122;
@@ -139,6 +119,7 @@ namespace Project
             this.TagELabel1.TabIndex = 121;
             this.TagELabel1.Text = "Add Tag";
             this.TagELabel1.UseVisualStyleBackColor = false;
+            this.TagELabel1.Click += new System.EventHandler(this.TagELabel1_Click);
             // 
             // TagLabl
             // 
@@ -158,6 +139,7 @@ namespace Project
             this.TagETimeTable.TabIndex = 119;
             this.TagETimeTable.Text = "Time Table";
             this.TagETimeTable.UseVisualStyleBackColor = true;
+            this.TagETimeTable.Click += new System.EventHandler(this.TagETimeTable_Click);
             // 
             // TagEStatistics
             // 
@@ -167,6 +149,7 @@ namespace Project
             this.TagEStatistics.TabIndex = 118;
             this.TagEStatistics.Text = "Statistics";
             this.TagEStatistics.UseVisualStyleBackColor = true;
+            this.TagEStatistics.Click += new System.EventHandler(this.TagEStatistics_Click);
             // 
             // TagELocations
             // 
@@ -176,6 +159,7 @@ namespace Project
             this.TagELocations.TabIndex = 117;
             this.TagELocations.Text = "Location";
             this.TagELocations.UseVisualStyleBackColor = true;
+            this.TagELocations.Click += new System.EventHandler(this.TagELocations_Click);
             // 
             // TagERoom
             // 
@@ -185,6 +169,7 @@ namespace Project
             this.TagERoom.TabIndex = 116;
             this.TagERoom.Text = "Room";
             this.TagERoom.UseVisualStyleBackColor = true;
+            this.TagERoom.Click += new System.EventHandler(this.TagERoom_Click);
             // 
             // TagEHome
             // 
@@ -194,6 +179,7 @@ namespace Project
             this.TagEHome.TabIndex = 115;
             this.TagEHome.Text = "Home";
             this.TagEHome.UseVisualStyleBackColor = true;
+            this.TagEHome.Click += new System.EventHandler(this.TagEHome_Click);
             // 
             // TagETag
             // 
@@ -203,6 +189,7 @@ namespace Project
             this.TagETag.TabIndex = 114;
             this.TagETag.Text = "Tag";
             this.TagETag.UseVisualStyleBackColor = true;
+            this.TagETag.Click += new System.EventHandler(this.TagETag_Click);
             // 
             // TagEWorking
             // 
@@ -212,6 +199,7 @@ namespace Project
             this.TagEWorking.TabIndex = 113;
             this.TagEWorking.Text = "Working Days and Hours";
             this.TagEWorking.UseVisualStyleBackColor = true;
+            this.TagEWorking.Click += new System.EventHandler(this.TagEWorking_Click);
             // 
             // TagEAdvanced
             // 
@@ -221,6 +209,7 @@ namespace Project
             this.TagEAdvanced.TabIndex = 112;
             this.TagEAdvanced.Text = "Advanced Session";
             this.TagEAdvanced.UseVisualStyleBackColor = true;
+            this.TagEAdvanced.Click += new System.EventHandler(this.TagEAdvanced_Click);
             // 
             // TagESession
             // 
@@ -230,6 +219,7 @@ namespace Project
             this.TagESession.TabIndex = 111;
             this.TagESession.Text = "Session";
             this.TagESession.UseVisualStyleBackColor = true;
+            this.TagESession.Click += new System.EventHandler(this.TagESession_Click);
             // 
             // TagESubject
             // 
@@ -239,6 +229,7 @@ namespace Project
             this.TagESubject.TabIndex = 110;
             this.TagESubject.Text = "Subject";
             this.TagESubject.UseVisualStyleBackColor = true;
+            this.TagESubject.Click += new System.EventHandler(this.TagESubject_Click);
             // 
             // TagEStudent
             // 
@@ -248,6 +239,7 @@ namespace Project
             this.TagEStudent.TabIndex = 109;
             this.TagEStudent.Text = "Student";
             this.TagEStudent.UseVisualStyleBackColor = true;
+            this.TagEStudent.Click += new System.EventHandler(this.TagEStudent_Click);
             // 
             // TagELecturer
             // 
@@ -257,80 +249,12 @@ namespace Project
             this.TagELecturer.TabIndex = 108;
             this.TagELecturer.Text = "Lecturer";
             this.TagELecturer.UseVisualStyleBackColor = true;
-            // 
-            // TagEcomboBoxRollNo
-            // 
-            this.TagEcomboBoxRollNo.FormattingEnabled = true;
-            this.TagEcomboBoxRollNo.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7",
-            "8",
-            "9",
-            "10",
-            "11",
-            "12",
-            "13",
-            "14",
-            "15",
-            "16",
-            "17",
-            "18",
-            "19",
-            "20",
-            "21",
-            "22",
-            "23",
-            "24",
-            "25",
-            "26",
-            "27",
-            "28",
-            "29",
-            "30",
-            "31",
-            "32",
-            "33",
-            "34",
-            "35",
-            "36",
-            "37",
-            "38",
-            "39",
-            "40",
-            "41",
-            "42",
-            "43",
-            "44",
-            "45",
-            "46",
-            "47",
-            "48",
-            "49",
-            "50"});
-            this.TagEcomboBoxRollNo.Location = new System.Drawing.Point(356, 169);
-            this.TagEcomboBoxRollNo.Name = "TagEcomboBoxRollNo";
-            this.TagEcomboBoxRollNo.Size = new System.Drawing.Size(375, 24);
-            this.TagEcomboBoxRollNo.TabIndex = 135;
-            this.TagEcomboBoxRollNo.SelectedIndexChanged += new System.EventHandler(this.TagEcomboBoxRollNo_SelectedIndexChanged);
-            // 
-            // TagElabelRoll
-            // 
-            this.TagElabelRoll.AutoSize = true;
-            this.TagElabelRoll.Location = new System.Drawing.Point(177, 172);
-            this.TagElabelRoll.Name = "TagElabelRoll";
-            this.TagElabelRoll.Size = new System.Drawing.Size(54, 17);
-            this.TagElabelRoll.TabIndex = 134;
-            this.TagElabelRoll.Text = "Roll No";
+            this.TagELecturer.Click += new System.EventHandler(this.TagELecturer_Click);
             // 
             // TagBack
             // 
             this.TagBack.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.TagBack.Location = new System.Drawing.Point(640, 550);
+            this.TagBack.Location = new System.Drawing.Point(246, 541);
             this.TagBack.Name = "TagBack";
             this.TagBack.Size = new System.Drawing.Size(90, 35);
             this.TagBack.TabIndex = 133;
@@ -341,7 +265,7 @@ namespace Project
             // TagUPDATE
             // 
             this.TagUPDATE.BackColor = System.Drawing.Color.Green;
-            this.TagUPDATE.Location = new System.Drawing.Point(520, 550);
+            this.TagUPDATE.Location = new System.Drawing.Point(433, 541);
             this.TagUPDATE.Name = "TagUPDATE";
             this.TagUPDATE.Size = new System.Drawing.Size(90, 35);
             this.TagUPDATE.TabIndex = 132;
@@ -349,21 +273,64 @@ namespace Project
             this.TagUPDATE.UseVisualStyleBackColor = false;
             this.TagUPDATE.Click += new System.EventHandler(this.TagUPDATE_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(673, 481);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(46, 17);
+            this.label1.TabIndex = 134;
+            this.label1.Text = "label1";
+            this.label1.Visible = false;
+            // 
+            // TagELabel3
+            // 
+            this.TagELabel3.BackColor = System.Drawing.Color.Crimson;
+            this.TagELabel3.Location = new System.Drawing.Point(582, 91);
+            this.TagELabel3.Name = "TagELabel3";
+            this.TagELabel3.Size = new System.Drawing.Size(208, 35);
+            this.TagELabel3.TabIndex = 135;
+            this.TagELabel3.Text = "Edit Tag";
+            this.TagELabel3.UseVisualStyleBackColor = false;
+            this.TagELabel3.Click += new System.EventHandler(this.TagELabel3_Click);
+            // 
+            // TagELabel2
+            // 
+            this.TagELabel2.BackColor = System.Drawing.Color.LightSlateGray;
+            this.TagELabel2.Location = new System.Drawing.Point(358, 91);
+            this.TagELabel2.Name = "TagELabel2";
+            this.TagELabel2.Size = new System.Drawing.Size(208, 35);
+            this.TagELabel2.TabIndex = 136;
+            this.TagELabel2.Text = "View Tag";
+            this.TagELabel2.UseVisualStyleBackColor = false;
+            this.TagELabel2.Click += new System.EventHandler(this.TagELabel2_Click);
+            // 
+            // TagClear
+            // 
+            this.TagClear.BackColor = System.Drawing.Color.Crimson;
+            this.TagClear.Location = new System.Drawing.Point(618, 541);
+            this.TagClear.Name = "TagClear";
+            this.TagClear.Size = new System.Drawing.Size(90, 35);
+            this.TagClear.TabIndex = 137;
+            this.TagClear.Text = "CLEAR";
+            this.TagClear.UseVisualStyleBackColor = false;
+            this.TagClear.Click += new System.EventHandler(this.TagClear_Click);
+            // 
             // Edit_Tag
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
             this.ClientSize = new System.Drawing.Size(892, 643);
-            this.Controls.Add(this.TagEcomboBoxRollNo);
-            this.Controls.Add(this.TagElabelRoll);
-            this.Controls.Add(this.TagBack);
-            this.Controls.Add(this.TagUPDATE);
-            this.Controls.Add(this.TagEtextBox2);
+            this.Controls.Add(this.TagClear);
             this.Controls.Add(this.TagELabel2);
             this.Controls.Add(this.TagELabel3);
-            this.Controls.Add(this.TagEcomboBox1);
-            this.Controls.Add(this.TagEtextBox1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.TagBack);
+            this.Controls.Add(this.TagUPDATE);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.RelatedTagE);
             this.Controls.Add(this.TagECode);
             this.Controls.Add(this.TagEName);
@@ -382,19 +349,13 @@ namespace Project
             this.Controls.Add(this.TagEStudent);
             this.Controls.Add(this.TagELecturer);
             this.Name = "Edit_Tag";
-            this.Text = "Edit_Tag";
+            this.Text = "Edit Tag";
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox TagEtextBox2;
-        private System.Windows.Forms.Button TagELabel2;
-        private System.Windows.Forms.Button TagELabel3;
-        private System.Windows.Forms.ComboBox TagEcomboBox1;
-        private System.Windows.Forms.TextBox TagEtextBox1;
         private System.Windows.Forms.Label RelatedTagE;
         private System.Windows.Forms.Label TagECode;
         private System.Windows.Forms.Label TagEName;
@@ -412,9 +373,14 @@ namespace Project
         private System.Windows.Forms.Button TagESubject;
         private System.Windows.Forms.Button TagEStudent;
         private System.Windows.Forms.Button TagELecturer;
-        private System.Windows.Forms.ComboBox TagEcomboBoxRollNo;
-        private System.Windows.Forms.Label TagElabelRoll;
         private System.Windows.Forms.Button TagBack;
         private System.Windows.Forms.Button TagUPDATE;
+        public System.Windows.Forms.Label label1;
+        public System.Windows.Forms.TextBox textBox2;
+        public System.Windows.Forms.ComboBox comboBox1;
+        public System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button TagELabel3;
+        private System.Windows.Forms.Button TagELabel2;
+        private System.Windows.Forms.Button TagClear;
     }
 }

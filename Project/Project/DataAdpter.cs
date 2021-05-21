@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 
+
 namespace Project
 {
     class DataAdpter
@@ -16,7 +17,7 @@ namespace Project
 
         public DataAdpter()
         {
-            connectionString = "server = localhost; user id = root; persistsecurityinfo = True; database = itpm_project; password = root";
+            connectionString = "server=localhost;user id=root;persistsecurityinfo=True;database=itpm_project;password=root";
             mysqlConnection = new MySqlConnection(connectionString);
         }
 
