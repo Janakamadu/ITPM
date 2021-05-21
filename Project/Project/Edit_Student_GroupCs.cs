@@ -81,6 +81,108 @@ namespace Project
         {
             View_Student mform = new View_Student();
             mform.Show();
+            this.Hide();
+        }
+
+        private void StuLabel1_Click(object sender, EventArgs e)
+        {
+            Add_Student mform = new Add_Student();
+            mform.Show();
+            this.Hide();
+        }
+
+        private void StuLabel2_Click(object sender, EventArgs e)
+        {
+            View_Student mform = new View_Student();
+            mform.Show();
+            this.Hide();
+        }
+
+        private void StuLabel3_Click(object sender, EventArgs e)
+        {
+            Edit_Student_GroupCs mform = new Edit_Student_GroupCs();
+            mform.Show();
+            this.Hide();
+        }
+
+        private void StuLecturer_Click(object sender, EventArgs e)
+        {
+            Add_Lecturer mform = new Add_Lecturer();
+            mform.Show();
+            this.Hide();
+        }
+
+        private void StuStudent_Click(object sender, EventArgs e)
+        {
+            Add_Student mform = new Add_Student();
+            mform.Show();
+            this.Hide();
+        }
+
+        private void StuSubject_Click(object sender, EventArgs e)
+        {
+            Add_Subject mform = new Add_Subject();
+            mform.Show();
+            this.Hide();
+        }
+
+        private void StuTag_Click(object sender, EventArgs e)
+        {
+            Add_Tag mform = new Add_Tag();
+            mform.Show();
+            this.Hide();
+        }
+
+        private void StuSession_Click(object sender, EventArgs e)
+        {
+            add_Session mform = new add_Session();
+            mform.Show();
+            this.Hide();
+        }
+
+        private void StuAdvanced_Click(object sender, EventArgs e)
+        {
+            Consecutive_Session mform = new Consecutive_Session();
+            mform.Show();
+            this.Hide();
+        }
+
+        private void StuWorking_Click(object sender, EventArgs e)
+        { 
+            WorkingDays_Hours mform = new WorkingDays_Hours();
+            mform.Show();
+            this.Hide();
+        }
+
+        private void StuHome_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void StuRoom_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void StuLocations_Click(object sender, EventArgs e)
+        {
+            Add_Location mform = new Add_Location();
+            mform.Show();
+            this.Hide();
+        }
+
+        private void StuStatistics_Click(object sender, EventArgs e)
+        {
+            Statistic mform = new Statistic();
+            mform.Show();
+            this.Hide();
+        }
+
+        private void StuTimeTable_Click(object sender, EventArgs e)
+        {
+            TTLecGenereate mform = new TTLecGenereate();
+            mform.Show();
+            this.Hide();
         }
     }
 }

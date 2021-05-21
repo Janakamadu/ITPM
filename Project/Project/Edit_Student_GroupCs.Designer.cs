@@ -74,6 +74,7 @@ namespace Project
             this.StuHome.TabIndex = 82;
             this.StuHome.Text = "Home";
             this.StuHome.UseVisualStyleBackColor = true;
+            this.StuHome.Click += new System.EventHandler(this.StuHome_Click);
             // 
             // StuRoom
             // 
@@ -83,6 +84,7 @@ namespace Project
             this.StuRoom.TabIndex = 83;
             this.StuRoom.Text = "Room";
             this.StuRoom.UseVisualStyleBackColor = true;
+            this.StuRoom.Click += new System.EventHandler(this.StuRoom_Click);
             // 
             // StuLocations
             // 
@@ -92,6 +94,7 @@ namespace Project
             this.StuLocations.TabIndex = 84;
             this.StuLocations.Text = "Location";
             this.StuLocations.UseVisualStyleBackColor = true;
+            this.StuLocations.Click += new System.EventHandler(this.StuLocations_Click);
             // 
             // StuStatistics
             // 
@@ -101,6 +104,7 @@ namespace Project
             this.StuStatistics.TabIndex = 85;
             this.StuStatistics.Text = "Statistics";
             this.StuStatistics.UseVisualStyleBackColor = true;
+            this.StuStatistics.Click += new System.EventHandler(this.StuStatistics_Click);
             // 
             // StuTimeTable
             // 
@@ -110,6 +114,7 @@ namespace Project
             this.StuTimeTable.TabIndex = 86;
             this.StuTimeTable.Text = "Time Table";
             this.StuTimeTable.UseVisualStyleBackColor = true;
+            this.StuTimeTable.Click += new System.EventHandler(this.StuTimeTable_Click);
             // 
             // StuLecturer
             // 
@@ -119,6 +124,7 @@ namespace Project
             this.StuLecturer.TabIndex = 87;
             this.StuLecturer.Text = "Lecturer";
             this.StuLecturer.UseVisualStyleBackColor = true;
+            this.StuLecturer.Click += new System.EventHandler(this.StuLecturer_Click);
             // 
             // StuStudent
             // 
@@ -128,6 +134,7 @@ namespace Project
             this.StuStudent.TabIndex = 88;
             this.StuStudent.Text = "Student";
             this.StuStudent.UseVisualStyleBackColor = true;
+            this.StuStudent.Click += new System.EventHandler(this.StuStudent_Click);
             // 
             // StuSubject
             // 
@@ -137,6 +144,7 @@ namespace Project
             this.StuSubject.TabIndex = 89;
             this.StuSubject.Text = "Subject";
             this.StuSubject.UseVisualStyleBackColor = true;
+            this.StuSubject.Click += new System.EventHandler(this.StuSubject_Click);
             // 
             // StuTag
             // 
@@ -146,6 +154,7 @@ namespace Project
             this.StuTag.TabIndex = 90;
             this.StuTag.Text = "Tag";
             this.StuTag.UseVisualStyleBackColor = true;
+            this.StuTag.Click += new System.EventHandler(this.StuTag_Click);
             // 
             // StuSession
             // 
@@ -155,6 +164,7 @@ namespace Project
             this.StuSession.TabIndex = 91;
             this.StuSession.Text = "Session";
             this.StuSession.UseVisualStyleBackColor = true;
+            this.StuSession.Click += new System.EventHandler(this.StuSession_Click);
             // 
             // StuAdvanced
             // 
@@ -164,6 +174,7 @@ namespace Project
             this.StuAdvanced.TabIndex = 92;
             this.StuAdvanced.Text = "Advanced Session";
             this.StuAdvanced.UseVisualStyleBackColor = true;
+            this.StuAdvanced.Click += new System.EventHandler(this.StuAdvanced_Click);
             // 
             // StuWorking
             // 
@@ -173,6 +184,7 @@ namespace Project
             this.StuWorking.TabIndex = 93;
             this.StuWorking.Text = "Working Days and Hours";
             this.StuWorking.UseVisualStyleBackColor = true;
+            this.StuWorking.Click += new System.EventHandler(this.StuWorking_Click);
             // 
             // StuLabl
             // 
@@ -193,16 +205,18 @@ namespace Project
             this.StuLabel1.TabIndex = 95;
             this.StuLabel1.Text = "Add Student";
             this.StuLabel1.UseVisualStyleBackColor = false;
+            this.StuLabel1.Click += new System.EventHandler(this.StuLabel1_Click);
             // 
             // StuLabel2
             // 
             this.StuLabel2.BackColor = System.Drawing.Color.LightSlateGray;
-            this.StuLabel2.Location = new System.Drawing.Point(345, 90);
+            this.StuLabel2.Location = new System.Drawing.Point(348, 90);
             this.StuLabel2.Name = "StuLabel2";
             this.StuLabel2.Size = new System.Drawing.Size(208, 35);
             this.StuLabel2.TabIndex = 96;
             this.StuLabel2.Text = "View Student";
             this.StuLabel2.UseVisualStyleBackColor = false;
+            this.StuLabel2.Click += new System.EventHandler(this.StuLabel2_Click);
             // 
             // StuLabel3
             // 
@@ -213,6 +227,7 @@ namespace Project
             this.StuLabel3.TabIndex = 97;
             this.StuLabel3.Text = "Edit Student";
             this.StuLabel3.UseVisualStyleBackColor = false;
+            this.StuLabel3.Click += new System.EventHandler(this.StuLabel3_Click);
             // 
             // StuAcedemicYear
             // 

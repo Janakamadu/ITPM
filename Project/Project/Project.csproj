@@ -33,7 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MySql.Data, Version=8.0.19.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=8.0.19.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MySQL\Connector NET 8.0\Assemblies\v4.5.2\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -68,7 +70,7 @@
     <Compile Include="Add_Student.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Add_Student.Designer.cs">
+    <Compile Include="Add_Student.designer.cs">
       <DependentUpon>Add_Student.cs</DependentUpon>
     </Compile>
     <Compile Include="Add_Subject.cs">
@@ -80,14 +82,14 @@
     <Compile Include="Add_Tag.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Add_Tag.Designer.cs">
+    <Compile Include="Add_Tag.designer.cs">
       <DependentUpon>Add_Tag.cs</DependentUpon>
     </Compile>
-    <Compile Include="Consecutive.cs">
+    <Compile Include="Consecutive Session.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Consecutive.Designer.cs">
-      <DependentUpon>Consecutive.cs</DependentUpon>
+    <Compile Include="Consecutive Session.designer.cs">
+      <DependentUpon>Consecutive Session.cs</DependentUpon>
     </Compile>
     <Compile Include="DataAdpter.cs" />
     <Compile Include="DeleteWorkingDayscs.cs">
@@ -120,12 +122,6 @@
     <Compile Include="Delete_Subject.Designer.cs">
       <DependentUpon>Delete_Subject.cs</DependentUpon>
     </Compile>
-    <Compile Include="Delete_Tag.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Delete_Tag.Designer.cs">
-      <DependentUpon>Delete_Tag.cs</DependentUpon>
-    </Compile>
     <Compile Include="Edit Lecturer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -153,7 +149,7 @@
     <Compile Include="Edit_Student_GroupCs.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Edit_Student_GroupCs.Designer.cs">
+    <Compile Include="Edit_Student_GroupCs.designer.cs">
       <DependentUpon>Edit_Student_GroupCs.cs</DependentUpon>
     </Compile>
     <Compile Include="Edit_Subject.cs">
@@ -165,7 +161,7 @@
     <Compile Include="Edit_Tag.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Edit_Tag.Designer.cs">
+    <Compile Include="Edit_Tag.designer.cs">
       <DependentUpon>Edit_Tag.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
@@ -192,6 +188,12 @@
     <Compile Include="NATRDelete.Designer.cs">
       <DependentUpon>NATRDelete.cs</DependentUpon>
     </Compile>
+    <Compile Include="Non Overlapping Session .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Non Overlapping Session .designer.cs">
+      <DependentUpon>Non Overlapping Session .cs</DependentUpon>
+    </Compile>
     <Compile Include="NotATRView.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -209,6 +211,12 @@
     </Compile>
     <Compile Include="NotAvailableTimeRoom.Designer.cs">
       <DependentUpon>NotAvailableTimeRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parallel Session.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parallel Session.designer.cs">
+      <DependentUpon>Parallel Session.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -229,6 +237,18 @@
     </Compile>
     <Compile Include="View Lecturer.Designer.cs">
       <DependentUpon>View Lecturer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View Non_Overlapping_Session.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View Non_Overlapping_Session.designer.cs">
+      <DependentUpon>View Non_Overlapping_Session.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View Parallel Session.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View Parallel Session.designer.cs">
+      <DependentUpon>View Parallel Session.cs</DependentUpon>
     </Compile>
     <Compile Include="ViewWorkingDays.cs">
       <SubType>Form</SubType>
@@ -251,7 +271,7 @@
     <Compile Include="View_Student.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View_Student.Designer.cs">
+    <Compile Include="View_Student.designer.cs">
       <DependentUpon>View_Student.cs</DependentUpon>
     </Compile>
     <Compile Include="View_Subject.cs">
@@ -263,7 +283,7 @@
     <Compile Include="View_Tag.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="View_Tag.Designer.cs">
+    <Compile Include="View_Tag.designer.cs">
       <DependentUpon>View_Tag.cs</DependentUpon>
     </Compile>
     <Compile Include="WorkingDays_Hours.cs">
@@ -290,8 +310,8 @@
     <EmbeddedResource Include="Add_Tag.resx">
       <DependentUpon>Add_Tag.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Consecutive.resx">
-      <DependentUpon>Consecutive.cs</DependentUpon>
+    <EmbeddedResource Include="Consecutive Session.resx">
+      <DependentUpon>Consecutive Session.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DeleteWorkingDayscs.resx">
       <DependentUpon>DeleteWorkingDayscs.cs</DependentUpon>
@@ -307,9 +327,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Delete_Subject.resx">
       <DependentUpon>Delete_Subject.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Delete_Tag.resx">
-      <DependentUpon>Delete_Tag.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Edit Lecturer.resx">
       <DependentUpon>Edit Lecturer.cs</DependentUpon>
@@ -344,6 +361,9 @@
     <EmbeddedResource Include="NATRDelete.resx">
       <DependentUpon>NATRDelete.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Non Overlapping Session .resx">
+      <DependentUpon>Non Overlapping Session .cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="NotATRView.resx">
       <DependentUpon>NotATRView.cs</DependentUpon>
     </EmbeddedResource>
@@ -352,6 +372,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="NotAvailableTimeRoom.resx">
       <DependentUpon>NotAvailableTimeRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parallel Session.resx">
+      <DependentUpon>Parallel Session.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -370,6 +393,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View Lecturer.resx">
       <DependentUpon>View Lecturer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View Non_Overlapping_Session.resx">
+      <DependentUpon>View Non_Overlapping_Session.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View Parallel Session.resx">
+      <DependentUpon>View Parallel Session.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ViewWorkingDays.resx">
       <DependentUpon>ViewWorkingDays.cs</DependentUpon>

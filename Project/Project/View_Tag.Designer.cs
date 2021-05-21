@@ -29,9 +29,6 @@ namespace Project
         /// </summary>
         private void InitializeComponent()
         {
-            this.TagVLabel2 = new System.Windows.Forms.Button();
-            this.TagVLabel3 = new System.Windows.Forms.Button();
-            this.TagVLabel1 = new System.Windows.Forms.Button();
             this.TagLabl = new System.Windows.Forms.Label();
             this.TagVTimeTable = new System.Windows.Forms.Button();
             this.TagVStatistics = new System.Windows.Forms.Button();
@@ -45,42 +42,17 @@ namespace Project
             this.TagVSubject = new System.Windows.Forms.Button();
             this.TagVStudent = new System.Windows.Forms.Button();
             this.TagVLecturer = new System.Windows.Forms.Button();
-            this.TagtextBoxsearch = new System.Windows.Forms.TextBox();
-            this.TagDELETE = new System.Windows.Forms.Button();
-            this.TagEDIT = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBoxSsearch = new System.Windows.Forms.TextBox();
+            this.TagLabel3 = new System.Windows.Forms.Button();
+            this.TagLabel2 = new System.Windows.Forms.Button();
+            this.TagLabel1 = new System.Windows.Forms.Button();
             this.dataGridViewTag = new System.Windows.Forms.DataGridView();
+            this.btnTagRefresh = new System.Windows.Forms.Button();
+            this.btn_TagDELETE = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewTag)).BeginInit();
             this.SuspendLayout();
-            // 
-            // TagVLabel2
-            // 
-            this.TagVLabel2.BackColor = System.Drawing.Color.LightSlateGray;
-            this.TagVLabel2.Location = new System.Drawing.Point(345, 91);
-            this.TagVLabel2.Name = "TagVLabel2";
-            this.TagVLabel2.Size = new System.Drawing.Size(208, 35);
-            this.TagVLabel2.TabIndex = 130;
-            this.TagVLabel2.Text = "Edit Tag";
-            this.TagVLabel2.UseVisualStyleBackColor = false;
-            // 
-            // TagVLabel3
-            // 
-            this.TagVLabel3.BackColor = System.Drawing.Color.Crimson;
-            this.TagVLabel3.Location = new System.Drawing.Point(560, 90);
-            this.TagVLabel3.Name = "TagVLabel3";
-            this.TagVLabel3.Size = new System.Drawing.Size(208, 35);
-            this.TagVLabel3.TabIndex = 129;
-            this.TagVLabel3.Text = "View Tag";
-            this.TagVLabel3.UseVisualStyleBackColor = false;
-            // 
-            // TagVLabel1
-            // 
-            this.TagVLabel1.BackColor = System.Drawing.Color.LightSlateGray;
-            this.TagVLabel1.Location = new System.Drawing.Point(132, 91);
-            this.TagVLabel1.Name = "TagVLabel1";
-            this.TagVLabel1.Size = new System.Drawing.Size(208, 35);
-            this.TagVLabel1.TabIndex = 121;
-            this.TagVLabel1.Text = "Add Tag";
-            this.TagVLabel1.UseVisualStyleBackColor = false;
             // 
             // TagLabl
             // 
@@ -100,6 +72,7 @@ namespace Project
             this.TagVTimeTable.TabIndex = 119;
             this.TagVTimeTable.Text = "Time Table";
             this.TagVTimeTable.UseVisualStyleBackColor = true;
+            this.TagVTimeTable.Click += new System.EventHandler(this.TagVTimeTable_Click);
             // 
             // TagVStatistics
             // 
@@ -109,6 +82,7 @@ namespace Project
             this.TagVStatistics.TabIndex = 118;
             this.TagVStatistics.Text = "Statistics";
             this.TagVStatistics.UseVisualStyleBackColor = true;
+            this.TagVStatistics.Click += new System.EventHandler(this.TagVStatistics_Click);
             // 
             // TagVLocations
             // 
@@ -118,6 +92,7 @@ namespace Project
             this.TagVLocations.TabIndex = 117;
             this.TagVLocations.Text = "Location";
             this.TagVLocations.UseVisualStyleBackColor = true;
+            this.TagVLocations.Click += new System.EventHandler(this.TagVLocations_Click);
             // 
             // TagVRoom
             // 
@@ -145,6 +120,7 @@ namespace Project
             this.TagVTag.TabIndex = 114;
             this.TagVTag.Text = "Tag";
             this.TagVTag.UseVisualStyleBackColor = true;
+            this.TagVTag.Click += new System.EventHandler(this.TagVTag_Click);
             // 
             // TagVWorking
             // 
@@ -154,6 +130,7 @@ namespace Project
             this.TagVWorking.TabIndex = 113;
             this.TagVWorking.Text = "Working Days and Hours";
             this.TagVWorking.UseVisualStyleBackColor = true;
+            this.TagVWorking.Click += new System.EventHandler(this.TagVWorking_Click);
             // 
             // TagVAdvanced
             // 
@@ -163,6 +140,7 @@ namespace Project
             this.TagVAdvanced.TabIndex = 112;
             this.TagVAdvanced.Text = "Advanced Session";
             this.TagVAdvanced.UseVisualStyleBackColor = true;
+            this.TagVAdvanced.Click += new System.EventHandler(this.TagVAdvanced_Click);
             // 
             // TagVSession
             // 
@@ -172,6 +150,7 @@ namespace Project
             this.TagVSession.TabIndex = 111;
             this.TagVSession.Text = "Session";
             this.TagVSession.UseVisualStyleBackColor = true;
+            this.TagVSession.Click += new System.EventHandler(this.TagVSession_Click);
             // 
             // TagVSubject
             // 
@@ -181,6 +160,7 @@ namespace Project
             this.TagVSubject.TabIndex = 110;
             this.TagVSubject.Text = "Subject";
             this.TagVSubject.UseVisualStyleBackColor = true;
+            this.TagVSubject.Click += new System.EventHandler(this.TagVSubject_Click);
             // 
             // TagVStudent
             // 
@@ -190,6 +170,7 @@ namespace Project
             this.TagVStudent.TabIndex = 109;
             this.TagVStudent.Text = "Student";
             this.TagVStudent.UseVisualStyleBackColor = true;
+            this.TagVStudent.Click += new System.EventHandler(this.TagVStudent_Click);
             // 
             // TagVLecturer
             // 
@@ -199,47 +180,102 @@ namespace Project
             this.TagVLecturer.TabIndex = 108;
             this.TagVLecturer.Text = "Lecturer";
             this.TagVLecturer.UseVisualStyleBackColor = true;
+            this.TagVLecturer.Click += new System.EventHandler(this.TagVLecturer_Click);
             // 
-            // TagtextBoxsearch
+            // label3
             // 
-            this.TagtextBoxsearch.Location = new System.Drawing.Point(573, 150);
-            this.TagtextBoxsearch.Name = "TagtextBoxsearch";
-            this.TagtextBoxsearch.Size = new System.Drawing.Size(295, 22);
-            this.TagtextBoxsearch.TabIndex = 134;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(510, 151);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(68, 20);
+            this.label3.TabIndex = 136;
+            this.label3.Text = "Search";
             // 
-            // TagDELETE
+            // textBoxSsearch
             // 
-            this.TagDELETE.BackColor = System.Drawing.Color.Red;
-            this.TagDELETE.Location = new System.Drawing.Point(779, 560);
-            this.TagDELETE.Name = "TagDELETE";
-            this.TagDELETE.Size = new System.Drawing.Size(90, 36);
-            this.TagDELETE.TabIndex = 133;
-            this.TagDELETE.Text = "DELETE ";
-            this.TagDELETE.UseVisualStyleBackColor = false;
-            this.TagDELETE.Click += new System.EventHandler(this.TagDELETE_Click);
+            this.textBoxSsearch.Location = new System.Drawing.Point(612, 151);
+            this.textBoxSsearch.Name = "textBoxSsearch";
+            this.textBoxSsearch.Size = new System.Drawing.Size(229, 22);
+            this.textBoxSsearch.TabIndex = 135;
+            this.textBoxSsearch.TextChanged += new System.EventHandler(this.textBoxSsearch_TextChanged);
             // 
-            // TagEDIT
+            // TagLabel3
             // 
-            this.TagEDIT.BackColor = System.Drawing.Color.Green;
-            this.TagEDIT.Location = new System.Drawing.Point(683, 560);
-            this.TagEDIT.Name = "TagEDIT";
-            this.TagEDIT.Size = new System.Drawing.Size(90, 36);
-            this.TagEDIT.TabIndex = 132;
-            this.TagEDIT.Text = "EDIT ";
-            this.TagEDIT.UseVisualStyleBackColor = false;
-            this.TagEDIT.Click += new System.EventHandler(this.TagEDIT_Click);
+            this.TagLabel3.BackColor = System.Drawing.Color.LightSlateGray;
+            this.TagLabel3.Location = new System.Drawing.Point(573, 91);
+            this.TagLabel3.Name = "TagLabel3";
+            this.TagLabel3.Size = new System.Drawing.Size(208, 35);
+            this.TagLabel3.TabIndex = 139;
+            this.TagLabel3.Text = "Edit Tag";
+            this.TagLabel3.UseVisualStyleBackColor = false;
+            this.TagLabel3.Click += new System.EventHandler(this.TagLabel3_Click);
+            // 
+            // TagLabel2
+            // 
+            this.TagLabel2.BackColor = System.Drawing.Color.Crimson;
+            this.TagLabel2.Location = new System.Drawing.Point(359, 91);
+            this.TagLabel2.Name = "TagLabel2";
+            this.TagLabel2.Size = new System.Drawing.Size(208, 35);
+            this.TagLabel2.TabIndex = 138;
+            this.TagLabel2.Text = "View Tag";
+            this.TagLabel2.UseVisualStyleBackColor = false;
+            this.TagLabel2.Click += new System.EventHandler(this.TagLabel2_Click);
+            // 
+            // TagLabel1
+            // 
+            this.TagLabel1.BackColor = System.Drawing.Color.LightSlateGray;
+            this.TagLabel1.Location = new System.Drawing.Point(144, 91);
+            this.TagLabel1.Name = "TagLabel1";
+            this.TagLabel1.Size = new System.Drawing.Size(208, 35);
+            this.TagLabel1.TabIndex = 137;
+            this.TagLabel1.Text = "Add Tag";
+            this.TagLabel1.UseVisualStyleBackColor = false;
+            this.TagLabel1.Click += new System.EventHandler(this.TagLabel1_Click);
             // 
             // dataGridViewTag
             // 
             this.dataGridViewTag.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewTag.Location = new System.Drawing.Point(146, 206);
+            this.dataGridViewTag.Location = new System.Drawing.Point(160, 214);
             this.dataGridViewTag.Name = "dataGridViewTag";
             this.dataGridViewTag.RowHeadersWidth = 51;
             this.dataGridViewTag.RowTemplate.Height = 24;
-            this.dataGridViewTag.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewTag.Size = new System.Drawing.Size(725, 329);
-            this.dataGridViewTag.TabIndex = 131;
-            this.dataGridViewTag.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewTag_CellContentClick);
+            this.dataGridViewTag.Size = new System.Drawing.Size(655, 261);
+            this.dataGridViewTag.TabIndex = 140;
+            this.dataGridViewTag.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewTag_CellClick);
+            this.dataGridViewTag.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewTag_CellDoubleClick);
+            // 
+            // btnTagRefresh
+            // 
+            this.btnTagRefresh.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnTagRefresh.Location = new System.Drawing.Point(567, 560);
+            this.btnTagRefresh.Name = "btnTagRefresh";
+            this.btnTagRefresh.Size = new System.Drawing.Size(90, 35);
+            this.btnTagRefresh.TabIndex = 166;
+            this.btnTagRefresh.Text = "REFRESH";
+            this.btnTagRefresh.UseVisualStyleBackColor = false;
+            this.btnTagRefresh.Click += new System.EventHandler(this.btnTagRefresh_Click);
+            // 
+            // btn_TagDELETE
+            // 
+            this.btn_TagDELETE.BackColor = System.Drawing.Color.Red;
+            this.btn_TagDELETE.Location = new System.Drawing.Point(725, 559);
+            this.btn_TagDELETE.Name = "btn_TagDELETE";
+            this.btn_TagDELETE.Size = new System.Drawing.Size(90, 36);
+            this.btn_TagDELETE.TabIndex = 165;
+            this.btn_TagDELETE.Text = "DELETE ";
+            this.btn_TagDELETE.UseVisualStyleBackColor = false;
+            this.btn_TagDELETE.Click += new System.EventHandler(this.btn_TagDELETE_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(597, 509);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(46, 17);
+            this.label1.TabIndex = 167;
+            this.label1.Text = "label1";
+            this.label1.Visible = false;
             // 
             // View_Tag
             // 
@@ -247,13 +283,15 @@ namespace Project
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
             this.ClientSize = new System.Drawing.Size(892, 643);
-            this.Controls.Add(this.TagtextBoxsearch);
-            this.Controls.Add(this.TagDELETE);
-            this.Controls.Add(this.TagEDIT);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnTagRefresh);
+            this.Controls.Add(this.btn_TagDELETE);
             this.Controls.Add(this.dataGridViewTag);
-            this.Controls.Add(this.TagVLabel2);
-            this.Controls.Add(this.TagVLabel3);
-            this.Controls.Add(this.TagVLabel1);
+            this.Controls.Add(this.TagLabel3);
+            this.Controls.Add(this.TagLabel2);
+            this.Controls.Add(this.TagLabel1);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.textBoxSsearch);
             this.Controls.Add(this.TagLabl);
             this.Controls.Add(this.TagVTimeTable);
             this.Controls.Add(this.TagVStatistics);
@@ -269,6 +307,7 @@ namespace Project
             this.Controls.Add(this.TagVLecturer);
             this.Name = "View_Tag";
             this.Text = "View_Tag";
+            this.Load += new System.EventHandler(this.View_Tag_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewTag)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -276,9 +315,6 @@ namespace Project
         }
 
         #endregion
-        private System.Windows.Forms.Button TagVLabel2;
-        private System.Windows.Forms.Button TagVLabel3;
-        private System.Windows.Forms.Button TagVLabel1;
         private System.Windows.Forms.Label TagLabl;
         private System.Windows.Forms.Button TagVTimeTable;
         private System.Windows.Forms.Button TagVStatistics;
@@ -292,9 +328,14 @@ namespace Project
         private System.Windows.Forms.Button TagVSubject;
         private System.Windows.Forms.Button TagVStudent;
         private System.Windows.Forms.Button TagVLecturer;
-        private System.Windows.Forms.TextBox TagtextBoxsearch;
-        private System.Windows.Forms.Button TagDELETE;
-        private System.Windows.Forms.Button TagEDIT;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBoxSsearch;
+        private System.Windows.Forms.Button TagLabel3;
+        private System.Windows.Forms.Button TagLabel2;
+        private System.Windows.Forms.Button TagLabel1;
         private System.Windows.Forms.DataGridView dataGridViewTag;
+        private System.Windows.Forms.Button btnTagRefresh;
+        private System.Windows.Forms.Button btn_TagDELETE;
+        private System.Windows.Forms.Label label1;
     }
 }

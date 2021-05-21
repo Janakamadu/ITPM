@@ -49,8 +49,9 @@ namespace Project
             this.StuDELETE = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.StudataGridViewLecturer = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.StudataGridViewLecturer)).BeginInit();
+            this.StuRefresh = new System.Windows.Forms.Button();
+            this.StudataGridView = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.StudataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // StuLabel2
@@ -73,6 +74,7 @@ namespace Project
             this.StuLabel3.TabIndex = 88;
             this.StuLabel3.Text = "Edit Student";
             this.StuLabel3.UseVisualStyleBackColor = false;
+            this.StuLabel3.Click += new System.EventHandler(this.StuLabel3_Click);
             // 
             // StuLabel1
             // 
@@ -83,6 +85,7 @@ namespace Project
             this.StuLabel1.TabIndex = 87;
             this.StuLabel1.Text = "Add Student";
             this.StuLabel1.UseVisualStyleBackColor = false;
+            this.StuLabel1.Click += new System.EventHandler(this.StuLabel1_Click);
             // 
             // StuLabl
             // 
@@ -102,6 +105,7 @@ namespace Project
             this.StuTimeTable.TabIndex = 85;
             this.StuTimeTable.Text = "Time Table";
             this.StuTimeTable.UseVisualStyleBackColor = true;
+            this.StuTimeTable.Click += new System.EventHandler(this.StuTimeTable_Click);
             // 
             // StuStatistics
             // 
@@ -111,6 +115,7 @@ namespace Project
             this.StuStatistics.TabIndex = 84;
             this.StuStatistics.Text = "Statistics";
             this.StuStatistics.UseVisualStyleBackColor = true;
+            this.StuStatistics.Click += new System.EventHandler(this.StuStatistics_Click);
             // 
             // StuLocations
             // 
@@ -120,6 +125,7 @@ namespace Project
             this.StuLocations.TabIndex = 83;
             this.StuLocations.Text = "Location";
             this.StuLocations.UseVisualStyleBackColor = true;
+            this.StuLocations.Click += new System.EventHandler(this.StuLocations_Click);
             // 
             // StuRoom
             // 
@@ -129,6 +135,7 @@ namespace Project
             this.StuRoom.TabIndex = 82;
             this.StuRoom.Text = "Room";
             this.StuRoom.UseVisualStyleBackColor = true;
+            this.StuRoom.Click += new System.EventHandler(this.StuRoom_Click);
             // 
             // StuHome
             // 
@@ -138,6 +145,7 @@ namespace Project
             this.StuHome.TabIndex = 81;
             this.StuHome.Text = "Home";
             this.StuHome.UseVisualStyleBackColor = true;
+            this.StuHome.Click += new System.EventHandler(this.StuHome_Click);
             // 
             // StuTag
             // 
@@ -147,6 +155,7 @@ namespace Project
             this.StuTag.TabIndex = 80;
             this.StuTag.Text = "Tag";
             this.StuTag.UseVisualStyleBackColor = true;
+            this.StuTag.Click += new System.EventHandler(this.StuTag_Click);
             // 
             // StuWorking
             // 
@@ -156,6 +165,7 @@ namespace Project
             this.StuWorking.TabIndex = 79;
             this.StuWorking.Text = "Working Days and Hours";
             this.StuWorking.UseVisualStyleBackColor = true;
+            this.StuWorking.Click += new System.EventHandler(this.StuWorking_Click);
             // 
             // StuAdvanced
             // 
@@ -165,6 +175,7 @@ namespace Project
             this.StuAdvanced.TabIndex = 78;
             this.StuAdvanced.Text = "Advanced Session";
             this.StuAdvanced.UseVisualStyleBackColor = true;
+            this.StuAdvanced.Click += new System.EventHandler(this.StuAdvanced_Click);
             // 
             // StuSession
             // 
@@ -174,6 +185,7 @@ namespace Project
             this.StuSession.TabIndex = 77;
             this.StuSession.Text = "Session";
             this.StuSession.UseVisualStyleBackColor = true;
+            this.StuSession.Click += new System.EventHandler(this.StuSession_Click);
             // 
             // StuSubject
             // 
@@ -183,6 +195,7 @@ namespace Project
             this.StuSubject.TabIndex = 76;
             this.StuSubject.Text = "Subject";
             this.StuSubject.UseVisualStyleBackColor = true;
+            this.StuSubject.Click += new System.EventHandler(this.StuSubject_Click);
             // 
             // StuStudent
             // 
@@ -192,6 +205,7 @@ namespace Project
             this.StuStudent.TabIndex = 75;
             this.StuStudent.Text = "Student";
             this.StuStudent.UseVisualStyleBackColor = true;
+            this.StuStudent.Click += new System.EventHandler(this.StuStudent_Click);
             // 
             // StuLecturer
             // 
@@ -201,6 +215,7 @@ namespace Project
             this.StuLecturer.TabIndex = 74;
             this.StuLecturer.Text = "Lecturer";
             this.StuLecturer.UseVisualStyleBackColor = true;
+            this.StuLecturer.Click += new System.EventHandler(this.StuLecturer_Click);
             // 
             // StutextBoxsearch
             // 
@@ -241,17 +256,28 @@ namespace Project
             this.label2.TabIndex = 94;
             this.label2.Text = "Search";
             // 
-            // StudataGridViewLecturer
+            // StuRefresh
             // 
-            this.StudataGridViewLecturer.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.StudataGridViewLecturer.Location = new System.Drawing.Point(184, 247);
-            this.StudataGridViewLecturer.Name = "StudataGridViewLecturer";
-            this.StudataGridViewLecturer.RowHeadersWidth = 51;
-            this.StudataGridViewLecturer.RowTemplate.Height = 24;
-            this.StudataGridViewLecturer.Size = new System.Drawing.Size(620, 221);
-            this.StudataGridViewLecturer.TabIndex = 95;
-            this.StudataGridViewLecturer.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.StudataGridViewLecturer_CellClik);
-            this.StudataGridViewLecturer.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.StudataGridViewLecturer_DoubleClick);
+            this.StuRefresh.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.StuRefresh.Location = new System.Drawing.Point(556, 578);
+            this.StuRefresh.Name = "StuRefresh";
+            this.StuRefresh.Size = new System.Drawing.Size(90, 35);
+            this.StuRefresh.TabIndex = 164;
+            this.StuRefresh.Text = "REFRESH";
+            this.StuRefresh.UseVisualStyleBackColor = false;
+            this.StuRefresh.Click += new System.EventHandler(this.StuRefresh_Click);
+            // 
+            // StudataGridView
+            // 
+            this.StudataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.StudataGridView.Location = new System.Drawing.Point(165, 231);
+            this.StudataGridView.Name = "StudataGridView";
+            this.StudataGridView.RowHeadersWidth = 51;
+            this.StudataGridView.RowTemplate.Height = 24;
+            this.StudataGridView.Size = new System.Drawing.Size(675, 275);
+            this.StudataGridView.TabIndex = 165;
+            this.StudataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.StudataGridView_CellClick);
+            this.StudataGridView.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.StudataGridView_DoubleClick);
             // 
             // View_Student
             // 
@@ -259,7 +285,8 @@ namespace Project
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
             this.ClientSize = new System.Drawing.Size(892, 643);
-            this.Controls.Add(this.StudataGridViewLecturer);
+            this.Controls.Add(this.StudataGridView);
+            this.Controls.Add(this.StuRefresh);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.StutextBoxsearch);
@@ -283,7 +310,7 @@ namespace Project
             this.Name = "View_Student";
             this.Text = "View_Student";
             this.Load += new System.EventHandler(this.View_Student_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.StudataGridViewLecturer)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.StudataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -310,6 +337,7 @@ namespace Project
         private System.Windows.Forms.Button StuDELETE;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.DataGridView StudataGridViewLecturer;
+        private System.Windows.Forms.Button StuRefresh;
+        private System.Windows.Forms.DataGridView StudataGridView;
     }
 }
