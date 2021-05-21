@@ -169,7 +169,31 @@ namespace Project
 
         private void btnSaveNotTime_Click(object sender, EventArgs e)
         {
+            try
+            {
 
+                string MyConnection2 = "datasource=localhost;port=3306;username=root;password=root";
+
+
+
+                string Query = "insert into itpm_project.addsessionnot(LName,grp_no,sub_grp_no,Session_ID,Time) values('" + this.selectLecturerComboBox.Text + "','" + this.selectGroupComboBox.Text + "','" + this.selectSubGroupComboBox.Text + "','" + this.selectSessionComboBox.Text + "','" + this.textTime.Text + "');";
+                // Query2 = "insert into addnotavailabletimeandroomdb.add_session(Session_ID) values('" + this.selectSessionComboBox.Text + "');";
+                MySqlConnection MyConn2 = new MySqlConnection(MyConnection2);
+                MySqlCommand MyCommand2 = new MySqlCommand(Query, MyConn2);
+                MySqlDataReader MyReader2;
+                MyConn2.Open();
+                MyReader2 = MyCommand2.ExecuteReader();
+                MessageBox.Show("Submit Data");
+                while (MyReader2.Read())
+                {
+
+                }
+                MyConn2.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void btnViewNotTime_Click(object sender, EventArgs e)

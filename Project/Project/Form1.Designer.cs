@@ -211,6 +211,7 @@ namespace Project
             this.Controls.Add(this.HHome);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Homepage";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home_Page";
             this.ResumeLayout(false);
 

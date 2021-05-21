@@ -251,8 +251,8 @@ namespace Project
             // 
             this.selectSubGroupComboBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.selectSubGroupComboBox.FormattingEnabled = true;
-            this.selectSubGroupComboBox.Location = new System.Drawing.Point(471, 252);
-            this.selectSubGroupComboBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.selectSubGroupComboBox.Location = new System.Drawing.Point(477, 252);
+            this.selectSubGroupComboBox.Margin = new System.Windows.Forms.Padding(4);
             this.selectSubGroupComboBox.Name = "selectSubGroupComboBox";
             this.selectSubGroupComboBox.Size = new System.Drawing.Size(259, 24);
             this.selectSubGroupComboBox.TabIndex = 163;
@@ -263,7 +263,7 @@ namespace Project
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(269, 252);
+            this.label3.Location = new System.Drawing.Point(275, 252);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(170, 28);
@@ -274,8 +274,8 @@ namespace Project
             // 
             this.selectSessionComboBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.selectSessionComboBox.FormattingEnabled = true;
-            this.selectSessionComboBox.Location = new System.Drawing.Point(471, 308);
-            this.selectSessionComboBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.selectSessionComboBox.Location = new System.Drawing.Point(477, 308);
+            this.selectSessionComboBox.Margin = new System.Windows.Forms.Padding(4);
             this.selectSessionComboBox.Name = "selectSessionComboBox";
             this.selectSessionComboBox.Size = new System.Drawing.Size(259, 24);
             this.selectSessionComboBox.TabIndex = 161;
@@ -286,7 +286,7 @@ namespace Project
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(264, 308);
+            this.label5.Location = new System.Drawing.Point(270, 308);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(167, 28);
@@ -296,8 +296,8 @@ namespace Project
             // textTime
             // 
             this.textTime.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.textTime.Location = new System.Drawing.Point(471, 357);
-            this.textTime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textTime.Location = new System.Drawing.Point(477, 357);
+            this.textTime.Margin = new System.Windows.Forms.Padding(4);
             this.textTime.Name = "textTime";
             this.textTime.Size = new System.Drawing.Size(259, 22);
             this.textTime.TabIndex = 159;
@@ -308,7 +308,7 @@ namespace Project
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(269, 353);
+            this.label4.Location = new System.Drawing.Point(275, 353);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(57, 28);
@@ -319,8 +319,8 @@ namespace Project
             // 
             this.selectLecturerComboBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.selectLecturerComboBox.FormattingEnabled = true;
-            this.selectLecturerComboBox.Location = new System.Drawing.Point(471, 155);
-            this.selectLecturerComboBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.selectLecturerComboBox.Location = new System.Drawing.Point(477, 155);
+            this.selectLecturerComboBox.Margin = new System.Windows.Forms.Padding(4);
             this.selectLecturerComboBox.Name = "selectLecturerComboBox";
             this.selectLecturerComboBox.Size = new System.Drawing.Size(259, 24);
             this.selectLecturerComboBox.TabIndex = 157;
@@ -331,7 +331,7 @@ namespace Project
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(261, 155);
+            this.label2.Location = new System.Drawing.Point(267, 155);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(146, 28);
@@ -342,8 +342,8 @@ namespace Project
             // 
             this.selectGroupComboBox.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.selectGroupComboBox.FormattingEnabled = true;
-            this.selectGroupComboBox.Location = new System.Drawing.Point(471, 201);
-            this.selectGroupComboBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.selectGroupComboBox.Location = new System.Drawing.Point(477, 201);
+            this.selectGroupComboBox.Margin = new System.Windows.Forms.Padding(4);
             this.selectGroupComboBox.Name = "selectGroupComboBox";
             this.selectGroupComboBox.Size = new System.Drawing.Size(259, 24);
             this.selectGroupComboBox.TabIndex = 155;
@@ -354,7 +354,7 @@ namespace Project
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(264, 201);
+            this.label1.Location = new System.Drawing.Point(270, 201);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(129, 28);
@@ -369,8 +369,8 @@ namespace Project
             this.btnClearNotTime.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClearNotTime.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClearNotTime.ForeColor = System.Drawing.Color.White;
-            this.btnClearNotTime.Location = new System.Drawing.Point(569, 416);
-            this.btnClearNotTime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClearNotTime.Location = new System.Drawing.Point(581, 416);
+            this.btnClearNotTime.Margin = new System.Windows.Forms.Padding(4);
             this.btnClearNotTime.Name = "btnClearNotTime";
             this.btnClearNotTime.Size = new System.Drawing.Size(104, 39);
             this.btnClearNotTime.TabIndex = 166;
@@ -386,8 +386,8 @@ namespace Project
             this.btnViewNotTime.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnViewNotTime.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnViewNotTime.ForeColor = System.Drawing.Color.White;
-            this.btnViewNotTime.Location = new System.Drawing.Point(384, 416);
-            this.btnViewNotTime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnViewNotTime.Location = new System.Drawing.Point(390, 416);
+            this.btnViewNotTime.Margin = new System.Windows.Forms.Padding(4);
             this.btnViewNotTime.Name = "btnViewNotTime";
             this.btnViewNotTime.Size = new System.Drawing.Size(104, 39);
             this.btnViewNotTime.TabIndex = 165;
@@ -403,7 +403,7 @@ namespace Project
             this.btnSaveNotTime.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSaveNotTime.ForeColor = System.Drawing.Color.White;
             this.btnSaveNotTime.Location = new System.Drawing.Point(213, 416);
-            this.btnSaveNotTime.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSaveNotTime.Margin = new System.Windows.Forms.Padding(4);
             this.btnSaveNotTime.Name = "btnSaveNotTime";
             this.btnSaveNotTime.Size = new System.Drawing.Size(104, 39);
             this.btnSaveNotTime.TabIndex = 164;
@@ -419,8 +419,8 @@ namespace Project
             this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDelete.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ForeColor = System.Drawing.Color.White;
-            this.btnDelete.Location = new System.Drawing.Point(732, 416);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDelete.Location = new System.Drawing.Point(744, 416);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(4);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(104, 39);
             this.btnDelete.TabIndex = 168;
@@ -432,7 +432,7 @@ namespace Project
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(132, 480);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(755, 165);
@@ -443,7 +443,7 @@ namespace Project
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(892, 642);
+            this.ClientSize = new System.Drawing.Size(904, 663);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnClearNotTime);
@@ -476,7 +476,7 @@ namespace Project
             this.Controls.Add(this.NATRVSubject);
             this.Controls.Add(this.NATRVStudent);
             this.Controls.Add(this.NATRVLecturer);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "NotAvailableSession";
             this.Text = "NotAvailableSession";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
