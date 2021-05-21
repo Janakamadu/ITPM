@@ -130,8 +130,26 @@ namespace Project
 
         private void LocDTimeTable_Click(object sender, EventArgs e)
         {
-            Add_Location add = new Add_Location();
-            add.Show();
+            TTLecGenereate tTLecGenereate = new TTLecGenereate();
+            tTLecGenereate.Show();
+        }
+
+        private void LocDAdvanced_Click(object sender, EventArgs e)
+        {
+            Consecutive_Session consecutive_Session = new Consecutive_Session();
+            consecutive_Session.Show();
+        }
+
+        private void LocDHome_Click(object sender, EventArgs e)
+        {
+
+            Homepage homepage = new Homepage();
+            homepage.Show();
+        }
+
+        private void Delete_Location_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

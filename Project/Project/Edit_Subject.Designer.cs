@@ -262,6 +262,7 @@ namespace Project
             this.LTimeTable.TabIndex = 91;
             this.LTimeTable.Text = "Time Table";
             this.LTimeTable.UseVisualStyleBackColor = true;
+            this.LTimeTable.Click += new System.EventHandler(this.LTimeTable_Click);
             // 
             // LStatistics
             // 
@@ -301,6 +302,7 @@ namespace Project
             this.LHome.TabIndex = 87;
             this.LHome.Text = "Home";
             this.LHome.UseVisualStyleBackColor = true;
+            this.LHome.Click += new System.EventHandler(this.LHome_Click);
             // 
             // LTag
             // 
@@ -433,7 +435,57 @@ namespace Project
             "47",
             "48",
             "49",
-            "50"});
+            "50",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "57",
+            "58",
+            "59",
+            "60",
+            "61",
+            "62",
+            "63",
+            "64",
+            "65",
+            "66",
+            "67",
+            "68",
+            "69",
+            "70",
+            "71",
+            "72",
+            "73",
+            "74",
+            "75",
+            "76",
+            "77",
+            "78",
+            "79",
+            "80",
+            "81",
+            "82",
+            "83",
+            "84",
+            "85",
+            "86",
+            "87",
+            "88",
+            "89",
+            "90",
+            "91",
+            "92",
+            "93",
+            "94",
+            "95",
+            "96",
+            "97",
+            "98",
+            "99",
+            "100"});
             this.ScomboBoxRollNo.Location = new System.Drawing.Point(369, 148);
             this.ScomboBoxRollNo.Name = "ScomboBoxRollNo";
             this.ScomboBoxRollNo.Size = new System.Drawing.Size(375, 24);

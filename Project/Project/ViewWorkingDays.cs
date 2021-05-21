@@ -111,5 +111,24 @@ namespace Project
             Add_Lecturer add = new Add_Lecturer();
             add.Show();
         }
+
+        private void WDVAdvanced_Click(object sender, EventArgs e)
+        {
+            Consecutive_Session consecutive_Session = new Consecutive_Session();
+            consecutive_Session.Show();
+        }
+
+        private void ViewWorkingDays_Load(object sender, EventArgs e)
+        {
+            TTLecGenereate tTLecGenereate = new TTLecGenereate();
+            tTLecGenereate.Show();
+        }
+
+        private void WDVHome_Click(object sender, EventArgs e)
+        {
+
+            Homepage homepage = new Homepage();
+            homepage.Show();
+        }
     }
 }

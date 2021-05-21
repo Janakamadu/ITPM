@@ -53,10 +53,10 @@ namespace Project
             // LocDLabel3
             // 
             this.LocDLabel3.BackColor = System.Drawing.Color.LightSlateGray;
-            this.LocDLabel3.Location = new System.Drawing.Point(422, 74);
-            this.LocDLabel3.Margin = new System.Windows.Forms.Padding(2);
+            this.LocDLabel3.Location = new System.Drawing.Point(563, 91);
+            this.LocDLabel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocDLabel3.Name = "LocDLabel3";
-            this.LocDLabel3.Size = new System.Drawing.Size(156, 28);
+            this.LocDLabel3.Size = new System.Drawing.Size(208, 34);
             this.LocDLabel3.TabIndex = 117;
             this.LocDLabel3.Text = "View Location";
             this.LocDLabel3.UseVisualStyleBackColor = false;
@@ -65,10 +65,10 @@ namespace Project
             // LocDLabel2
             // 
             this.LocDLabel2.BackColor = System.Drawing.Color.Crimson;
-            this.LocDLabel2.Location = new System.Drawing.Point(262, 73);
-            this.LocDLabel2.Margin = new System.Windows.Forms.Padding(2);
+            this.LocDLabel2.Location = new System.Drawing.Point(349, 90);
+            this.LocDLabel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocDLabel2.Name = "LocDLabel2";
-            this.LocDLabel2.Size = new System.Drawing.Size(156, 28);
+            this.LocDLabel2.Size = new System.Drawing.Size(208, 34);
             this.LocDLabel2.TabIndex = 116;
             this.LocDLabel2.Text = "Edit Location";
             this.LocDLabel2.UseVisualStyleBackColor = false;
@@ -76,10 +76,10 @@ namespace Project
             // LocDLabel1
             // 
             this.LocDLabel1.BackColor = System.Drawing.Color.LightSlateGray;
-            this.LocDLabel1.Location = new System.Drawing.Point(101, 74);
-            this.LocDLabel1.Margin = new System.Windows.Forms.Padding(2);
+            this.LocDLabel1.Location = new System.Drawing.Point(135, 91);
+            this.LocDLabel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocDLabel1.Name = "LocDLabel1";
-            this.LocDLabel1.Size = new System.Drawing.Size(156, 28);
+            this.LocDLabel1.Size = new System.Drawing.Size(208, 34);
             this.LocDLabel1.TabIndex = 115;
             this.LocDLabel1.Text = "Add Location";
             this.LocDLabel1.UseVisualStyleBackColor = false;
@@ -88,19 +88,18 @@ namespace Project
             // 
             this.LocALabl.AutoSize = true;
             this.LocALabl.BackColor = System.Drawing.Color.Blue;
-            this.LocALabl.Location = new System.Drawing.Point(33, 32);
-            this.LocALabl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LocALabl.Location = new System.Drawing.Point(44, 39);
             this.LocALabl.Name = "LocALabl";
-            this.LocALabl.Size = new System.Drawing.Size(48, 13);
+            this.LocALabl.Size = new System.Drawing.Size(62, 17);
             this.LocALabl.TabIndex = 114;
             this.LocALabl.Text = "Location";
             // 
             // LocDTimeTable
             // 
-            this.LocDTimeTable.Location = new System.Drawing.Point(555, 10);
-            this.LocDTimeTable.Margin = new System.Windows.Forms.Padding(2);
+            this.LocDTimeTable.Location = new System.Drawing.Point(740, 12);
+            this.LocDTimeTable.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocDTimeTable.Name = "LocDTimeTable";
-            this.LocDTimeTable.Size = new System.Drawing.Size(78, 58);
+            this.LocDTimeTable.Size = new System.Drawing.Size(104, 71);
             this.LocDTimeTable.TabIndex = 113;
             this.LocDTimeTable.Text = "Time Table";
             this.LocDTimeTable.UseVisualStyleBackColor = true;
@@ -108,10 +107,10 @@ namespace Project
             // 
             // LocDStatistics
             // 
-            this.LocDStatistics.Location = new System.Drawing.Point(442, 10);
-            this.LocDStatistics.Margin = new System.Windows.Forms.Padding(2);
+            this.LocDStatistics.Location = new System.Drawing.Point(589, 12);
+            this.LocDStatistics.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocDStatistics.Name = "LocDStatistics";
-            this.LocDStatistics.Size = new System.Drawing.Size(78, 58);
+            this.LocDStatistics.Size = new System.Drawing.Size(104, 71);
             this.LocDStatistics.TabIndex = 112;
             this.LocDStatistics.Text = "Statistics";
             this.LocDStatistics.UseVisualStyleBackColor = true;
@@ -119,10 +118,10 @@ namespace Project
             // 
             // LocDLocations
             // 
-            this.LocDLocations.Location = new System.Drawing.Point(330, 10);
-            this.LocDLocations.Margin = new System.Windows.Forms.Padding(2);
+            this.LocDLocations.Location = new System.Drawing.Point(440, 12);
+            this.LocDLocations.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocDLocations.Name = "LocDLocations";
-            this.LocDLocations.Size = new System.Drawing.Size(78, 58);
+            this.LocDLocations.Size = new System.Drawing.Size(104, 71);
             this.LocDLocations.TabIndex = 111;
             this.LocDLocations.Text = "Location";
             this.LocDLocations.UseVisualStyleBackColor = true;
@@ -130,10 +129,10 @@ namespace Project
             // 
             // LocDRoom
             // 
-            this.LocDRoom.Location = new System.Drawing.Point(212, 10);
-            this.LocDRoom.Margin = new System.Windows.Forms.Padding(2);
+            this.LocDRoom.Location = new System.Drawing.Point(283, 12);
+            this.LocDRoom.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocDRoom.Name = "LocDRoom";
-            this.LocDRoom.Size = new System.Drawing.Size(78, 58);
+            this.LocDRoom.Size = new System.Drawing.Size(104, 71);
             this.LocDRoom.TabIndex = 110;
             this.LocDRoom.Text = "Room";
             this.LocDRoom.UseVisualStyleBackColor = true;
@@ -141,20 +140,21 @@ namespace Project
             // 
             // LocDHome
             // 
-            this.LocDHome.Location = new System.Drawing.Point(100, 10);
-            this.LocDHome.Margin = new System.Windows.Forms.Padding(2);
+            this.LocDHome.Location = new System.Drawing.Point(133, 12);
+            this.LocDHome.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocDHome.Name = "LocDHome";
-            this.LocDHome.Size = new System.Drawing.Size(78, 58);
+            this.LocDHome.Size = new System.Drawing.Size(104, 71);
             this.LocDHome.TabIndex = 109;
             this.LocDHome.Text = "Home";
             this.LocDHome.UseVisualStyleBackColor = true;
+            this.LocDHome.Click += new System.EventHandler(this.LocDHome_Click);
             // 
             // LocDTag
             // 
-            this.LocDTag.Location = new System.Drawing.Point(19, 264);
-            this.LocDTag.Margin = new System.Windows.Forms.Padding(2);
+            this.LocDTag.Location = new System.Drawing.Point(25, 325);
+            this.LocDTag.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocDTag.Name = "LocDTag";
-            this.LocDTag.Size = new System.Drawing.Size(78, 58);
+            this.LocDTag.Size = new System.Drawing.Size(104, 71);
             this.LocDTag.TabIndex = 108;
             this.LocDTag.Text = "Tag";
             this.LocDTag.UseVisualStyleBackColor = true;
@@ -162,10 +162,10 @@ namespace Project
             // 
             // LocDWorking
             // 
-            this.LocDWorking.Location = new System.Drawing.Point(19, 454);
-            this.LocDWorking.Margin = new System.Windows.Forms.Padding(2);
+            this.LocDWorking.Location = new System.Drawing.Point(25, 559);
+            this.LocDWorking.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocDWorking.Name = "LocDWorking";
-            this.LocDWorking.Size = new System.Drawing.Size(78, 58);
+            this.LocDWorking.Size = new System.Drawing.Size(104, 71);
             this.LocDWorking.TabIndex = 107;
             this.LocDWorking.Text = "Working Days and Hours";
             this.LocDWorking.UseVisualStyleBackColor = true;
@@ -173,20 +173,21 @@ namespace Project
             // 
             // LocDAdvanced
             // 
-            this.LocDAdvanced.Location = new System.Drawing.Point(19, 391);
-            this.LocDAdvanced.Margin = new System.Windows.Forms.Padding(2);
+            this.LocDAdvanced.Location = new System.Drawing.Point(25, 481);
+            this.LocDAdvanced.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocDAdvanced.Name = "LocDAdvanced";
-            this.LocDAdvanced.Size = new System.Drawing.Size(78, 58);
+            this.LocDAdvanced.Size = new System.Drawing.Size(104, 71);
             this.LocDAdvanced.TabIndex = 106;
             this.LocDAdvanced.Text = "Advanced Session";
             this.LocDAdvanced.UseVisualStyleBackColor = true;
+            this.LocDAdvanced.Click += new System.EventHandler(this.LocDAdvanced_Click);
             // 
             // LocDSession
             // 
-            this.LocDSession.Location = new System.Drawing.Point(19, 327);
-            this.LocDSession.Margin = new System.Windows.Forms.Padding(2);
+            this.LocDSession.Location = new System.Drawing.Point(25, 402);
+            this.LocDSession.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocDSession.Name = "LocDSession";
-            this.LocDSession.Size = new System.Drawing.Size(78, 58);
+            this.LocDSession.Size = new System.Drawing.Size(104, 71);
             this.LocDSession.TabIndex = 105;
             this.LocDSession.Text = "Session";
             this.LocDSession.UseVisualStyleBackColor = true;
@@ -194,10 +195,10 @@ namespace Project
             // 
             // LocDSubject
             // 
-            this.LocDSubject.Location = new System.Drawing.Point(19, 201);
-            this.LocDSubject.Margin = new System.Windows.Forms.Padding(2);
+            this.LocDSubject.Location = new System.Drawing.Point(25, 247);
+            this.LocDSubject.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocDSubject.Name = "LocDSubject";
-            this.LocDSubject.Size = new System.Drawing.Size(78, 58);
+            this.LocDSubject.Size = new System.Drawing.Size(104, 71);
             this.LocDSubject.TabIndex = 104;
             this.LocDSubject.Text = "Subject";
             this.LocDSubject.UseVisualStyleBackColor = true;
@@ -205,10 +206,10 @@ namespace Project
             // 
             // LocDStudent
             // 
-            this.LocDStudent.Location = new System.Drawing.Point(19, 137);
-            this.LocDStudent.Margin = new System.Windows.Forms.Padding(2);
+            this.LocDStudent.Location = new System.Drawing.Point(25, 169);
+            this.LocDStudent.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocDStudent.Name = "LocDStudent";
-            this.LocDStudent.Size = new System.Drawing.Size(78, 58);
+            this.LocDStudent.Size = new System.Drawing.Size(104, 71);
             this.LocDStudent.TabIndex = 103;
             this.LocDStudent.Text = "Student";
             this.LocDStudent.UseVisualStyleBackColor = true;
@@ -216,10 +217,10 @@ namespace Project
             // 
             // LocDLecturer
             // 
-            this.LocDLecturer.Location = new System.Drawing.Point(19, 74);
-            this.LocDLecturer.Margin = new System.Windows.Forms.Padding(2);
+            this.LocDLecturer.Location = new System.Drawing.Point(25, 91);
+            this.LocDLecturer.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocDLecturer.Name = "LocDLecturer";
-            this.LocDLecturer.Size = new System.Drawing.Size(78, 58);
+            this.LocDLecturer.Size = new System.Drawing.Size(104, 71);
             this.LocDLecturer.TabIndex = 102;
             this.LocDLecturer.Text = "Lecturer";
             this.LocDLecturer.UseVisualStyleBackColor = true;
@@ -230,30 +231,30 @@ namespace Project
             this.DeleteLocationlabel.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.DeleteLocationlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DeleteLocationlabel.ForeColor = System.Drawing.Color.White;
-            this.DeleteLocationlabel.Location = new System.Drawing.Point(109, 137);
-            this.DeleteLocationlabel.Margin = new System.Windows.Forms.Padding(2);
+            this.DeleteLocationlabel.Location = new System.Drawing.Point(145, 169);
+            this.DeleteLocationlabel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.DeleteLocationlabel.Name = "DeleteLocationlabel";
-            this.DeleteLocationlabel.Size = new System.Drawing.Size(364, 28);
+            this.DeleteLocationlabel.Size = new System.Drawing.Size(484, 34);
             this.DeleteLocationlabel.TabIndex = 120;
             this.DeleteLocationlabel.Text = "Enter the Location Table ID for Delete details";
             // 
             // comboBoxLocationID
             // 
             this.comboBoxLocationID.FormattingEnabled = true;
-            this.comboBoxLocationID.Location = new System.Drawing.Point(109, 209);
-            this.comboBoxLocationID.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBoxLocationID.Location = new System.Drawing.Point(145, 257);
+            this.comboBoxLocationID.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxLocationID.Name = "comboBoxLocationID";
-            this.comboBoxLocationID.Size = new System.Drawing.Size(330, 21);
+            this.comboBoxLocationID.Size = new System.Drawing.Size(439, 24);
             this.comboBoxLocationID.TabIndex = 119;
             this.comboBoxLocationID.SelectedIndexChanged += new System.EventHandler(this.comboBoxLocationID_SelectedIndexChanged);
             // 
             // buttonLocDelete
             // 
             this.buttonLocDelete.BackColor = System.Drawing.Color.Red;
-            this.buttonLocDelete.Location = new System.Drawing.Point(461, 201);
-            this.buttonLocDelete.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonLocDelete.Location = new System.Drawing.Point(615, 247);
+            this.buttonLocDelete.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonLocDelete.Name = "buttonLocDelete";
-            this.buttonLocDelete.Size = new System.Drawing.Size(68, 28);
+            this.buttonLocDelete.Size = new System.Drawing.Size(91, 34);
             this.buttonLocDelete.TabIndex = 118;
             this.buttonLocDelete.Text = "DELETE";
             this.buttonLocDelete.UseVisualStyleBackColor = false;
@@ -261,10 +262,10 @@ namespace Project
             // 
             // Delete_Location
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(669, 522);
+            this.ClientSize = new System.Drawing.Size(892, 642);
             this.Controls.Add(this.DeleteLocationlabel);
             this.Controls.Add(this.comboBoxLocationID);
             this.Controls.Add(this.buttonLocDelete);
@@ -284,9 +285,10 @@ namespace Project
             this.Controls.Add(this.LocDSubject);
             this.Controls.Add(this.LocDStudent);
             this.Controls.Add(this.LocDLecturer);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Delete_Location";
             this.Text = "Delete_Location";
+            this.Load += new System.EventHandler(this.Delete_Location_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -103,6 +103,7 @@ namespace Project
             this.LTimeTable.TabIndex = 62;
             this.LTimeTable.Text = "Time Table";
             this.LTimeTable.UseVisualStyleBackColor = true;
+            this.LTimeTable.Click += new System.EventHandler(this.LTimeTable_Click);
             // 
             // LStatistics
             // 
@@ -142,6 +143,7 @@ namespace Project
             this.LHome.TabIndex = 58;
             this.LHome.Text = "Home";
             this.LHome.UseVisualStyleBackColor = true;
+            this.LHome.Click += new System.EventHandler(this.LHome_Click);
             // 
             // LTag
             // 
@@ -252,6 +254,7 @@ namespace Project
             this.SUBtextBoxsearch.Name = "SUBtextBoxsearch";
             this.SUBtextBoxsearch.Size = new System.Drawing.Size(295, 22);
             this.SUBtextBoxsearch.TabIndex = 74;
+            this.SUBtextBoxsearch.TextChanged += new System.EventHandler(this.SUBtextBoxsearch_TextChanged);
             // 
             // view_subject
             // 

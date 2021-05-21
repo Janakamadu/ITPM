@@ -182,5 +182,17 @@ namespace Project
             this.Hide();
         }
 
+        private void TagVRoom_Click(object sender, EventArgs e)
+        {
+            ManageSessionRoom manageSessionRoom = new ManageSessionRoom();
+            manageSessionRoom.Show();
+        }
+
+        private void TagVHome_Click(object sender, EventArgs e)
+        {
+
+            Homepage homepage = new Homepage();
+            homepage.Show();
+        }
     }
 }

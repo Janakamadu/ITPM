@@ -98,6 +98,7 @@ namespace Project
             this.NATRVTimeTable.TabIndex = 134;
             this.NATRVTimeTable.Text = "Time Table";
             this.NATRVTimeTable.UseVisualStyleBackColor = true;
+            this.NATRVTimeTable.Click += new System.EventHandler(this.NATRVTimeTable_Click);
             // 
             // NATRVStatistics
             // 
@@ -107,6 +108,7 @@ namespace Project
             this.NATRVStatistics.TabIndex = 133;
             this.NATRVStatistics.Text = "Statistics";
             this.NATRVStatistics.UseVisualStyleBackColor = true;
+            this.NATRVStatistics.Click += new System.EventHandler(this.NATRVStatistics_Click);
             // 
             // NATRVLocations
             // 
@@ -116,6 +118,7 @@ namespace Project
             this.NATRVLocations.TabIndex = 132;
             this.NATRVLocations.Text = "Location";
             this.NATRVLocations.UseVisualStyleBackColor = true;
+            this.NATRVLocations.Click += new System.EventHandler(this.NATRVLocations_Click);
             // 
             // NATRVRoom
             // 
@@ -125,6 +128,7 @@ namespace Project
             this.NATRVRoom.TabIndex = 131;
             this.NATRVRoom.Text = "Room";
             this.NATRVRoom.UseVisualStyleBackColor = true;
+            this.NATRVRoom.Click += new System.EventHandler(this.NATRVRoom_Click);
             // 
             // NATRVHome
             // 
@@ -134,6 +138,7 @@ namespace Project
             this.NATRVHome.TabIndex = 130;
             this.NATRVHome.Text = "Home";
             this.NATRVHome.UseVisualStyleBackColor = true;
+            this.NATRVHome.Click += new System.EventHandler(this.NATRVHome_Click);
             // 
             // NATRVTag
             // 
@@ -143,6 +148,7 @@ namespace Project
             this.NATRVTag.TabIndex = 129;
             this.NATRVTag.Text = "Tag";
             this.NATRVTag.UseVisualStyleBackColor = true;
+            this.NATRVTag.Click += new System.EventHandler(this.NATRVTag_Click);
             // 
             // NATRVWorking
             // 
@@ -152,6 +158,7 @@ namespace Project
             this.NATRVWorking.TabIndex = 128;
             this.NATRVWorking.Text = "Working Days and Hours";
             this.NATRVWorking.UseVisualStyleBackColor = true;
+            this.NATRVWorking.Click += new System.EventHandler(this.NATRVWorking_Click);
             // 
             // NATRVAdvanced
             // 
@@ -161,6 +168,7 @@ namespace Project
             this.NATRVAdvanced.TabIndex = 127;
             this.NATRVAdvanced.Text = "Advanced Session";
             this.NATRVAdvanced.UseVisualStyleBackColor = true;
+            this.NATRVAdvanced.Click += new System.EventHandler(this.NATRVAdvanced_Click);
             // 
             // NATRVSession
             // 
@@ -170,6 +178,7 @@ namespace Project
             this.NATRVSession.TabIndex = 126;
             this.NATRVSession.Text = "Session";
             this.NATRVSession.UseVisualStyleBackColor = true;
+            this.NATRVSession.Click += new System.EventHandler(this.NATRVSession_Click);
             // 
             // NATRVSubject
             // 
@@ -179,6 +188,7 @@ namespace Project
             this.NATRVSubject.TabIndex = 125;
             this.NATRVSubject.Text = "Subject";
             this.NATRVSubject.UseVisualStyleBackColor = true;
+            this.NATRVSubject.Click += new System.EventHandler(this.NATRVSubject_Click);
             // 
             // NATRVStudent
             // 
@@ -188,6 +198,7 @@ namespace Project
             this.NATRVStudent.TabIndex = 124;
             this.NATRVStudent.Text = "Student";
             this.NATRVStudent.UseVisualStyleBackColor = true;
+            this.NATRVStudent.Click += new System.EventHandler(this.NATRVStudent_Click);
             // 
             // NATRVLecturer
             // 
@@ -197,6 +208,7 @@ namespace Project
             this.NATRVLecturer.TabIndex = 123;
             this.NATRVLecturer.Text = "Lecturer";
             this.NATRVLecturer.UseVisualStyleBackColor = true;
+            this.NATRVLecturer.Click += new System.EventHandler(this.NATRVLecturer_Click);
             // 
             // NATRdataGridView1
             // 

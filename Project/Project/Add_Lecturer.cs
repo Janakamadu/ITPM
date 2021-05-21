@@ -123,7 +123,8 @@ namespace Project
 
         private void LAdvanced_Click(object sender, EventArgs e)
         {
-           
+            Consecutive_Session consecutive_Session = new Consecutive_Session();
+            consecutive_Session.Show();
         }
 
         private void LWorking_Click(object sender, EventArgs e)
@@ -161,6 +162,26 @@ namespace Project
         {
             Add_Lecturer add_Lecturer = new Add_Lecturer();
             add_Lecturer.Show();
+        }
+
+        private void LLecturer_Click(object sender, EventArgs e)
+        {
+            Add_Lecturer add_Lecturer = new Add_Lecturer();
+            add_Lecturer.Show();
+        }
+
+        private void LTimeTable_Click(object sender, EventArgs e)
+        {
+            TTLecGenereate tTLecGenereate = new TTLecGenereate();
+            tTLecGenereate.Show();
+
+        }
+
+        private void LHome_Click(object sender, EventArgs e)
+        {
+
+            Homepage homepage = new Homepage();
+            homepage.Show();
         }
     }
 }

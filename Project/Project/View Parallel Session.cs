@@ -173,10 +173,13 @@ namespace Project
         private void AdPHome_Click(object sender, EventArgs e)
         {
 
+            Homepage homepage = new Homepage();
+            homepage.Show();
         }
         private void AdPRoom_Click(object sender, EventArgs e)
         {
-
+            ManageSessionRoom manageSessionRoom = new ManageSessionRoom();
+            manageSessionRoom.Show();
         }
         private void AdPLocations_Click(object sender, EventArgs e)
         {

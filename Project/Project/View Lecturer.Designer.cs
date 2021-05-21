@@ -129,6 +129,7 @@ namespace Project
             this.LHome.TabIndex = 41;
             this.LHome.Text = "Home";
             this.LHome.UseVisualStyleBackColor = true;
+            this.LHome.Click += new System.EventHandler(this.LHome_Click);
             // 
             // LRoom
             // 
@@ -168,6 +169,7 @@ namespace Project
             this.LTimeTable.TabIndex = 45;
             this.LTimeTable.Text = "Time Table";
             this.LTimeTable.UseVisualStyleBackColor = true;
+            this.LTimeTable.Click += new System.EventHandler(this.LTimeTable_Click);
             // 
             // LLabl
             // 

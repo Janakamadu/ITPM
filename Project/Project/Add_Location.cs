@@ -118,6 +118,19 @@ namespace Project
             TTLecGenereate add = new TTLecGenereate();
             add.Show();
         }
+
+        private void LocAAdvanced_Click(object sender, EventArgs e)
+        {
+            Consecutive_Session consecutive_Session = new Consecutive_Session();
+            consecutive_Session.Show();
+        }
+
+        private void LocAHome_Click(object sender, EventArgs e)
+        {
+
+            Homepage homepage = new Homepage();
+            homepage.Show();
+        }
     }
     }
 

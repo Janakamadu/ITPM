@@ -127,10 +127,13 @@ namespace Project
         private void TagEHome_Click(object sender, EventArgs e)
         {
 
+            Homepage homepage = new Homepage();
+            homepage.Show();
         }
         private void TagERoom_Click(object sender, EventArgs e)
         {
-
+            ManageSessionRoom manageSessionRoom = new ManageSessionRoom();
+            manageSessionRoom.Show();
         }
         private void TagELocations_Click(object sender, EventArgs e)
         {
@@ -153,6 +156,9 @@ namespace Project
             this.Hide();
         }
 
-        
+        private void Edit_Tag_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

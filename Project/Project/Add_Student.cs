@@ -153,12 +153,15 @@ namespace Project
         private void StuHome_Click(object sender, EventArgs e)
         {
 
-           
+            Homepage homepage = new Homepage();
+            homepage.Show();
+
         }
 
         private void StuRoom_Click(object sender, EventArgs e)
         {
-            
+            ManageSessionRoom manageSessionRoom = new ManageSessionRoom();
+            manageSessionRoom.Show();
         }
 
         private void StuLocations_Click(object sender, EventArgs e)

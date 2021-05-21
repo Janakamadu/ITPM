@@ -55,5 +55,78 @@ namespace Project
             NATRDelete nATRDelete = new NATRDelete();
             nATRDelete.Show();
         }
+
+        private void NATRVRoom_Click(object sender, EventArgs e)
+        {
+            ManageSessionRoom manageSessionRoom = new ManageSessionRoom();
+            manageSessionRoom.Show();
+        }
+
+        private void NATRVLecturer_Click(object sender, EventArgs e)
+        {
+            Add_Lecturer add_Lecturer = new Add_Lecturer();
+            add_Lecturer.Show();
+        }
+
+        private void NATRVStudent_Click(object sender, EventArgs e)
+        {
+            Add_Student add_Student = new Add_Student();
+            add_Student.Show();
+        }
+
+        private void NATRVSubject_Click(object sender, EventArgs e)
+        {
+            Add_Subject Add_Subject = new Add_Subject();
+            Add_Subject.Show();
+        }
+
+        private void NATRVTag_Click(object sender, EventArgs e)
+        {
+            Add_Tag add_Tag = new Add_Tag();
+            add_Tag.Show();
+        }
+
+        private void NATRVSession_Click(object sender, EventArgs e)
+        {
+            add_Session Add_session = new add_Session();
+            Add_session.Show();
+        }
+
+        private void NATRVAdvanced_Click(object sender, EventArgs e)
+        {
+            Consecutive_Session consecutive_Session = new Consecutive_Session();
+            consecutive_Session.Show();
+        }
+
+        private void NATRVWorking_Click(object sender, EventArgs e)
+        {
+            WorkingDays_Hours workingDays_Hours = new WorkingDays_Hours();
+            workingDays_Hours.Show();
+        }
+
+        private void NATRVLocations_Click(object sender, EventArgs e)
+        {
+            Add_Location add_Location = new Add_Location();
+            add_Location.Show();
+        }
+
+        private void NATRVStatistics_Click(object sender, EventArgs e)
+        {
+            Statistic statistic = new Statistic();
+            statistic.Show();
+        }
+
+        private void NATRVTimeTable_Click(object sender, EventArgs e)
+        {
+            TTLecGenereate tTLecGenereate = new TTLecGenereate();
+            tTLecGenereate.Show();
+        }
+
+        private void NATRVHome_Click(object sender, EventArgs e)
+        {
+
+            Homepage homepage = new Homepage();
+            homepage.Show();
+        }
     }
 }

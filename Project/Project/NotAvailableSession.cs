@@ -163,7 +163,8 @@ namespace Project
 
         private void NATRVAdvanced_Click(object sender, EventArgs e)
         {
-
+            Consecutive_Session consecutive_Session = new Consecutive_Session();
+            consecutive_Session.Show();
         }
 
         private void btnSaveNotTime_Click(object sender, EventArgs e)
@@ -294,6 +295,13 @@ namespace Project
         {
             WorkingDays_Hours wdh = new WorkingDays_Hours();
             wdh.Show();
+        }
+
+        private void NATRVHome_Click(object sender, EventArgs e)
+        {
+
+            Homepage homepage = new Homepage();
+            homepage.Show();
         }
     }
 }

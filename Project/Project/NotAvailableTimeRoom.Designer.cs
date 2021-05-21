@@ -61,10 +61,10 @@ namespace Project
             // NotARoomLabel3
             // 
             this.NotARoomLabel3.BackColor = System.Drawing.Color.Crimson;
-            this.NotARoomLabel3.Location = new System.Drawing.Point(423, 74);
-            this.NotARoomLabel3.Margin = new System.Windows.Forms.Padding(2);
+            this.NotARoomLabel3.Location = new System.Drawing.Point(564, 91);
+            this.NotARoomLabel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.NotARoomLabel3.Name = "NotARoomLabel3";
-            this.NotARoomLabel3.Size = new System.Drawing.Size(156, 28);
+            this.NotARoomLabel3.Size = new System.Drawing.Size(208, 34);
             this.NotARoomLabel3.TabIndex = 111;
             this.NotARoomLabel3.Text = "Not Available Time";
             this.NotARoomLabel3.UseVisualStyleBackColor = false;
@@ -72,10 +72,10 @@ namespace Project
             // NotARoomLabel2
             // 
             this.NotARoomLabel2.BackColor = System.Drawing.Color.LightSlateGray;
-            this.NotARoomLabel2.Location = new System.Drawing.Point(262, 73);
-            this.NotARoomLabel2.Margin = new System.Windows.Forms.Padding(2);
+            this.NotARoomLabel2.Location = new System.Drawing.Point(349, 90);
+            this.NotARoomLabel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.NotARoomLabel2.Name = "NotARoomLabel2";
-            this.NotARoomLabel2.Size = new System.Drawing.Size(156, 28);
+            this.NotARoomLabel2.Size = new System.Drawing.Size(208, 34);
             this.NotARoomLabel2.TabIndex = 110;
             this.NotARoomLabel2.Text = "Consecutive Session";
             this.NotARoomLabel2.UseVisualStyleBackColor = false;
@@ -83,10 +83,10 @@ namespace Project
             // NotARoomLabel1
             // 
             this.NotARoomLabel1.BackColor = System.Drawing.Color.LightSlateGray;
-            this.NotARoomLabel1.Location = new System.Drawing.Point(102, 74);
-            this.NotARoomLabel1.Margin = new System.Windows.Forms.Padding(2);
+            this.NotARoomLabel1.Location = new System.Drawing.Point(136, 91);
+            this.NotARoomLabel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.NotARoomLabel1.Name = "NotARoomLabel1";
-            this.NotARoomLabel1.Size = new System.Drawing.Size(156, 28);
+            this.NotARoomLabel1.Size = new System.Drawing.Size(208, 34);
             this.NotARoomLabel1.TabIndex = 109;
             this.NotARoomLabel1.Text = "Session";
             this.NotARoomLabel1.UseVisualStyleBackColor = false;
@@ -95,19 +95,18 @@ namespace Project
             // 
             this.LocALabl.AutoSize = true;
             this.LocALabl.BackColor = System.Drawing.Color.Blue;
-            this.LocALabl.Location = new System.Drawing.Point(13, 32);
-            this.LocALabl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LocALabl.Location = new System.Drawing.Point(17, 39);
             this.LocALabl.Name = "LocALabl";
-            this.LocALabl.Size = new System.Drawing.Size(86, 13);
+            this.LocALabl.Size = new System.Drawing.Size(113, 17);
             this.LocALabl.TabIndex = 108;
             this.LocALabl.Text = "Manage Session";
             // 
             // NotARoomTimeTable
             // 
-            this.NotARoomTimeTable.Location = new System.Drawing.Point(556, 10);
-            this.NotARoomTimeTable.Margin = new System.Windows.Forms.Padding(2);
+            this.NotARoomTimeTable.Location = new System.Drawing.Point(741, 12);
+            this.NotARoomTimeTable.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.NotARoomTimeTable.Name = "NotARoomTimeTable";
-            this.NotARoomTimeTable.Size = new System.Drawing.Size(78, 58);
+            this.NotARoomTimeTable.Size = new System.Drawing.Size(104, 71);
             this.NotARoomTimeTable.TabIndex = 107;
             this.NotARoomTimeTable.Text = "Time Table";
             this.NotARoomTimeTable.UseVisualStyleBackColor = true;
@@ -115,10 +114,10 @@ namespace Project
             // 
             // NotARoomStatistics
             // 
-            this.NotARoomStatistics.Location = new System.Drawing.Point(442, 10);
-            this.NotARoomStatistics.Margin = new System.Windows.Forms.Padding(2);
+            this.NotARoomStatistics.Location = new System.Drawing.Point(589, 12);
+            this.NotARoomStatistics.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.NotARoomStatistics.Name = "NotARoomStatistics";
-            this.NotARoomStatistics.Size = new System.Drawing.Size(78, 58);
+            this.NotARoomStatistics.Size = new System.Drawing.Size(104, 71);
             this.NotARoomStatistics.TabIndex = 106;
             this.NotARoomStatistics.Text = "Statistics";
             this.NotARoomStatistics.UseVisualStyleBackColor = true;
@@ -126,10 +125,10 @@ namespace Project
             // 
             // NotARoomLocations
             // 
-            this.NotARoomLocations.Location = new System.Drawing.Point(331, 10);
-            this.NotARoomLocations.Margin = new System.Windows.Forms.Padding(2);
+            this.NotARoomLocations.Location = new System.Drawing.Point(441, 12);
+            this.NotARoomLocations.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.NotARoomLocations.Name = "NotARoomLocations";
-            this.NotARoomLocations.Size = new System.Drawing.Size(78, 58);
+            this.NotARoomLocations.Size = new System.Drawing.Size(104, 71);
             this.NotARoomLocations.TabIndex = 105;
             this.NotARoomLocations.Text = "Location";
             this.NotARoomLocations.UseVisualStyleBackColor = true;
@@ -137,10 +136,10 @@ namespace Project
             // 
             // NotARoomRoom
             // 
-            this.NotARoomRoom.Location = new System.Drawing.Point(212, 10);
-            this.NotARoomRoom.Margin = new System.Windows.Forms.Padding(2);
+            this.NotARoomRoom.Location = new System.Drawing.Point(283, 12);
+            this.NotARoomRoom.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.NotARoomRoom.Name = "NotARoomRoom";
-            this.NotARoomRoom.Size = new System.Drawing.Size(78, 58);
+            this.NotARoomRoom.Size = new System.Drawing.Size(104, 71);
             this.NotARoomRoom.TabIndex = 104;
             this.NotARoomRoom.Text = "Room";
             this.NotARoomRoom.UseVisualStyleBackColor = true;
@@ -148,20 +147,21 @@ namespace Project
             // 
             // NotARoomHome
             // 
-            this.NotARoomHome.Location = new System.Drawing.Point(101, 10);
-            this.NotARoomHome.Margin = new System.Windows.Forms.Padding(2);
+            this.NotARoomHome.Location = new System.Drawing.Point(135, 12);
+            this.NotARoomHome.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.NotARoomHome.Name = "NotARoomHome";
-            this.NotARoomHome.Size = new System.Drawing.Size(78, 58);
+            this.NotARoomHome.Size = new System.Drawing.Size(104, 71);
             this.NotARoomHome.TabIndex = 103;
             this.NotARoomHome.Text = "Home";
             this.NotARoomHome.UseVisualStyleBackColor = true;
+            this.NotARoomHome.Click += new System.EventHandler(this.NotARoomHome_Click);
             // 
             // NotARoomTag
             // 
-            this.NotARoomTag.Location = new System.Drawing.Point(20, 264);
-            this.NotARoomTag.Margin = new System.Windows.Forms.Padding(2);
+            this.NotARoomTag.Location = new System.Drawing.Point(27, 325);
+            this.NotARoomTag.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.NotARoomTag.Name = "NotARoomTag";
-            this.NotARoomTag.Size = new System.Drawing.Size(78, 58);
+            this.NotARoomTag.Size = new System.Drawing.Size(104, 71);
             this.NotARoomTag.TabIndex = 102;
             this.NotARoomTag.Text = "Tag";
             this.NotARoomTag.UseVisualStyleBackColor = true;
@@ -169,30 +169,31 @@ namespace Project
             // 
             // NotARoomWorking
             // 
-            this.NotARoomWorking.Location = new System.Drawing.Point(20, 454);
-            this.NotARoomWorking.Margin = new System.Windows.Forms.Padding(2);
+            this.NotARoomWorking.Location = new System.Drawing.Point(27, 559);
+            this.NotARoomWorking.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.NotARoomWorking.Name = "NotARoomWorking";
-            this.NotARoomWorking.Size = new System.Drawing.Size(78, 58);
+            this.NotARoomWorking.Size = new System.Drawing.Size(104, 71);
             this.NotARoomWorking.TabIndex = 101;
             this.NotARoomWorking.Text = "Working Days and Hours";
             this.NotARoomWorking.UseVisualStyleBackColor = true;
             // 
             // NotARoomAdvanced
             // 
-            this.NotARoomAdvanced.Location = new System.Drawing.Point(20, 391);
-            this.NotARoomAdvanced.Margin = new System.Windows.Forms.Padding(2);
+            this.NotARoomAdvanced.Location = new System.Drawing.Point(27, 481);
+            this.NotARoomAdvanced.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.NotARoomAdvanced.Name = "NotARoomAdvanced";
-            this.NotARoomAdvanced.Size = new System.Drawing.Size(78, 58);
+            this.NotARoomAdvanced.Size = new System.Drawing.Size(104, 71);
             this.NotARoomAdvanced.TabIndex = 100;
             this.NotARoomAdvanced.Text = "Advanced Session";
             this.NotARoomAdvanced.UseVisualStyleBackColor = true;
+            this.NotARoomAdvanced.Click += new System.EventHandler(this.NotARoomAdvanced_Click);
             // 
             // NotARoomSession
             // 
-            this.NotARoomSession.Location = new System.Drawing.Point(20, 327);
-            this.NotARoomSession.Margin = new System.Windows.Forms.Padding(2);
+            this.NotARoomSession.Location = new System.Drawing.Point(27, 402);
+            this.NotARoomSession.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.NotARoomSession.Name = "NotARoomSession";
-            this.NotARoomSession.Size = new System.Drawing.Size(78, 58);
+            this.NotARoomSession.Size = new System.Drawing.Size(104, 71);
             this.NotARoomSession.TabIndex = 99;
             this.NotARoomSession.Text = "Session";
             this.NotARoomSession.UseVisualStyleBackColor = true;
@@ -200,10 +201,10 @@ namespace Project
             // 
             // NotARoomSubject
             // 
-            this.NotARoomSubject.Location = new System.Drawing.Point(20, 201);
-            this.NotARoomSubject.Margin = new System.Windows.Forms.Padding(2);
+            this.NotARoomSubject.Location = new System.Drawing.Point(27, 247);
+            this.NotARoomSubject.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.NotARoomSubject.Name = "NotARoomSubject";
-            this.NotARoomSubject.Size = new System.Drawing.Size(78, 58);
+            this.NotARoomSubject.Size = new System.Drawing.Size(104, 71);
             this.NotARoomSubject.TabIndex = 98;
             this.NotARoomSubject.Text = "Subject";
             this.NotARoomSubject.UseVisualStyleBackColor = true;
@@ -211,10 +212,10 @@ namespace Project
             // 
             // NotARoomStudent
             // 
-            this.NotARoomStudent.Location = new System.Drawing.Point(20, 137);
-            this.NotARoomStudent.Margin = new System.Windows.Forms.Padding(2);
+            this.NotARoomStudent.Location = new System.Drawing.Point(27, 169);
+            this.NotARoomStudent.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.NotARoomStudent.Name = "NotARoomStudent";
-            this.NotARoomStudent.Size = new System.Drawing.Size(78, 58);
+            this.NotARoomStudent.Size = new System.Drawing.Size(104, 71);
             this.NotARoomStudent.TabIndex = 97;
             this.NotARoomStudent.Text = "Student";
             this.NotARoomStudent.UseVisualStyleBackColor = true;
@@ -222,10 +223,10 @@ namespace Project
             // 
             // NotARoomLecturer
             // 
-            this.NotARoomLecturer.Location = new System.Drawing.Point(20, 74);
-            this.NotARoomLecturer.Margin = new System.Windows.Forms.Padding(2);
+            this.NotARoomLecturer.Location = new System.Drawing.Point(27, 91);
+            this.NotARoomLecturer.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.NotARoomLecturer.Name = "NotARoomLecturer";
-            this.NotARoomLecturer.Size = new System.Drawing.Size(78, 58);
+            this.NotARoomLecturer.Size = new System.Drawing.Size(104, 71);
             this.NotARoomLecturer.TabIndex = 96;
             this.NotARoomLecturer.Text = "Lecturer";
             this.NotARoomLecturer.UseVisualStyleBackColor = true;
@@ -233,37 +234,35 @@ namespace Project
             // 
             // NotARoomtextBox1
             // 
-            this.NotARoomtextBox1.Location = new System.Drawing.Point(262, 145);
-            this.NotARoomtextBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.NotARoomtextBox1.Location = new System.Drawing.Point(349, 178);
+            this.NotARoomtextBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.NotARoomtextBox1.Name = "NotARoomtextBox1";
-            this.NotARoomtextBox1.Size = new System.Drawing.Size(283, 20);
+            this.NotARoomtextBox1.Size = new System.Drawing.Size(376, 22);
             this.NotARoomtextBox1.TabIndex = 113;
             // 
             // NotARoomlable1
             // 
             this.NotARoomlable1.AutoSize = true;
-            this.NotARoomlable1.Location = new System.Drawing.Point(128, 150);
-            this.NotARoomlable1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.NotARoomlable1.Location = new System.Drawing.Point(171, 185);
             this.NotARoomlable1.Name = "NotARoomlable1";
-            this.NotARoomlable1.Size = new System.Drawing.Size(68, 13);
+            this.NotARoomlable1.Size = new System.Drawing.Size(88, 17);
             this.NotARoomlable1.TabIndex = 112;
             this.NotARoomlable1.Text = "Select Room";
             // 
             // NotARoomtextBox2
             // 
-            this.NotARoomtextBox2.Location = new System.Drawing.Point(262, 272);
-            this.NotARoomtextBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.NotARoomtextBox2.Location = new System.Drawing.Point(349, 335);
+            this.NotARoomtextBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.NotARoomtextBox2.Name = "NotARoomtextBox2";
-            this.NotARoomtextBox2.Size = new System.Drawing.Size(283, 20);
+            this.NotARoomtextBox2.Size = new System.Drawing.Size(376, 22);
             this.NotARoomtextBox2.TabIndex = 115;
             // 
             // NotARoomlable3
             // 
             this.NotARoomlable3.AutoSize = true;
-            this.NotARoomlable3.Location = new System.Drawing.Point(128, 275);
-            this.NotARoomlable3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.NotARoomlable3.Location = new System.Drawing.Point(171, 338);
             this.NotARoomlable3.Name = "NotARoomlable3";
-            this.NotARoomlable3.Size = new System.Drawing.Size(55, 13);
+            this.NotARoomlable3.Size = new System.Drawing.Size(73, 17);
             this.NotARoomlable3.TabIndex = 114;
             this.NotARoomlable3.Text = "Start Time";
             // 
@@ -278,39 +277,37 @@ namespace Project
             "Friday",
             "Saturday",
             "Sunday"});
-            this.NotARoomcomboBox1.Location = new System.Drawing.Point(262, 209);
-            this.NotARoomcomboBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.NotARoomcomboBox1.Location = new System.Drawing.Point(349, 257);
+            this.NotARoomcomboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.NotARoomcomboBox1.Name = "NotARoomcomboBox1";
-            this.NotARoomcomboBox1.Size = new System.Drawing.Size(282, 21);
+            this.NotARoomcomboBox1.Size = new System.Drawing.Size(375, 24);
             this.NotARoomcomboBox1.TabIndex = 117;
             // 
             // NotARoomlable2
             // 
             this.NotARoomlable2.AutoSize = true;
-            this.NotARoomlable2.Location = new System.Drawing.Point(128, 211);
-            this.NotARoomlable2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.NotARoomlable2.Location = new System.Drawing.Point(171, 260);
             this.NotARoomlable2.Name = "NotARoomlable2";
-            this.NotARoomlable2.Size = new System.Drawing.Size(59, 13);
+            this.NotARoomlable2.Size = new System.Drawing.Size(76, 17);
             this.NotARoomlable2.TabIndex = 116;
             this.NotARoomlable2.Text = "Select Day";
             // 
             // NotARoomlable4
             // 
             this.NotARoomlable4.AutoSize = true;
-            this.NotARoomlable4.Location = new System.Drawing.Point(128, 330);
-            this.NotARoomlable4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.NotARoomlable4.Location = new System.Drawing.Point(171, 406);
             this.NotARoomlable4.Name = "NotARoomlable4";
-            this.NotARoomlable4.Size = new System.Drawing.Size(52, 13);
+            this.NotARoomlable4.Size = new System.Drawing.Size(68, 17);
             this.NotARoomlable4.TabIndex = 118;
             this.NotARoomlable4.Text = "End Time";
             // 
             // NotARoomCLEAR
             // 
             this.NotARoomCLEAR.BackColor = System.Drawing.Color.Red;
-            this.NotARoomCLEAR.Location = new System.Drawing.Point(476, 440);
-            this.NotARoomCLEAR.Margin = new System.Windows.Forms.Padding(2);
+            this.NotARoomCLEAR.Location = new System.Drawing.Point(635, 542);
+            this.NotARoomCLEAR.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.NotARoomCLEAR.Name = "NotARoomCLEAR";
-            this.NotARoomCLEAR.Size = new System.Drawing.Size(68, 28);
+            this.NotARoomCLEAR.Size = new System.Drawing.Size(91, 34);
             this.NotARoomCLEAR.TabIndex = 121;
             this.NotARoomCLEAR.Text = "CLEAR";
             this.NotARoomCLEAR.UseVisualStyleBackColor = false;
@@ -319,10 +316,10 @@ namespace Project
             // NotARoomADD
             // 
             this.NotARoomADD.BackColor = System.Drawing.Color.Blue;
-            this.NotARoomADD.Location = new System.Drawing.Point(332, 440);
-            this.NotARoomADD.Margin = new System.Windows.Forms.Padding(2);
+            this.NotARoomADD.Location = new System.Drawing.Point(443, 542);
+            this.NotARoomADD.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.NotARoomADD.Name = "NotARoomADD";
-            this.NotARoomADD.Size = new System.Drawing.Size(68, 28);
+            this.NotARoomADD.Size = new System.Drawing.Size(91, 34);
             this.NotARoomADD.TabIndex = 120;
             this.NotARoomADD.Text = "ADD";
             this.NotARoomADD.UseVisualStyleBackColor = false;
@@ -330,19 +327,19 @@ namespace Project
             // 
             // NotARoomtextBox3
             // 
-            this.NotARoomtextBox3.Location = new System.Drawing.Point(262, 330);
-            this.NotARoomtextBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.NotARoomtextBox3.Location = new System.Drawing.Point(349, 406);
+            this.NotARoomtextBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.NotARoomtextBox3.Name = "NotARoomtextBox3";
-            this.NotARoomtextBox3.Size = new System.Drawing.Size(283, 20);
+            this.NotARoomtextBox3.Size = new System.Drawing.Size(376, 22);
             this.NotARoomtextBox3.TabIndex = 122;
             // 
             // NATRView
             // 
             this.NATRView.BackColor = System.Drawing.Color.DarkMagenta;
-            this.NATRView.Location = new System.Drawing.Point(404, 440);
-            this.NATRView.Margin = new System.Windows.Forms.Padding(2);
+            this.NATRView.Location = new System.Drawing.Point(539, 542);
+            this.NATRView.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.NATRView.Name = "NATRView";
-            this.NATRView.Size = new System.Drawing.Size(68, 28);
+            this.NATRView.Size = new System.Drawing.Size(91, 34);
             this.NATRView.TabIndex = 123;
             this.NATRView.Text = "VIEW";
             this.NATRView.UseVisualStyleBackColor = false;
@@ -350,10 +347,10 @@ namespace Project
             // 
             // NotARoom
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(669, 522);
+            this.ClientSize = new System.Drawing.Size(892, 642);
             this.Controls.Add(this.NATRView);
             this.Controls.Add(this.NotARoomtextBox3);
             this.Controls.Add(this.NotARoomCLEAR);
@@ -381,7 +378,7 @@ namespace Project
             this.Controls.Add(this.NotARoomSubject);
             this.Controls.Add(this.NotARoomStudent);
             this.Controls.Add(this.NotARoomLecturer);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "NotARoom";
             this.Text = "NotAvailableTimeRoom";
             this.ResumeLayout(false);

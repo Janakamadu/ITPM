@@ -98,6 +98,7 @@ namespace Project
             this.NATRDTimeTable.TabIndex = 153;
             this.NATRDTimeTable.Text = "Time Table";
             this.NATRDTimeTable.UseVisualStyleBackColor = true;
+            this.NATRDTimeTable.Click += new System.EventHandler(this.NATRDTimeTable_Click);
             // 
             // NATRDStatistics
             // 
@@ -107,6 +108,7 @@ namespace Project
             this.NATRDStatistics.TabIndex = 152;
             this.NATRDStatistics.Text = "Statistics";
             this.NATRDStatistics.UseVisualStyleBackColor = true;
+            this.NATRDStatistics.Click += new System.EventHandler(this.NATRDStatistics_Click);
             // 
             // NATRDLocations
             // 
@@ -116,6 +118,7 @@ namespace Project
             this.NATRDLocations.TabIndex = 151;
             this.NATRDLocations.Text = "Location";
             this.NATRDLocations.UseVisualStyleBackColor = true;
+            this.NATRDLocations.Click += new System.EventHandler(this.NATRDLocations_Click);
             // 
             // NATRDRoom
             // 
@@ -125,6 +128,7 @@ namespace Project
             this.NATRDRoom.TabIndex = 150;
             this.NATRDRoom.Text = "Room";
             this.NATRDRoom.UseVisualStyleBackColor = true;
+            this.NATRDRoom.Click += new System.EventHandler(this.NATRDRoom_Click);
             // 
             // NATRDHome
             // 
@@ -134,6 +138,7 @@ namespace Project
             this.NATRDHome.TabIndex = 149;
             this.NATRDHome.Text = "Home";
             this.NATRDHome.UseVisualStyleBackColor = true;
+            this.NATRDHome.Click += new System.EventHandler(this.NATRDHome_Click);
             // 
             // NATRDTag
             // 
@@ -143,6 +148,7 @@ namespace Project
             this.NATRDTag.TabIndex = 148;
             this.NATRDTag.Text = "Tag";
             this.NATRDTag.UseVisualStyleBackColor = true;
+            this.NATRDTag.Click += new System.EventHandler(this.NATRDTag_Click);
             // 
             // NATRDWorking
             // 
@@ -152,6 +158,7 @@ namespace Project
             this.NATRDWorking.TabIndex = 147;
             this.NATRDWorking.Text = "Working Days and Hours";
             this.NATRDWorking.UseVisualStyleBackColor = true;
+            this.NATRDWorking.Click += new System.EventHandler(this.NATRDWorking_Click);
             // 
             // NATRDAdvanced
             // 
@@ -161,6 +168,7 @@ namespace Project
             this.NATRDAdvanced.TabIndex = 146;
             this.NATRDAdvanced.Text = "Advanced Session";
             this.NATRDAdvanced.UseVisualStyleBackColor = true;
+            this.NATRDAdvanced.Click += new System.EventHandler(this.NATRDAdvanced_Click);
             // 
             // NATRDSession
             // 
@@ -170,6 +178,7 @@ namespace Project
             this.NATRDSession.TabIndex = 145;
             this.NATRDSession.Text = "Session";
             this.NATRDSession.UseVisualStyleBackColor = true;
+            this.NATRDSession.Click += new System.EventHandler(this.NATRDSession_Click);
             // 
             // NATRDSubject
             // 
@@ -179,6 +188,7 @@ namespace Project
             this.NATRDSubject.TabIndex = 144;
             this.NATRDSubject.Text = "Subject";
             this.NATRDSubject.UseVisualStyleBackColor = true;
+            this.NATRDSubject.Click += new System.EventHandler(this.NATRDSubject_Click);
             // 
             // NATRDStudent
             // 
@@ -188,6 +198,7 @@ namespace Project
             this.NATRDStudent.TabIndex = 143;
             this.NATRDStudent.Text = "Student";
             this.NATRDStudent.UseVisualStyleBackColor = true;
+            this.NATRDStudent.Click += new System.EventHandler(this.NATRDStudent_Click);
             // 
             // NATRDLecturer
             // 
@@ -197,6 +208,7 @@ namespace Project
             this.NATRDLecturer.TabIndex = 142;
             this.NATRDLecturer.Text = "Lecturer";
             this.NATRDLecturer.UseVisualStyleBackColor = true;
+            this.NATRDLecturer.Click += new System.EventHandler(this.NATRDLecturer_Click);
             // 
             // NARTDDeleteLecturerlabel
             // 

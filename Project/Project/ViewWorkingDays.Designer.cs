@@ -56,20 +56,19 @@ namespace Project
             // 
             this.WDlabelN.AutoSize = true;
             this.WDlabelN.BackColor = System.Drawing.Color.Blue;
-            this.WDlabelN.Location = new System.Drawing.Point(22, 41);
-            this.WDlabelN.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.WDlabelN.Location = new System.Drawing.Point(29, 50);
             this.WDlabelN.Name = "WDlabelN";
-            this.WDlabelN.Size = new System.Drawing.Size(57, 13);
+            this.WDlabelN.Size = new System.Drawing.Size(75, 17);
             this.WDlabelN.TabIndex = 106;
             this.WDlabelN.Text = "And Hours";
             // 
             // WDLabel3
             // 
             this.WDLabel3.BackColor = System.Drawing.Color.Crimson;
-            this.WDLabel3.Location = new System.Drawing.Point(420, 74);
-            this.WDLabel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.WDLabel3.Location = new System.Drawing.Point(560, 91);
+            this.WDLabel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDLabel3.Name = "WDLabel3";
-            this.WDLabel3.Size = new System.Drawing.Size(156, 28);
+            this.WDLabel3.Size = new System.Drawing.Size(208, 34);
             this.WDLabel3.TabIndex = 100;
             this.WDLabel3.Text = "View Working Days & Hours";
             this.WDLabel3.UseVisualStyleBackColor = false;
@@ -77,10 +76,10 @@ namespace Project
             // WDLabel2
             // 
             this.WDLabel2.BackColor = System.Drawing.Color.LightSlateGray;
-            this.WDLabel2.Location = new System.Drawing.Point(260, 73);
-            this.WDLabel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.WDLabel2.Location = new System.Drawing.Point(347, 90);
+            this.WDLabel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDLabel2.Name = "WDLabel2";
-            this.WDLabel2.Size = new System.Drawing.Size(156, 28);
+            this.WDLabel2.Size = new System.Drawing.Size(208, 34);
             this.WDLabel2.TabIndex = 99;
             this.WDLabel2.Text = "Edit Working Days & Hours";
             this.WDLabel2.UseVisualStyleBackColor = false;
@@ -88,10 +87,10 @@ namespace Project
             // WDLabel1
             // 
             this.WDLabel1.BackColor = System.Drawing.Color.LightSlateGray;
-            this.WDLabel1.Location = new System.Drawing.Point(99, 74);
-            this.WDLabel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.WDLabel1.Location = new System.Drawing.Point(132, 91);
+            this.WDLabel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDLabel1.Name = "WDLabel1";
-            this.WDLabel1.Size = new System.Drawing.Size(156, 28);
+            this.WDLabel1.Size = new System.Drawing.Size(208, 34);
             this.WDLabel1.TabIndex = 98;
             this.WDLabel1.Text = "Add Working Days & Hours";
             this.WDLabel1.UseVisualStyleBackColor = false;
@@ -100,19 +99,18 @@ namespace Project
             // 
             this.WDLablN.AutoSize = true;
             this.WDLablN.BackColor = System.Drawing.Color.Blue;
-            this.WDLablN.Location = new System.Drawing.Point(22, 20);
-            this.WDLablN.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.WDLablN.Location = new System.Drawing.Point(29, 25);
             this.WDLablN.Name = "WDLablN";
-            this.WDLablN.Size = new System.Drawing.Size(74, 13);
+            this.WDLablN.Size = new System.Drawing.Size(96, 17);
             this.WDLablN.TabIndex = 97;
             this.WDLablN.Text = "Working Days";
             // 
             // WDVTimeTable
             // 
-            this.WDVTimeTable.Location = new System.Drawing.Point(553, 10);
-            this.WDVTimeTable.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.WDVTimeTable.Location = new System.Drawing.Point(737, 12);
+            this.WDVTimeTable.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDVTimeTable.Name = "WDVTimeTable";
-            this.WDVTimeTable.Size = new System.Drawing.Size(78, 58);
+            this.WDVTimeTable.Size = new System.Drawing.Size(104, 71);
             this.WDVTimeTable.TabIndex = 96;
             this.WDVTimeTable.Text = "Time Table";
             this.WDVTimeTable.UseVisualStyleBackColor = true;
@@ -120,10 +118,10 @@ namespace Project
             // 
             // WDVStatistics
             // 
-            this.WDVStatistics.Location = new System.Drawing.Point(440, 10);
-            this.WDVStatistics.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.WDVStatistics.Location = new System.Drawing.Point(587, 12);
+            this.WDVStatistics.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDVStatistics.Name = "WDVStatistics";
-            this.WDVStatistics.Size = new System.Drawing.Size(78, 58);
+            this.WDVStatistics.Size = new System.Drawing.Size(104, 71);
             this.WDVStatistics.TabIndex = 95;
             this.WDVStatistics.Text = "Statistics";
             this.WDVStatistics.UseVisualStyleBackColor = true;
@@ -131,10 +129,10 @@ namespace Project
             // 
             // WDVLocations
             // 
-            this.WDVLocations.Location = new System.Drawing.Point(328, 10);
-            this.WDVLocations.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.WDVLocations.Location = new System.Drawing.Point(437, 12);
+            this.WDVLocations.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDVLocations.Name = "WDVLocations";
-            this.WDVLocations.Size = new System.Drawing.Size(78, 58);
+            this.WDVLocations.Size = new System.Drawing.Size(104, 71);
             this.WDVLocations.TabIndex = 94;
             this.WDVLocations.Text = "Location";
             this.WDVLocations.UseVisualStyleBackColor = true;
@@ -142,10 +140,10 @@ namespace Project
             // 
             // WDVRoom
             // 
-            this.WDVRoom.Location = new System.Drawing.Point(209, 10);
-            this.WDVRoom.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.WDVRoom.Location = new System.Drawing.Point(279, 12);
+            this.WDVRoom.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDVRoom.Name = "WDVRoom";
-            this.WDVRoom.Size = new System.Drawing.Size(78, 58);
+            this.WDVRoom.Size = new System.Drawing.Size(104, 71);
             this.WDVRoom.TabIndex = 93;
             this.WDVRoom.Text = "Room";
             this.WDVRoom.UseVisualStyleBackColor = true;
@@ -153,20 +151,21 @@ namespace Project
             // 
             // WDVHome
             // 
-            this.WDVHome.Location = new System.Drawing.Point(98, 10);
-            this.WDVHome.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.WDVHome.Location = new System.Drawing.Point(131, 12);
+            this.WDVHome.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDVHome.Name = "WDVHome";
-            this.WDVHome.Size = new System.Drawing.Size(78, 58);
+            this.WDVHome.Size = new System.Drawing.Size(104, 71);
             this.WDVHome.TabIndex = 92;
             this.WDVHome.Text = "Home";
             this.WDVHome.UseVisualStyleBackColor = true;
+            this.WDVHome.Click += new System.EventHandler(this.WDVHome_Click);
             // 
             // WDVTag
             // 
-            this.WDVTag.Location = new System.Drawing.Point(16, 264);
-            this.WDVTag.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.WDVTag.Location = new System.Drawing.Point(21, 325);
+            this.WDVTag.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDVTag.Name = "WDVTag";
-            this.WDVTag.Size = new System.Drawing.Size(78, 58);
+            this.WDVTag.Size = new System.Drawing.Size(104, 71);
             this.WDVTag.TabIndex = 91;
             this.WDVTag.Text = "Tag";
             this.WDVTag.UseVisualStyleBackColor = true;
@@ -174,30 +173,31 @@ namespace Project
             // 
             // WDVWorking
             // 
-            this.WDVWorking.Location = new System.Drawing.Point(16, 454);
-            this.WDVWorking.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.WDVWorking.Location = new System.Drawing.Point(21, 559);
+            this.WDVWorking.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDVWorking.Name = "WDVWorking";
-            this.WDVWorking.Size = new System.Drawing.Size(78, 58);
+            this.WDVWorking.Size = new System.Drawing.Size(104, 71);
             this.WDVWorking.TabIndex = 90;
             this.WDVWorking.Text = "Working Days and Hours";
             this.WDVWorking.UseVisualStyleBackColor = true;
             // 
             // WDVAdvanced
             // 
-            this.WDVAdvanced.Location = new System.Drawing.Point(16, 391);
-            this.WDVAdvanced.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.WDVAdvanced.Location = new System.Drawing.Point(21, 481);
+            this.WDVAdvanced.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDVAdvanced.Name = "WDVAdvanced";
-            this.WDVAdvanced.Size = new System.Drawing.Size(78, 58);
+            this.WDVAdvanced.Size = new System.Drawing.Size(104, 71);
             this.WDVAdvanced.TabIndex = 89;
             this.WDVAdvanced.Text = "Advanced Session";
             this.WDVAdvanced.UseVisualStyleBackColor = true;
+            this.WDVAdvanced.Click += new System.EventHandler(this.WDVAdvanced_Click);
             // 
             // WDVSession
             // 
-            this.WDVSession.Location = new System.Drawing.Point(16, 327);
-            this.WDVSession.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.WDVSession.Location = new System.Drawing.Point(21, 402);
+            this.WDVSession.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDVSession.Name = "WDVSession";
-            this.WDVSession.Size = new System.Drawing.Size(78, 58);
+            this.WDVSession.Size = new System.Drawing.Size(104, 71);
             this.WDVSession.TabIndex = 88;
             this.WDVSession.Text = "Session";
             this.WDVSession.UseVisualStyleBackColor = true;
@@ -205,10 +205,10 @@ namespace Project
             // 
             // WDVSubject
             // 
-            this.WDVSubject.Location = new System.Drawing.Point(16, 201);
-            this.WDVSubject.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.WDVSubject.Location = new System.Drawing.Point(21, 247);
+            this.WDVSubject.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDVSubject.Name = "WDVSubject";
-            this.WDVSubject.Size = new System.Drawing.Size(78, 58);
+            this.WDVSubject.Size = new System.Drawing.Size(104, 71);
             this.WDVSubject.TabIndex = 87;
             this.WDVSubject.Text = "Subject";
             this.WDVSubject.UseVisualStyleBackColor = true;
@@ -216,10 +216,10 @@ namespace Project
             // 
             // WDVStudent
             // 
-            this.WDVStudent.Location = new System.Drawing.Point(16, 137);
-            this.WDVStudent.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.WDVStudent.Location = new System.Drawing.Point(21, 169);
+            this.WDVStudent.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDVStudent.Name = "WDVStudent";
-            this.WDVStudent.Size = new System.Drawing.Size(78, 58);
+            this.WDVStudent.Size = new System.Drawing.Size(104, 71);
             this.WDVStudent.TabIndex = 86;
             this.WDVStudent.Text = "Student";
             this.WDVStudent.UseVisualStyleBackColor = true;
@@ -227,10 +227,10 @@ namespace Project
             // 
             // WDVLecturer
             // 
-            this.WDVLecturer.Location = new System.Drawing.Point(16, 74);
-            this.WDVLecturer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.WDVLecturer.Location = new System.Drawing.Point(21, 91);
+            this.WDVLecturer.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDVLecturer.Name = "WDVLecturer";
-            this.WDVLecturer.Size = new System.Drawing.Size(78, 58);
+            this.WDVLecturer.Size = new System.Drawing.Size(104, 71);
             this.WDVLecturer.TabIndex = 85;
             this.WDVLecturer.Text = "Lecturer";
             this.WDVLecturer.UseVisualStyleBackColor = true;
@@ -239,21 +239,21 @@ namespace Project
             // WDdataGridView1
             // 
             this.WDdataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.WDdataGridView1.Location = new System.Drawing.Point(99, 137);
-            this.WDdataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.WDdataGridView1.Location = new System.Drawing.Point(132, 169);
+            this.WDdataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDdataGridView1.Name = "WDdataGridView1";
             this.WDdataGridView1.RowHeadersWidth = 51;
             this.WDdataGridView1.RowTemplate.Height = 24;
-            this.WDdataGridView1.Size = new System.Drawing.Size(561, 312);
+            this.WDdataGridView1.Size = new System.Drawing.Size(748, 384);
             this.WDdataGridView1.TabIndex = 107;
             // 
             // WDDELETE
             // 
             this.WDDELETE.BackColor = System.Drawing.Color.Red;
-            this.WDDELETE.Location = new System.Drawing.Point(592, 469);
-            this.WDDELETE.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.WDDELETE.Location = new System.Drawing.Point(789, 577);
+            this.WDDELETE.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDDELETE.Name = "WDDELETE";
-            this.WDDELETE.Size = new System.Drawing.Size(68, 29);
+            this.WDDELETE.Size = new System.Drawing.Size(91, 36);
             this.WDDELETE.TabIndex = 109;
             this.WDDELETE.Text = "DELETE ";
             this.WDDELETE.UseVisualStyleBackColor = false;
@@ -262,10 +262,10 @@ namespace Project
             // WDEDIT
             // 
             this.WDEDIT.BackColor = System.Drawing.Color.Green;
-            this.WDEDIT.Location = new System.Drawing.Point(520, 469);
-            this.WDEDIT.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.WDEDIT.Location = new System.Drawing.Point(693, 577);
+            this.WDEDIT.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDEDIT.Name = "WDEDIT";
-            this.WDEDIT.Size = new System.Drawing.Size(68, 29);
+            this.WDEDIT.Size = new System.Drawing.Size(91, 36);
             this.WDEDIT.TabIndex = 108;
             this.WDEDIT.Text = "EDIT ";
             this.WDEDIT.UseVisualStyleBackColor = false;
@@ -273,10 +273,10 @@ namespace Project
             // 
             // ViewWorkingDays
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(669, 522);
+            this.ClientSize = new System.Drawing.Size(892, 642);
             this.Controls.Add(this.WDDELETE);
             this.Controls.Add(this.WDEDIT);
             this.Controls.Add(this.WDdataGridView1);
@@ -297,9 +297,10 @@ namespace Project
             this.Controls.Add(this.WDVSubject);
             this.Controls.Add(this.WDVStudent);
             this.Controls.Add(this.WDVLecturer);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "ViewWorkingDays";
             this.Text = "ViewWorkingDays";
+            this.Load += new System.EventHandler(this.ViewWorkingDays_Load);
             ((System.ComponentModel.ISupportInitialize)(this.WDdataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

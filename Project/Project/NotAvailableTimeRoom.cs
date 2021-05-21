@@ -108,5 +108,18 @@ namespace Project
             Add_Lecturer add = new Add_Lecturer();
             add.Show();
         }
+
+        private void NotARoomAdvanced_Click(object sender, EventArgs e)
+        {
+            Consecutive_Session consecutive_Session = new Consecutive_Session();
+            consecutive_Session.Show();
+        }
+
+        private void NotARoomHome_Click(object sender, EventArgs e)
+        {
+
+            Homepage homepage = new Homepage();
+            homepage.Show();
+        }
     }
 }

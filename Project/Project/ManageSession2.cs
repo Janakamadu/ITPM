@@ -68,7 +68,7 @@ namespace Project
 
         private void MS2Label2_Click(object sender, EventArgs e)
         {
-            Consecutive cos = new Consecutive();
+            Consecutive_Session cos = new Consecutive_Session();
                 cos.Show();
         }
 
@@ -124,6 +124,26 @@ namespace Project
         {
             TTLecGenereate add = new TTLecGenereate();
             add.Show();
+        }
+
+        private void MS2Advanced_Click(object sender, EventArgs e)
+        {
+            Consecutive_Session consecutive_Session = new Consecutive_Session();
+            consecutive_Session.Show();
+        }
+
+        private void MS2Room_Click(object sender, EventArgs e)
+        {
+
+            ManageSessionRoom manageSessionRoom = new ManageSessionRoom();
+            manageSessionRoom.Show();
+        }
+
+        private void MS2Home_Click(object sender, EventArgs e)
+        {
+
+            Homepage homepage = new Homepage();
+            homepage.Show();
         }
     }
 }

@@ -102,6 +102,7 @@ namespace Project
             this.TagVRoom.TabIndex = 116;
             this.TagVRoom.Text = "Room";
             this.TagVRoom.UseVisualStyleBackColor = true;
+            this.TagVRoom.Click += new System.EventHandler(this.TagVRoom_Click);
             // 
             // TagVHome
             // 
@@ -111,6 +112,7 @@ namespace Project
             this.TagVHome.TabIndex = 115;
             this.TagVHome.Text = "Home";
             this.TagVHome.UseVisualStyleBackColor = true;
+            this.TagVHome.Click += new System.EventHandler(this.TagVHome_Click);
             // 
             // TagVTag
             // 

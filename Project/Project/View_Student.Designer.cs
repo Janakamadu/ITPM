@@ -47,10 +47,10 @@ namespace Project
             this.StuLecturer = new System.Windows.Forms.Button();
             this.StutextBoxsearch = new System.Windows.Forms.TextBox();
             this.StuDELETE = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.StuRefresh = new System.Windows.Forms.Button();
             this.StudataGridView = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.StudataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -236,16 +236,6 @@ namespace Project
             this.StuDELETE.UseVisualStyleBackColor = false;
             this.StuDELETE.Click += new System.EventHandler(this.StuDELETE_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(532, 536);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(21, 17);
-            this.label1.TabIndex = 93;
-            this.label1.Text = "ID";
-            this.label1.Visible = false;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -278,6 +268,16 @@ namespace Project
             this.StudataGridView.TabIndex = 165;
             this.StudataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.StudataGridView_CellClick);
             this.StudataGridView.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.StudataGridView_DoubleClick);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(532, 536);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(21, 17);
+            this.label1.TabIndex = 93;
+            this.label1.Text = "ID";
+            this.label1.Visible = false;
             // 
             // View_Student
             // 
@@ -335,9 +335,9 @@ namespace Project
         private System.Windows.Forms.Button StuLecturer;
         private System.Windows.Forms.TextBox StutextBoxsearch;
         private System.Windows.Forms.Button StuDELETE;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button StuRefresh;
         private System.Windows.Forms.DataGridView StudataGridView;
+        private System.Windows.Forms.Label label1;
     }
 }

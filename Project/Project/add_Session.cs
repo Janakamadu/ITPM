@@ -233,8 +233,8 @@ namespace Project
 
         private void LAdvanced_Click(object sender, EventArgs e)
         {
-            ManageSessionRoom manageSessionRoom = new ManageSessionRoom();
-            manageSessionRoom.Show();
+            Consecutive_Session consecutive_Session = new Consecutive_Session();
+            consecutive_Session.Show();
         }
 
         private void LWorking_Click(object sender, EventArgs e)
@@ -285,6 +285,19 @@ namespace Project
         {
             add_Session add_Session = new add_Session();
             add_Session.Show();
+        }
+
+        private void LTimeTable_Click(object sender, EventArgs e)
+        {
+            TTLecGenereate tTLecGenereate = new TTLecGenereate();
+            tTLecGenereate.Show();
+        }
+
+        private void LHome_Click(object sender, EventArgs e)
+        {
+
+            Homepage homepage = new Homepage();
+            homepage.Show();
         }
     }
 }

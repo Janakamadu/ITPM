@@ -126,5 +126,24 @@ namespace Project
             Statistic statistic = new Statistic();
             statistic.Show();
         }
+
+        private void LocEAdvanced_Click(object sender, EventArgs e)
+        {
+            Consecutive_Session consecutive_Session = new Consecutive_Session();
+            consecutive_Session.Show();
+        }
+
+        private void LocETimeTable_Click(object sender, EventArgs e)
+        {
+            TTLecGenereate tTLecGenereate = new TTLecGenereate();
+            tTLecGenereate.Show();
+        }
+
+        private void LocEHome_Click(object sender, EventArgs e)
+        {
+
+            Homepage homepage = new Homepage();
+            homepage.Show();
+        }
     }
 }

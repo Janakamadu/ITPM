@@ -72,35 +72,35 @@ namespace Project
             // 
             // EaddMin
             // 
-            this.EaddMin.Location = new System.Drawing.Point(388, 368);
-            this.EaddMin.Margin = new System.Windows.Forms.Padding(2);
+            this.EaddMin.Location = new System.Drawing.Point(517, 453);
+            this.EaddMin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.EaddMin.Name = "EaddMin";
-            this.EaddMin.Size = new System.Drawing.Size(90, 20);
+            this.EaddMin.Size = new System.Drawing.Size(120, 22);
             this.EaddMin.TabIndex = 118;
             // 
             // EaddHrs
             // 
-            this.EaddHrs.Location = new System.Drawing.Point(244, 368);
-            this.EaddHrs.Margin = new System.Windows.Forms.Padding(2);
+            this.EaddHrs.Location = new System.Drawing.Point(325, 453);
+            this.EaddHrs.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.EaddHrs.Name = "EaddHrs";
-            this.EaddHrs.Size = new System.Drawing.Size(90, 20);
+            this.EaddHrs.Size = new System.Drawing.Size(120, 22);
             this.EaddHrs.TabIndex = 117;
             // 
             // EnoOfWorkingDays
             // 
-            this.EnoOfWorkingDays.Location = new System.Drawing.Point(244, 199);
-            this.EnoOfWorkingDays.Margin = new System.Windows.Forms.Padding(2);
+            this.EnoOfWorkingDays.Location = new System.Drawing.Point(325, 245);
+            this.EnoOfWorkingDays.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.EnoOfWorkingDays.Name = "EnoOfWorkingDays";
-            this.EnoOfWorkingDays.Size = new System.Drawing.Size(89, 20);
+            this.EnoOfWorkingDays.Size = new System.Drawing.Size(119, 22);
             this.EnoOfWorkingDays.TabIndex = 116;
             // 
             // EsundayCheckBox
             // 
             this.EsundayCheckBox.AutoSize = true;
-            this.EsundayCheckBox.Location = new System.Drawing.Point(405, 305);
-            this.EsundayCheckBox.Margin = new System.Windows.Forms.Padding(2);
+            this.EsundayCheckBox.Location = new System.Drawing.Point(540, 375);
+            this.EsundayCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.EsundayCheckBox.Name = "EsundayCheckBox";
-            this.EsundayCheckBox.Size = new System.Drawing.Size(62, 17);
+            this.EsundayCheckBox.Size = new System.Drawing.Size(78, 21);
             this.EsundayCheckBox.TabIndex = 115;
             this.EsundayCheckBox.Text = "Sunday";
             this.EsundayCheckBox.UseVisualStyleBackColor = true;
@@ -109,10 +109,10 @@ namespace Project
             // EsaturdayheckBox
             // 
             this.EsaturdayheckBox.AutoSize = true;
-            this.EsaturdayheckBox.Location = new System.Drawing.Point(326, 305);
-            this.EsaturdayheckBox.Margin = new System.Windows.Forms.Padding(2);
+            this.EsaturdayheckBox.Location = new System.Drawing.Point(435, 375);
+            this.EsaturdayheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.EsaturdayheckBox.Name = "EsaturdayheckBox";
-            this.EsaturdayheckBox.Size = new System.Drawing.Size(68, 17);
+            this.EsaturdayheckBox.Size = new System.Drawing.Size(87, 21);
             this.EsaturdayheckBox.TabIndex = 114;
             this.EsaturdayheckBox.Text = "Saturday";
             this.EsaturdayheckBox.UseVisualStyleBackColor = true;
@@ -121,10 +121,10 @@ namespace Project
             // EfridayCheckBox
             // 
             this.EfridayCheckBox.AutoSize = true;
-            this.EfridayCheckBox.Location = new System.Drawing.Point(244, 305);
-            this.EfridayCheckBox.Margin = new System.Windows.Forms.Padding(2);
+            this.EfridayCheckBox.Location = new System.Drawing.Point(325, 375);
+            this.EfridayCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.EfridayCheckBox.Name = "EfridayCheckBox";
-            this.EfridayCheckBox.Size = new System.Drawing.Size(54, 17);
+            this.EfridayCheckBox.Size = new System.Drawing.Size(69, 21);
             this.EfridayCheckBox.TabIndex = 113;
             this.EfridayCheckBox.Text = "Friday";
             this.EfridayCheckBox.UseVisualStyleBackColor = true;
@@ -133,10 +133,10 @@ namespace Project
             // EthursdayCheckBox
             // 
             this.EthursdayCheckBox.AutoSize = true;
-            this.EthursdayCheckBox.Location = new System.Drawing.Point(482, 264);
-            this.EthursdayCheckBox.Margin = new System.Windows.Forms.Padding(2);
+            this.EthursdayCheckBox.Location = new System.Drawing.Point(643, 325);
+            this.EthursdayCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.EthursdayCheckBox.Name = "EthursdayCheckBox";
-            this.EthursdayCheckBox.Size = new System.Drawing.Size(70, 17);
+            this.EthursdayCheckBox.Size = new System.Drawing.Size(90, 21);
             this.EthursdayCheckBox.TabIndex = 112;
             this.EthursdayCheckBox.Text = "Thursday";
             this.EthursdayCheckBox.UseVisualStyleBackColor = true;
@@ -145,10 +145,10 @@ namespace Project
             // EtuesdayCheckBox
             // 
             this.EtuesdayCheckBox.AutoSize = true;
-            this.EtuesdayCheckBox.Location = new System.Drawing.Point(326, 266);
-            this.EtuesdayCheckBox.Margin = new System.Windows.Forms.Padding(2);
+            this.EtuesdayCheckBox.Location = new System.Drawing.Point(435, 327);
+            this.EtuesdayCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.EtuesdayCheckBox.Name = "EtuesdayCheckBox";
-            this.EtuesdayCheckBox.Size = new System.Drawing.Size(67, 17);
+            this.EtuesdayCheckBox.Size = new System.Drawing.Size(85, 21);
             this.EtuesdayCheckBox.TabIndex = 111;
             this.EtuesdayCheckBox.Text = "Tuesday";
             this.EtuesdayCheckBox.UseVisualStyleBackColor = true;
@@ -157,10 +157,10 @@ namespace Project
             // EwednesdayCheckBox
             // 
             this.EwednesdayCheckBox.AutoSize = true;
-            this.EwednesdayCheckBox.Location = new System.Drawing.Point(404, 266);
-            this.EwednesdayCheckBox.Margin = new System.Windows.Forms.Padding(2);
+            this.EwednesdayCheckBox.Location = new System.Drawing.Point(539, 327);
+            this.EwednesdayCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.EwednesdayCheckBox.Name = "EwednesdayCheckBox";
-            this.EwednesdayCheckBox.Size = new System.Drawing.Size(83, 17);
+            this.EwednesdayCheckBox.Size = new System.Drawing.Size(105, 21);
             this.EwednesdayCheckBox.TabIndex = 110;
             this.EwednesdayCheckBox.Text = "Wednesday";
             this.EwednesdayCheckBox.UseVisualStyleBackColor = true;
@@ -169,10 +169,10 @@ namespace Project
             // EmondayCheckBox
             // 
             this.EmondayCheckBox.AutoSize = true;
-            this.EmondayCheckBox.Location = new System.Drawing.Point(243, 266);
-            this.EmondayCheckBox.Margin = new System.Windows.Forms.Padding(2);
+            this.EmondayCheckBox.Location = new System.Drawing.Point(324, 327);
+            this.EmondayCheckBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.EmondayCheckBox.Name = "EmondayCheckBox";
-            this.EmondayCheckBox.Size = new System.Drawing.Size(64, 17);
+            this.EmondayCheckBox.Size = new System.Drawing.Size(80, 21);
             this.EmondayCheckBox.TabIndex = 109;
             this.EmondayCheckBox.Text = "Monday";
             this.EmondayCheckBox.UseVisualStyleBackColor = true;
@@ -181,20 +181,18 @@ namespace Project
             // WdlabelMin
             // 
             this.WdlabelMin.AutoSize = true;
-            this.WdlabelMin.Location = new System.Drawing.Point(483, 365);
-            this.WdlabelMin.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.WdlabelMin.Location = new System.Drawing.Point(644, 449);
             this.WdlabelMin.Name = "WdlabelMin";
-            this.WdlabelMin.Size = new System.Drawing.Size(24, 13);
+            this.WdlabelMin.Size = new System.Drawing.Size(30, 17);
             this.WdlabelMin.TabIndex = 108;
             this.WdlabelMin.Text = "Min";
             // 
             // WDlabelHrs
             // 
             this.WDlabelHrs.AutoSize = true;
-            this.WDlabelHrs.Location = new System.Drawing.Point(344, 362);
-            this.WDlabelHrs.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.WDlabelHrs.Location = new System.Drawing.Point(459, 446);
             this.WDlabelHrs.Name = "WDlabelHrs";
-            this.WDlabelHrs.Size = new System.Drawing.Size(23, 13);
+            this.WDlabelHrs.Size = new System.Drawing.Size(30, 17);
             this.WDlabelHrs.TabIndex = 107;
             this.WDlabelHrs.Text = "Hrs";
             // 
@@ -202,50 +200,46 @@ namespace Project
             // 
             this.WDlabelN.AutoSize = true;
             this.WDlabelN.BackColor = System.Drawing.Color.Blue;
-            this.WDlabelN.Location = new System.Drawing.Point(24, 41);
-            this.WDlabelN.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.WDlabelN.Location = new System.Drawing.Point(32, 50);
             this.WDlabelN.Name = "WDlabelN";
-            this.WDlabelN.Size = new System.Drawing.Size(57, 13);
+            this.WDlabelN.Size = new System.Drawing.Size(75, 17);
             this.WDlabelN.TabIndex = 106;
             this.WDlabelN.Text = "And Hours";
             // 
             // WDWorkingDays
             // 
             this.WDWorkingDays.AutoSize = true;
-            this.WDWorkingDays.Location = new System.Drawing.Point(109, 264);
-            this.WDWorkingDays.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.WDWorkingDays.Location = new System.Drawing.Point(145, 325);
             this.WDWorkingDays.Name = "WDWorkingDays";
-            this.WDWorkingDays.Size = new System.Drawing.Size(74, 13);
+            this.WDWorkingDays.Size = new System.Drawing.Size(96, 17);
             this.WDWorkingDays.TabIndex = 103;
             this.WDWorkingDays.Text = "Working Days";
             // 
             // LCenter
             // 
             this.LCenter.AutoSize = true;
-            this.LCenter.Location = new System.Drawing.Point(108, 368);
-            this.LCenter.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LCenter.Location = new System.Drawing.Point(144, 453);
             this.LCenter.Name = "LCenter";
-            this.LCenter.Size = new System.Drawing.Size(114, 13);
+            this.LCenter.Size = new System.Drawing.Size(150, 17);
             this.LCenter.TabIndex = 102;
             this.LCenter.Text = "Working Time Per Day";
             // 
             // WDNoofWorking
             // 
             this.WDNoofWorking.AutoSize = true;
-            this.WDNoofWorking.Location = new System.Drawing.Point(108, 201);
-            this.WDNoofWorking.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.WDNoofWorking.Location = new System.Drawing.Point(144, 247);
             this.WDNoofWorking.Name = "WDNoofWorking";
-            this.WDNoofWorking.Size = new System.Drawing.Size(106, 13);
+            this.WDNoofWorking.Size = new System.Drawing.Size(138, 17);
             this.WDNoofWorking.TabIndex = 101;
             this.WDNoofWorking.Text = "No  of Working Days";
             // 
             // WDELabel3
             // 
             this.WDELabel3.BackColor = System.Drawing.Color.LightSlateGray;
-            this.WDELabel3.Location = new System.Drawing.Point(422, 74);
-            this.WDELabel3.Margin = new System.Windows.Forms.Padding(2);
+            this.WDELabel3.Location = new System.Drawing.Point(563, 91);
+            this.WDELabel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDELabel3.Name = "WDELabel3";
-            this.WDELabel3.Size = new System.Drawing.Size(156, 28);
+            this.WDELabel3.Size = new System.Drawing.Size(208, 34);
             this.WDELabel3.TabIndex = 100;
             this.WDELabel3.Text = "View Working Days & Hours";
             this.WDELabel3.UseVisualStyleBackColor = false;
@@ -253,10 +247,10 @@ namespace Project
             // WDELabel2
             // 
             this.WDELabel2.BackColor = System.Drawing.Color.Crimson;
-            this.WDELabel2.Location = new System.Drawing.Point(261, 73);
-            this.WDELabel2.Margin = new System.Windows.Forms.Padding(2);
+            this.WDELabel2.Location = new System.Drawing.Point(348, 90);
+            this.WDELabel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDELabel2.Name = "WDELabel2";
-            this.WDELabel2.Size = new System.Drawing.Size(156, 28);
+            this.WDELabel2.Size = new System.Drawing.Size(208, 34);
             this.WDELabel2.TabIndex = 99;
             this.WDELabel2.Text = "Edit Working Days & Hours";
             this.WDELabel2.UseVisualStyleBackColor = false;
@@ -264,10 +258,10 @@ namespace Project
             // WDELabel1
             // 
             this.WDELabel1.BackColor = System.Drawing.Color.LightSlateGray;
-            this.WDELabel1.Location = new System.Drawing.Point(100, 74);
-            this.WDELabel1.Margin = new System.Windows.Forms.Padding(2);
+            this.WDELabel1.Location = new System.Drawing.Point(133, 91);
+            this.WDELabel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDELabel1.Name = "WDELabel1";
-            this.WDELabel1.Size = new System.Drawing.Size(156, 28);
+            this.WDELabel1.Size = new System.Drawing.Size(208, 34);
             this.WDELabel1.TabIndex = 98;
             this.WDELabel1.Text = "Add Working Days & Hours";
             this.WDELabel1.UseVisualStyleBackColor = false;
@@ -276,19 +270,18 @@ namespace Project
             // 
             this.WDLablN.AutoSize = true;
             this.WDLablN.BackColor = System.Drawing.Color.Blue;
-            this.WDLablN.Location = new System.Drawing.Point(23, 20);
-            this.WDLablN.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.WDLablN.Location = new System.Drawing.Point(31, 25);
             this.WDLablN.Name = "WDLablN";
-            this.WDLablN.Size = new System.Drawing.Size(74, 13);
+            this.WDLablN.Size = new System.Drawing.Size(96, 17);
             this.WDLablN.TabIndex = 97;
             this.WDLablN.Text = "Working Days";
             // 
             // WDETimeTable
             // 
-            this.WDETimeTable.Location = new System.Drawing.Point(554, 10);
-            this.WDETimeTable.Margin = new System.Windows.Forms.Padding(2);
+            this.WDETimeTable.Location = new System.Drawing.Point(739, 12);
+            this.WDETimeTable.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDETimeTable.Name = "WDETimeTable";
-            this.WDETimeTable.Size = new System.Drawing.Size(78, 58);
+            this.WDETimeTable.Size = new System.Drawing.Size(104, 71);
             this.WDETimeTable.TabIndex = 96;
             this.WDETimeTable.Text = "Time Table";
             this.WDETimeTable.UseVisualStyleBackColor = true;
@@ -296,10 +289,10 @@ namespace Project
             // 
             // WDEStatistics
             // 
-            this.WDEStatistics.Location = new System.Drawing.Point(441, 10);
-            this.WDEStatistics.Margin = new System.Windows.Forms.Padding(2);
+            this.WDEStatistics.Location = new System.Drawing.Point(588, 12);
+            this.WDEStatistics.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDEStatistics.Name = "WDEStatistics";
-            this.WDEStatistics.Size = new System.Drawing.Size(78, 58);
+            this.WDEStatistics.Size = new System.Drawing.Size(104, 71);
             this.WDEStatistics.TabIndex = 95;
             this.WDEStatistics.Text = "Statistics";
             this.WDEStatistics.UseVisualStyleBackColor = true;
@@ -307,10 +300,10 @@ namespace Project
             // 
             // WDELocations
             // 
-            this.WDELocations.Location = new System.Drawing.Point(329, 10);
-            this.WDELocations.Margin = new System.Windows.Forms.Padding(2);
+            this.WDELocations.Location = new System.Drawing.Point(439, 12);
+            this.WDELocations.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDELocations.Name = "WDELocations";
-            this.WDELocations.Size = new System.Drawing.Size(78, 58);
+            this.WDELocations.Size = new System.Drawing.Size(104, 71);
             this.WDELocations.TabIndex = 94;
             this.WDELocations.Text = "Location";
             this.WDELocations.UseVisualStyleBackColor = true;
@@ -318,10 +311,10 @@ namespace Project
             // 
             // WDERoom
             // 
-            this.WDERoom.Location = new System.Drawing.Point(211, 10);
-            this.WDERoom.Margin = new System.Windows.Forms.Padding(2);
+            this.WDERoom.Location = new System.Drawing.Point(281, 12);
+            this.WDERoom.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDERoom.Name = "WDERoom";
-            this.WDERoom.Size = new System.Drawing.Size(78, 58);
+            this.WDERoom.Size = new System.Drawing.Size(104, 71);
             this.WDERoom.TabIndex = 93;
             this.WDERoom.Text = "Room";
             this.WDERoom.UseVisualStyleBackColor = true;
@@ -329,20 +322,21 @@ namespace Project
             // 
             // WDEHome
             // 
-            this.WDEHome.Location = new System.Drawing.Point(100, 10);
-            this.WDEHome.Margin = new System.Windows.Forms.Padding(2);
+            this.WDEHome.Location = new System.Drawing.Point(133, 12);
+            this.WDEHome.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDEHome.Name = "WDEHome";
-            this.WDEHome.Size = new System.Drawing.Size(78, 58);
+            this.WDEHome.Size = new System.Drawing.Size(104, 71);
             this.WDEHome.TabIndex = 92;
             this.WDEHome.Text = "Home";
             this.WDEHome.UseVisualStyleBackColor = true;
+            this.WDEHome.Click += new System.EventHandler(this.WDEHome_Click);
             // 
             // WDETag
             // 
-            this.WDETag.Location = new System.Drawing.Point(18, 264);
-            this.WDETag.Margin = new System.Windows.Forms.Padding(2);
+            this.WDETag.Location = new System.Drawing.Point(24, 325);
+            this.WDETag.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDETag.Name = "WDETag";
-            this.WDETag.Size = new System.Drawing.Size(78, 58);
+            this.WDETag.Size = new System.Drawing.Size(104, 71);
             this.WDETag.TabIndex = 91;
             this.WDETag.Text = "Tag";
             this.WDETag.UseVisualStyleBackColor = true;
@@ -350,30 +344,31 @@ namespace Project
             // 
             // WDEWorking
             // 
-            this.WDEWorking.Location = new System.Drawing.Point(18, 454);
-            this.WDEWorking.Margin = new System.Windows.Forms.Padding(2);
+            this.WDEWorking.Location = new System.Drawing.Point(24, 559);
+            this.WDEWorking.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDEWorking.Name = "WDEWorking";
-            this.WDEWorking.Size = new System.Drawing.Size(78, 58);
+            this.WDEWorking.Size = new System.Drawing.Size(104, 71);
             this.WDEWorking.TabIndex = 90;
             this.WDEWorking.Text = "Working Days and Hours";
             this.WDEWorking.UseVisualStyleBackColor = true;
             // 
             // WDEAdvanced
             // 
-            this.WDEAdvanced.Location = new System.Drawing.Point(18, 391);
-            this.WDEAdvanced.Margin = new System.Windows.Forms.Padding(2);
+            this.WDEAdvanced.Location = new System.Drawing.Point(24, 481);
+            this.WDEAdvanced.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDEAdvanced.Name = "WDEAdvanced";
-            this.WDEAdvanced.Size = new System.Drawing.Size(78, 58);
+            this.WDEAdvanced.Size = new System.Drawing.Size(104, 71);
             this.WDEAdvanced.TabIndex = 89;
             this.WDEAdvanced.Text = "Advanced Session";
             this.WDEAdvanced.UseVisualStyleBackColor = true;
+            this.WDEAdvanced.Click += new System.EventHandler(this.WDEAdvanced_Click);
             // 
             // WDESession
             // 
-            this.WDESession.Location = new System.Drawing.Point(18, 327);
-            this.WDESession.Margin = new System.Windows.Forms.Padding(2);
+            this.WDESession.Location = new System.Drawing.Point(24, 402);
+            this.WDESession.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDESession.Name = "WDESession";
-            this.WDESession.Size = new System.Drawing.Size(78, 58);
+            this.WDESession.Size = new System.Drawing.Size(104, 71);
             this.WDESession.TabIndex = 88;
             this.WDESession.Text = "Session";
             this.WDESession.UseVisualStyleBackColor = true;
@@ -381,10 +376,10 @@ namespace Project
             // 
             // WDESubject
             // 
-            this.WDESubject.Location = new System.Drawing.Point(18, 201);
-            this.WDESubject.Margin = new System.Windows.Forms.Padding(2);
+            this.WDESubject.Location = new System.Drawing.Point(24, 247);
+            this.WDESubject.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDESubject.Name = "WDESubject";
-            this.WDESubject.Size = new System.Drawing.Size(78, 58);
+            this.WDESubject.Size = new System.Drawing.Size(104, 71);
             this.WDESubject.TabIndex = 87;
             this.WDESubject.Text = "Subject";
             this.WDESubject.UseVisualStyleBackColor = true;
@@ -392,10 +387,10 @@ namespace Project
             // 
             // WDEStudent
             // 
-            this.WDEStudent.Location = new System.Drawing.Point(18, 137);
-            this.WDEStudent.Margin = new System.Windows.Forms.Padding(2);
+            this.WDEStudent.Location = new System.Drawing.Point(24, 169);
+            this.WDEStudent.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDEStudent.Name = "WDEStudent";
-            this.WDEStudent.Size = new System.Drawing.Size(78, 58);
+            this.WDEStudent.Size = new System.Drawing.Size(104, 71);
             this.WDEStudent.TabIndex = 86;
             this.WDEStudent.Text = "Student";
             this.WDEStudent.UseVisualStyleBackColor = true;
@@ -403,10 +398,10 @@ namespace Project
             // 
             // WDELecturer
             // 
-            this.WDELecturer.Location = new System.Drawing.Point(18, 74);
-            this.WDELecturer.Margin = new System.Windows.Forms.Padding(2);
+            this.WDELecturer.Location = new System.Drawing.Point(24, 91);
+            this.WDELecturer.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDELecturer.Name = "WDELecturer";
-            this.WDELecturer.Size = new System.Drawing.Size(78, 58);
+            this.WDELecturer.Size = new System.Drawing.Size(104, 71);
             this.WDELecturer.TabIndex = 85;
             this.WDELecturer.Text = "Lecturer";
             this.WDELecturer.UseVisualStyleBackColor = true;
@@ -415,10 +410,10 @@ namespace Project
             // WDEDELETE
             // 
             this.WDEDELETE.BackColor = System.Drawing.Color.Red;
-            this.WDEDELETE.Location = new System.Drawing.Point(554, 470);
-            this.WDEDELETE.Margin = new System.Windows.Forms.Padding(2);
+            this.WDEDELETE.Location = new System.Drawing.Point(739, 578);
+            this.WDEDELETE.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDEDELETE.Name = "WDEDELETE";
-            this.WDEDELETE.Size = new System.Drawing.Size(68, 28);
+            this.WDEDELETE.Size = new System.Drawing.Size(91, 34);
             this.WDEDELETE.TabIndex = 120;
             this.WDEDELETE.Text = "BACK";
             this.WDEDELETE.UseVisualStyleBackColor = false;
@@ -427,10 +422,10 @@ namespace Project
             // WDUPDATE
             // 
             this.WDUPDATE.BackColor = System.Drawing.Color.DarkMagenta;
-            this.WDUPDATE.Location = new System.Drawing.Point(464, 470);
-            this.WDUPDATE.Margin = new System.Windows.Forms.Padding(2);
+            this.WDUPDATE.Location = new System.Drawing.Point(619, 578);
+            this.WDUPDATE.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.WDUPDATE.Name = "WDUPDATE";
-            this.WDUPDATE.Size = new System.Drawing.Size(68, 28);
+            this.WDUPDATE.Size = new System.Drawing.Size(91, 34);
             this.WDUPDATE.TabIndex = 119;
             this.WDUPDATE.Text = "UPDATE";
             this.WDUPDATE.UseVisualStyleBackColor = false;
@@ -489,30 +484,79 @@ namespace Project
             "47",
             "48",
             "49",
-            "50"});
-            this.recordID.Location = new System.Drawing.Point(243, 143);
-            this.recordID.Margin = new System.Windows.Forms.Padding(2);
+            "50",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "57",
+            "58",
+            "59",
+            "60",
+            "61",
+            "62",
+            "63",
+            "64",
+            "65",
+            "66",
+            "67",
+            "68",
+            "69",
+            "70",
+            "71",
+            "72",
+            "73",
+            "74",
+            "75",
+            "76",
+            "77",
+            "78",
+            "79",
+            "80",
+            "81",
+            "82",
+            "83",
+            "84",
+            "85",
+            "86",
+            "87",
+            "88",
+            "89",
+            "90",
+            "91",
+            "92",
+            "93",
+            "94",
+            "95",
+            "96",
+            "97",
+            "98",
+            "99",
+            "100"});
+            this.recordID.Location = new System.Drawing.Point(324, 176);
+            this.recordID.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.recordID.Name = "recordID";
-            this.recordID.Size = new System.Drawing.Size(248, 21);
+            this.recordID.Size = new System.Drawing.Size(329, 24);
             this.recordID.TabIndex = 122;
             this.recordID.SelectedIndexChanged += new System.EventHandler(this.recordID_SelectedIndexChanged);
             // 
             // WDlabel1
             // 
             this.WDlabel1.AutoSize = true;
-            this.WDlabel1.Location = new System.Drawing.Point(108, 145);
-            this.WDlabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.WDlabel1.Location = new System.Drawing.Point(144, 178);
             this.WDlabel1.Name = "WDlabel1";
-            this.WDlabel1.Size = new System.Drawing.Size(42, 13);
+            this.WDlabel1.Size = new System.Drawing.Size(54, 17);
             this.WDlabel1.TabIndex = 121;
             this.WDlabel1.Text = "Roll No";
             // 
             // EditWorkingDays
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(669, 522);
+            this.ClientSize = new System.Drawing.Size(892, 642);
             this.Controls.Add(this.recordID);
             this.Controls.Add(this.WDlabel1);
             this.Controls.Add(this.WDEDELETE);
@@ -549,7 +593,7 @@ namespace Project
             this.Controls.Add(this.WDESubject);
             this.Controls.Add(this.WDEStudent);
             this.Controls.Add(this.WDELecturer);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "EditWorkingDays";
             this.Text = "EditWorkingDays";
             ((System.ComponentModel.ISupportInitialize)(this.EaddMin)).EndInit();

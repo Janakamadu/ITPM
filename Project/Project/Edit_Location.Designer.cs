@@ -68,10 +68,10 @@ namespace Project
             "C",
             "D",
             "E"});
-            this.LocEcomboBox1.Location = new System.Drawing.Point(260, 194);
-            this.LocEcomboBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.LocEcomboBox1.Location = new System.Drawing.Point(347, 239);
+            this.LocEcomboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocEcomboBox1.Name = "LocEcomboBox1";
-            this.LocEcomboBox1.Size = new System.Drawing.Size(282, 21);
+            this.LocEcomboBox1.Size = new System.Drawing.Size(375, 24);
             this.LocEcomboBox1.TabIndex = 97;
             // 
             // LocEcomboBox3
@@ -80,10 +80,10 @@ namespace Project
             this.LocEcomboBox3.Items.AddRange(new object[] {
             "Lecture  Hall",
             "Labarotary"});
-            this.LocEcomboBox3.Location = new System.Drawing.Point(260, 384);
-            this.LocEcomboBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.LocEcomboBox3.Location = new System.Drawing.Point(347, 473);
+            this.LocEcomboBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocEcomboBox3.Name = "LocEcomboBox3";
-            this.LocEcomboBox3.Size = new System.Drawing.Size(282, 21);
+            this.LocEcomboBox3.Size = new System.Drawing.Size(375, 24);
             this.LocEcomboBox3.TabIndex = 96;
             // 
             // LocEcomboBox2
@@ -94,67 +94,63 @@ namespace Project
             "100",
             "120",
             "150"});
-            this.LocEcomboBox2.Location = new System.Drawing.Point(260, 321);
-            this.LocEcomboBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.LocEcomboBox2.Location = new System.Drawing.Point(347, 395);
+            this.LocEcomboBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocEcomboBox2.Name = "LocEcomboBox2";
-            this.LocEcomboBox2.Size = new System.Drawing.Size(282, 21);
+            this.LocEcomboBox2.Size = new System.Drawing.Size(375, 24);
             this.LocEcomboBox2.TabIndex = 93;
             // 
             // LocEtextBox1
             // 
-            this.LocEtextBox1.Location = new System.Drawing.Point(260, 258);
-            this.LocEtextBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.LocEtextBox1.Location = new System.Drawing.Point(347, 318);
+            this.LocEtextBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocEtextBox1.Name = "LocEtextBox1";
-            this.LocEtextBox1.Size = new System.Drawing.Size(283, 20);
+            this.LocEtextBox1.Size = new System.Drawing.Size(376, 22);
             this.LocEtextBox1.TabIndex = 92;
             // 
             // LocERoomType
             // 
             this.LocERoomType.AutoSize = true;
-            this.LocERoomType.Location = new System.Drawing.Point(126, 387);
-            this.LocERoomType.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LocERoomType.Location = new System.Drawing.Point(168, 476);
             this.LocERoomType.Name = "LocERoomType";
-            this.LocERoomType.Size = new System.Drawing.Size(58, 13);
+            this.LocERoomType.Size = new System.Drawing.Size(76, 17);
             this.LocERoomType.TabIndex = 91;
             this.LocERoomType.Text = "Room type";
             // 
             // LocECapcity
             // 
             this.LocECapcity.AutoSize = true;
-            this.LocECapcity.Location = new System.Drawing.Point(126, 323);
-            this.LocECapcity.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LocECapcity.Location = new System.Drawing.Point(168, 398);
             this.LocECapcity.Name = "LocECapcity";
-            this.LocECapcity.Size = new System.Drawing.Size(48, 13);
+            this.LocECapcity.Size = new System.Drawing.Size(62, 17);
             this.LocECapcity.TabIndex = 90;
             this.LocECapcity.Text = "Capacity";
             // 
             // LocERoomName
             // 
             this.LocERoomName.AutoSize = true;
-            this.LocERoomName.Location = new System.Drawing.Point(126, 260);
-            this.LocERoomName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LocERoomName.Location = new System.Drawing.Point(168, 320);
             this.LocERoomName.Name = "LocERoomName";
-            this.LocERoomName.Size = new System.Drawing.Size(66, 13);
+            this.LocERoomName.Size = new System.Drawing.Size(86, 17);
             this.LocERoomName.TabIndex = 89;
             this.LocERoomName.Text = "Room Name";
             // 
             // LocEBuilding
             // 
             this.LocEBuilding.AutoSize = true;
-            this.LocEBuilding.Location = new System.Drawing.Point(126, 197);
-            this.LocEBuilding.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LocEBuilding.Location = new System.Drawing.Point(168, 242);
             this.LocEBuilding.Name = "LocEBuilding";
-            this.LocEBuilding.Size = new System.Drawing.Size(75, 13);
+            this.LocEBuilding.Size = new System.Drawing.Size(99, 17);
             this.LocEBuilding.TabIndex = 88;
             this.LocEBuilding.Text = "Building Name";
             // 
             // LocALabel3
             // 
             this.LocALabel3.BackColor = System.Drawing.Color.LightSlateGray;
-            this.LocALabel3.Location = new System.Drawing.Point(421, 76);
-            this.LocALabel3.Margin = new System.Windows.Forms.Padding(2);
+            this.LocALabel3.Location = new System.Drawing.Point(561, 94);
+            this.LocALabel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocALabel3.Name = "LocALabel3";
-            this.LocALabel3.Size = new System.Drawing.Size(156, 28);
+            this.LocALabel3.Size = new System.Drawing.Size(208, 34);
             this.LocALabel3.TabIndex = 87;
             this.LocALabel3.Text = "View Location";
             this.LocALabel3.UseVisualStyleBackColor = false;
@@ -162,10 +158,10 @@ namespace Project
             // LocALabel2
             // 
             this.LocALabel2.BackColor = System.Drawing.Color.Crimson;
-            this.LocALabel2.Location = new System.Drawing.Point(260, 76);
-            this.LocALabel2.Margin = new System.Windows.Forms.Padding(2);
+            this.LocALabel2.Location = new System.Drawing.Point(347, 94);
+            this.LocALabel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocALabel2.Name = "LocALabel2";
-            this.LocALabel2.Size = new System.Drawing.Size(156, 28);
+            this.LocALabel2.Size = new System.Drawing.Size(208, 34);
             this.LocALabel2.TabIndex = 86;
             this.LocALabel2.Text = "Edit Location";
             this.LocALabel2.UseVisualStyleBackColor = false;
@@ -173,10 +169,10 @@ namespace Project
             // LocALabel1
             // 
             this.LocALabel1.BackColor = System.Drawing.Color.LightSlateGray;
-            this.LocALabel1.Location = new System.Drawing.Point(100, 76);
-            this.LocALabel1.Margin = new System.Windows.Forms.Padding(2);
+            this.LocALabel1.Location = new System.Drawing.Point(133, 94);
+            this.LocALabel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocALabel1.Name = "LocALabel1";
-            this.LocALabel1.Size = new System.Drawing.Size(156, 28);
+            this.LocALabel1.Size = new System.Drawing.Size(208, 34);
             this.LocALabel1.TabIndex = 85;
             this.LocALabel1.Text = "Add Location";
             this.LocALabel1.UseVisualStyleBackColor = false;
@@ -185,29 +181,29 @@ namespace Project
             // 
             this.LocALabl.AutoSize = true;
             this.LocALabl.BackColor = System.Drawing.Color.Blue;
-            this.LocALabl.Location = new System.Drawing.Point(32, 35);
-            this.LocALabl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LocALabl.Location = new System.Drawing.Point(43, 43);
             this.LocALabl.Name = "LocALabl";
-            this.LocALabl.Size = new System.Drawing.Size(48, 13);
+            this.LocALabl.Size = new System.Drawing.Size(62, 17);
             this.LocALabl.TabIndex = 84;
             this.LocALabl.Text = "Location";
             // 
             // LocETimeTable
             // 
-            this.LocETimeTable.Location = new System.Drawing.Point(554, 12);
-            this.LocETimeTable.Margin = new System.Windows.Forms.Padding(2);
+            this.LocETimeTable.Location = new System.Drawing.Point(739, 15);
+            this.LocETimeTable.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocETimeTable.Name = "LocETimeTable";
-            this.LocETimeTable.Size = new System.Drawing.Size(78, 58);
+            this.LocETimeTable.Size = new System.Drawing.Size(104, 71);
             this.LocETimeTable.TabIndex = 83;
             this.LocETimeTable.Text = "Time Table";
             this.LocETimeTable.UseVisualStyleBackColor = true;
+            this.LocETimeTable.Click += new System.EventHandler(this.LocETimeTable_Click);
             // 
             // LocEStatistics
             // 
-            this.LocEStatistics.Location = new System.Drawing.Point(440, 12);
-            this.LocEStatistics.Margin = new System.Windows.Forms.Padding(2);
+            this.LocEStatistics.Location = new System.Drawing.Point(587, 15);
+            this.LocEStatistics.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocEStatistics.Name = "LocEStatistics";
-            this.LocEStatistics.Size = new System.Drawing.Size(78, 58);
+            this.LocEStatistics.Size = new System.Drawing.Size(104, 71);
             this.LocEStatistics.TabIndex = 82;
             this.LocEStatistics.Text = "Statistics";
             this.LocEStatistics.UseVisualStyleBackColor = true;
@@ -215,20 +211,20 @@ namespace Project
             // 
             // LocELocations
             // 
-            this.LocELocations.Location = new System.Drawing.Point(328, 12);
-            this.LocELocations.Margin = new System.Windows.Forms.Padding(2);
+            this.LocELocations.Location = new System.Drawing.Point(437, 15);
+            this.LocELocations.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocELocations.Name = "LocELocations";
-            this.LocELocations.Size = new System.Drawing.Size(78, 58);
+            this.LocELocations.Size = new System.Drawing.Size(104, 71);
             this.LocELocations.TabIndex = 81;
             this.LocELocations.Text = "Location";
             this.LocELocations.UseVisualStyleBackColor = true;
             // 
             // LocERoom
             // 
-            this.LocERoom.Location = new System.Drawing.Point(210, 12);
-            this.LocERoom.Margin = new System.Windows.Forms.Padding(2);
+            this.LocERoom.Location = new System.Drawing.Point(280, 15);
+            this.LocERoom.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocERoom.Name = "LocERoom";
-            this.LocERoom.Size = new System.Drawing.Size(78, 58);
+            this.LocERoom.Size = new System.Drawing.Size(104, 71);
             this.LocERoom.TabIndex = 80;
             this.LocERoom.Text = "Room";
             this.LocERoom.UseVisualStyleBackColor = true;
@@ -236,20 +232,21 @@ namespace Project
             // 
             // LocEHome
             // 
-            this.LocEHome.Location = new System.Drawing.Point(99, 12);
-            this.LocEHome.Margin = new System.Windows.Forms.Padding(2);
+            this.LocEHome.Location = new System.Drawing.Point(132, 15);
+            this.LocEHome.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocEHome.Name = "LocEHome";
-            this.LocEHome.Size = new System.Drawing.Size(78, 58);
+            this.LocEHome.Size = new System.Drawing.Size(104, 71);
             this.LocEHome.TabIndex = 79;
             this.LocEHome.Text = "Home";
             this.LocEHome.UseVisualStyleBackColor = true;
+            this.LocEHome.Click += new System.EventHandler(this.LocEHome_Click);
             // 
             // LocETag
             // 
-            this.LocETag.Location = new System.Drawing.Point(17, 266);
-            this.LocETag.Margin = new System.Windows.Forms.Padding(2);
+            this.LocETag.Location = new System.Drawing.Point(23, 327);
+            this.LocETag.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocETag.Name = "LocETag";
-            this.LocETag.Size = new System.Drawing.Size(78, 58);
+            this.LocETag.Size = new System.Drawing.Size(104, 71);
             this.LocETag.TabIndex = 78;
             this.LocETag.Text = "Tag";
             this.LocETag.UseVisualStyleBackColor = true;
@@ -257,10 +254,10 @@ namespace Project
             // 
             // LocEWorking
             // 
-            this.LocEWorking.Location = new System.Drawing.Point(17, 457);
-            this.LocEWorking.Margin = new System.Windows.Forms.Padding(2);
+            this.LocEWorking.Location = new System.Drawing.Point(23, 562);
+            this.LocEWorking.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocEWorking.Name = "LocEWorking";
-            this.LocEWorking.Size = new System.Drawing.Size(78, 58);
+            this.LocEWorking.Size = new System.Drawing.Size(104, 71);
             this.LocEWorking.TabIndex = 77;
             this.LocEWorking.Text = "Working Days and Hours";
             this.LocEWorking.UseVisualStyleBackColor = true;
@@ -268,20 +265,21 @@ namespace Project
             // 
             // LocEAdvanced
             // 
-            this.LocEAdvanced.Location = new System.Drawing.Point(17, 393);
-            this.LocEAdvanced.Margin = new System.Windows.Forms.Padding(2);
+            this.LocEAdvanced.Location = new System.Drawing.Point(23, 484);
+            this.LocEAdvanced.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocEAdvanced.Name = "LocEAdvanced";
-            this.LocEAdvanced.Size = new System.Drawing.Size(78, 58);
+            this.LocEAdvanced.Size = new System.Drawing.Size(104, 71);
             this.LocEAdvanced.TabIndex = 76;
             this.LocEAdvanced.Text = "Advanced Session";
             this.LocEAdvanced.UseVisualStyleBackColor = true;
+            this.LocEAdvanced.Click += new System.EventHandler(this.LocEAdvanced_Click);
             // 
             // LocESession
             // 
-            this.LocESession.Location = new System.Drawing.Point(17, 330);
-            this.LocESession.Margin = new System.Windows.Forms.Padding(2);
+            this.LocESession.Location = new System.Drawing.Point(23, 406);
+            this.LocESession.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocESession.Name = "LocESession";
-            this.LocESession.Size = new System.Drawing.Size(78, 58);
+            this.LocESession.Size = new System.Drawing.Size(104, 71);
             this.LocESession.TabIndex = 75;
             this.LocESession.Text = "Session";
             this.LocESession.UseVisualStyleBackColor = true;
@@ -289,10 +287,10 @@ namespace Project
             // 
             // LocESubject
             // 
-            this.LocESubject.Location = new System.Drawing.Point(17, 203);
-            this.LocESubject.Margin = new System.Windows.Forms.Padding(2);
+            this.LocESubject.Location = new System.Drawing.Point(23, 250);
+            this.LocESubject.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocESubject.Name = "LocESubject";
-            this.LocESubject.Size = new System.Drawing.Size(78, 58);
+            this.LocESubject.Size = new System.Drawing.Size(104, 71);
             this.LocESubject.TabIndex = 74;
             this.LocESubject.Text = "Subject";
             this.LocESubject.UseVisualStyleBackColor = true;
@@ -300,10 +298,10 @@ namespace Project
             // 
             // LocEStudent
             // 
-            this.LocEStudent.Location = new System.Drawing.Point(17, 140);
-            this.LocEStudent.Margin = new System.Windows.Forms.Padding(2);
+            this.LocEStudent.Location = new System.Drawing.Point(23, 172);
+            this.LocEStudent.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocEStudent.Name = "LocEStudent";
-            this.LocEStudent.Size = new System.Drawing.Size(78, 58);
+            this.LocEStudent.Size = new System.Drawing.Size(104, 71);
             this.LocEStudent.TabIndex = 73;
             this.LocEStudent.Text = "Student";
             this.LocEStudent.UseVisualStyleBackColor = true;
@@ -311,10 +309,10 @@ namespace Project
             // 
             // LocELecturer
             // 
-            this.LocELecturer.Location = new System.Drawing.Point(17, 76);
-            this.LocELecturer.Margin = new System.Windows.Forms.Padding(2);
+            this.LocELecturer.Location = new System.Drawing.Point(23, 94);
+            this.LocELecturer.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocELecturer.Name = "LocELecturer";
-            this.LocELecturer.Size = new System.Drawing.Size(78, 58);
+            this.LocELecturer.Size = new System.Drawing.Size(104, 71);
             this.LocELecturer.TabIndex = 72;
             this.LocELecturer.Text = "Lecturer";
             this.LocELecturer.UseVisualStyleBackColor = true;
@@ -373,31 +371,80 @@ namespace Project
             "47",
             "48",
             "49",
-            "50"});
-            this.comboBoxRollNo.Location = new System.Drawing.Point(262, 128);
-            this.comboBoxRollNo.Margin = new System.Windows.Forms.Padding(2);
+            "50",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "57",
+            "58",
+            "59",
+            "60",
+            "61",
+            "62",
+            "63",
+            "64",
+            "65",
+            "66",
+            "67",
+            "68",
+            "69",
+            "70",
+            "71",
+            "72",
+            "73",
+            "74",
+            "75",
+            "76",
+            "77",
+            "78",
+            "79",
+            "80",
+            "81",
+            "82",
+            "83",
+            "84",
+            "85",
+            "86",
+            "87",
+            "88",
+            "89",
+            "90",
+            "91",
+            "92",
+            "93",
+            "94",
+            "95",
+            "96",
+            "97",
+            "98",
+            "99",
+            "100"});
+            this.comboBoxRollNo.Location = new System.Drawing.Point(349, 158);
+            this.comboBoxRollNo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBoxRollNo.Name = "comboBoxRollNo";
-            this.comboBoxRollNo.Size = new System.Drawing.Size(282, 21);
+            this.comboBoxRollNo.Size = new System.Drawing.Size(375, 24);
             this.comboBoxRollNo.TabIndex = 101;
             this.comboBoxRollNo.SelectedIndexChanged += new System.EventHandler(this.comboBoxRollNo_SelectedIndexChanged);
             // 
             // Loclabel
             // 
             this.Loclabel.AutoSize = true;
-            this.Loclabel.Location = new System.Drawing.Point(126, 131);
-            this.Loclabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Loclabel.Location = new System.Drawing.Point(168, 161);
             this.Loclabel.Name = "Loclabel";
-            this.Loclabel.Size = new System.Drawing.Size(42, 13);
+            this.Loclabel.Size = new System.Drawing.Size(54, 17);
             this.Loclabel.TabIndex = 100;
             this.Loclabel.Text = "Roll No";
             // 
             // LEDELETE
             // 
             this.LEDELETE.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.LEDELETE.Location = new System.Drawing.Point(474, 448);
-            this.LEDELETE.Margin = new System.Windows.Forms.Padding(2);
+            this.LEDELETE.Location = new System.Drawing.Point(632, 551);
+            this.LEDELETE.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LEDELETE.Name = "LEDELETE";
-            this.LEDELETE.Size = new System.Drawing.Size(68, 28);
+            this.LEDELETE.Size = new System.Drawing.Size(91, 34);
             this.LEDELETE.TabIndex = 99;
             this.LEDELETE.Text = "BACK";
             this.LEDELETE.UseVisualStyleBackColor = false;
@@ -406,10 +453,10 @@ namespace Project
             // LUPDATE
             // 
             this.LUPDATE.BackColor = System.Drawing.Color.DarkMagenta;
-            this.LUPDATE.Location = new System.Drawing.Point(394, 448);
-            this.LUPDATE.Margin = new System.Windows.Forms.Padding(2);
+            this.LUPDATE.Location = new System.Drawing.Point(525, 551);
+            this.LUPDATE.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LUPDATE.Name = "LUPDATE";
-            this.LUPDATE.Size = new System.Drawing.Size(68, 28);
+            this.LUPDATE.Size = new System.Drawing.Size(91, 34);
             this.LUPDATE.TabIndex = 98;
             this.LUPDATE.Text = "UPDATE";
             this.LUPDATE.UseVisualStyleBackColor = false;
@@ -417,10 +464,10 @@ namespace Project
             // 
             // Edit_Location
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
-            this.ClientSize = new System.Drawing.Size(669, 522);
+            this.ClientSize = new System.Drawing.Size(892, 642);
             this.Controls.Add(this.comboBoxRollNo);
             this.Controls.Add(this.Loclabel);
             this.Controls.Add(this.LEDELETE);
@@ -449,7 +496,7 @@ namespace Project
             this.Controls.Add(this.LocESubject);
             this.Controls.Add(this.LocEStudent);
             this.Controls.Add(this.LocELecturer);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Edit_Location";
             this.Text = "Edit_Location";
             this.ResumeLayout(false);

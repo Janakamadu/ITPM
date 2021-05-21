@@ -205,6 +205,8 @@ namespace Project
         private void MSRoom_Click(object sender, EventArgs e)
         {
 
+            ManageSessionRoom manageSessionRoom = new ManageSessionRoom();
+            manageSessionRoom.Show();
         }
 
         private void MsLocations_Click(object sender, EventArgs e)
@@ -223,6 +225,19 @@ namespace Project
         {
             TTLecGenereate add = new TTLecGenereate();
             add.Show();
+        }
+
+        private void MSAdvanced_Click(object sender, EventArgs e)
+        {
+            Consecutive_Session consecutive_Session = new Consecutive_Session();
+            consecutive_Session.Show();
+        }
+
+        private void MSHome_Click(object sender, EventArgs e)
+        {
+
+            Homepage homepage = new Homepage();
+            homepage.Show();
         }
     }
 }

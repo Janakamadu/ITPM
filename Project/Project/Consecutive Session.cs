@@ -136,7 +136,8 @@ namespace Project
 
         private void btnLabel_NotAvailableTime_Session_Click(object sender, EventArgs e)
         {
-
+            NotAvailableSession notAvailableSession = new NotAvailableSession();
+            notAvailableSession.Show();
 
         }
         private void AsCLecturer_Click(object sender, EventArgs e)
@@ -190,10 +191,13 @@ namespace Project
         private void AsCHome_Click(object sender, EventArgs e)
         {
 
+            Homepage homepage = new Homepage();
+            homepage.Show();
         }
         private void AsCRoom_Click(object sender, EventArgs e)
         {
-
+            ManageSessionRoom manageSessionRoom = new ManageSessionRoom();
+            manageSessionRoom.Show();
         }
 
         private void AsCLocations_Click(object sender, EventArgs e)

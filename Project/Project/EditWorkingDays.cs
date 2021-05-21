@@ -129,6 +129,19 @@ namespace Project
             add.Show();
         }
 
+        private void WDEAdvanced_Click(object sender, EventArgs e)
+        {
+            Consecutive_Session consecutive_Session = new Consecutive_Session();
+            consecutive_Session.Show();
+        }
+
+        private void WDEHome_Click(object sender, EventArgs e)
+        {
+
+            Homepage homepage = new Homepage();
+            homepage.Show();
+        }
+
         private void EwednesdayCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             if (EwednesdayCheckBox.Checked)

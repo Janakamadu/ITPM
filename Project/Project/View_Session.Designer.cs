@@ -143,6 +143,7 @@ namespace Project
             this.LTimeTable.TabIndex = 65;
             this.LTimeTable.Text = "Time Table";
             this.LTimeTable.UseVisualStyleBackColor = true;
+            this.LTimeTable.Click += new System.EventHandler(this.LTimeTable_Click);
             // 
             // LStatistics
             // 
@@ -182,6 +183,7 @@ namespace Project
             this.LHome.TabIndex = 61;
             this.LHome.Text = "Home";
             this.LHome.UseVisualStyleBackColor = true;
+            this.LHome.Click += new System.EventHandler(this.LHome_Click);
             // 
             // LTag
             // 

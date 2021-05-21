@@ -350,6 +350,7 @@ namespace Project
             this.Controls.Add(this.TagELecturer);
             this.Name = "Edit_Tag";
             this.Text = "Edit Tag";
+            this.Load += new System.EventHandler(this.Edit_Tag_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

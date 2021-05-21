@@ -132,11 +132,14 @@ namespace Project
         private void TagHome_Click(object sender, EventArgs e)
         {
 
+            Homepage homepage = new Homepage();
+            homepage.Show();
         }
 
         private void TagRoom_Click(object sender, EventArgs e)
         {
-
+            ManageSessionRoom manageSessionRoom = new ManageSessionRoom();
+            manageSessionRoom.Show();
         }
 
         private void TagLocations_Click(object sender, EventArgs e)
